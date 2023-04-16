@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Sintáxis</title>
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<h1>Sintáxis</h1>
+<hr>
+
+<p>A continuación se muestra una serie de consideraciones a la hora de escribir declaraciones:</p>
+
+<!-- ======== Panel-01 ==========-->
+<button class="accordion">1.-Punto y coma;</button>
+<div class="panel">
+  <h2>1.- Punto y coma;</h2>
+  <p>El punto y coma sirve para separar las declaraciones, por lo cual se agregan al final de cada instrucción ejecutable.</p>
+  <p>Revisar el script de ejemplo.</p>
+  <!-- Ejemplo-->
+  <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+    <h4>Ejemplo en el script</h4>
+    <p id=demo-01></p>
+  </div>
+</div>
+
+<!-- ======== Panel-03 ==========-->
+<button class="accordion">3.-Espacio en blanco</button>
+<div class="panel">
+    <h2>3.- Espacio en blanco</h2>
+    <p>JavaScript ignora espacios en blanco, por lo que los puede agregar a su secuencia de comandos para que sea más legible.</p>
+    <!-- Ejemplo-->
+    <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+        <h4>Ejemplo en el script</h4>
+        <p>Las siguientes líneas son equivalentes:</p>
+        <p>
+            var person = "Hege";<br>
+            var person="Hege";
+        </p>
+    </div>
+    <p>Una buena práctica es poner espacios alrededor de los operadores (= + - * /):</p>
+    <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+        <h4>Ejemplo en el script</h4>
+        <p>var x = y + z;</p>
+    </div>
+</div>
+
+<!-- ======== Panel-04 ==========-->
+<button class="accordion">4.-Longitud de línea y saltos de línea</button>
+<div class="panel">
+  <h2>4.- Longitud de línea y saltos de línea</h2>
+  <p>Para una mejor legibilidad, a los programadores a menudo les gusta evitar las líneas de código de más de 80 carácteres.<br>
+  Si una declaración de JavaScript no cabe en una línea, el mejor lugar para romperla es después de un operador o una coma:</p>
+  <p>Ver ejemplo en el script</p>
+  <!-- Ejemplo-->
+  <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+    <h4>Ejemplo en el script</h4>
+    <p id=demo-03></p>
+  </div>
+</div>
+
+<!-- ======== Panel-05 ==========-->
+<button class="accordion">5.-Bloques de código</button>
+<div class="panel">
+  <h2>5.- Bloques de código</h2>
+  <p>Las declaraciones de JavaScript se pueden agrupar en bloques de código, dentro de corchetes {...}.<br>
+    El propósito de los bloques de código es definir declaraciones que se ejecutarán juntas.<br>
+    Un lugar donde encontrará declaraciones agrupadas en bloques es en las funciones de JavaScript:</p>
+    
+    <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+      <h4>Ejemplo en el script</h4>
+      <p id=demo-04></p>
+      <p id=demo-05></p>
+      <button type=button onclick=myFunction()>Haz clic en mí</button>
+    </div><br>
+
+<i>En este tutorial usamos 2 espacios de sangría para bloques de código.</i>
+
+</div>
+
+<!-- ======== Panel-06 ==========-->
+<button class="accordion">6.- Uso de comillas</button>
+<div class="panel">
+  <!-- Ejemplo 2 -->
+  <h2>6.- Uso de comillas</h2>
+  <p>En JavaScript podemos escribir con comillas simples y dobles:</p>
+
+  <table border="1">
+    <tr>
+      <th>Comillas simples</th>
+      <th>Comillas dobles</th>
+    </tr>
+    <tr>
+      <td>
+        <p id=demo-06>Hola</p>
+        <button onclick="functionOne()">Cambiar el contenido html</button>
+      </td>
+      <td>
+        <p id=demo-07>Hola</p>
+        <button onclick='functionTwo()'>Cambiar el contenido html</button>
+      </td>
+    </tr>
+  </table>
+
+</div>
+
+<!-- ======== Panel-07 ==========-->
+<button class="accordion">9.- Conjunto de carácteres</button>
+<div class="panel">
+  <h2>9.- Conjunto de carácteres</h2>
+  <p>JavaScript utiliza el conjunto de carácteres <b>Unicode</b>.<br>
+    Unicode cubre casi todos los carácteres, signos de puntuación y símbolos del mundo.<br>
+    Para ver más de cerca, por favor estudie nuestra <a href="https://translate.googleusercontent.com/translate_c?depth=1&hl=es&prev=search&pto=aue&rurl=translate.google.com&sl=en&sp=nmt4&u=https://www.w3schools.com/charsets/ref_html_utf8.asp&usg=ALkJrhhKpvFe6qlwB5Nx7sXmJCbGcG0-yA" target="auto">Referencia completa de Unicode</a>.</p>
+</div>
+
+
+
+<!-- Javascript -->
+<script src="assets/js/accordion.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

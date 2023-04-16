@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Visualización</title>
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+  
+<body>
+
+  <h1>Visualización de Javascript</h1>
+  <p>JavaScript puede "mostrar" datos de las siguientes formas:</p>
+  
+  <!-- Accordion-->
+  <!-- ======== Panel-1 ==========-->
+  <button class="accordion">1.- En un elemento HTML</button>
+  <div class="panel">
+    
+    <h2>1.- En un elemento HTML</h2>
+    <p>La suma de 5 + 6 es = <span id=demo-01></span></p>
+    <script>
+      document.getElementById("demo-01").innerHTML = 5 + 6;
+    </script>
+    
+  </div>
+    
+  <!-- ======== Panel-2 ==========-->
+  <button class="accordion">2.- Directamente en el HTML</button>
+  <div class="panel">
+    
+    <h2>2.- Directamente en el HTML</h2>
+    <p>Para fines sólo de prueba, es conveniente utilizar el método:
+    <b>document.write ("Content");</b></p>
+
+    <p>La suma de 5 + 6 es = a:</p>
+    <script>
+    document.write(5 + 6);
+    </script>
+
+    <h3>Sobrescribiendo el documento</h3>
+    <p>Mi primer párrafo</p>
+    <button type=button onclick="document.write(5 + 6)">Sobreescribir documento html</button>
+    
+  </div>
+  
+  <!-- ======== Panel-3 ==========-->
+  <button class="accordion">3.- Escribiendo en un cuadro de alerta</button>
+  <div class="panel">
+    <h2>3.- Escribiendo en un cuadro de alerta</h2>
+    <p>Puede utilizar un cuadro de alerta para mostrar datos</p>
+    <!--
+    <script>
+        window.alert (5 + 6);
+    </script>
+    -->
+    <h4><i>Puede omitir la palabra clave window</i></h4>
+    <!--
+    <script>
+        alert (5 + 6);
+    </script>
+    -->
+  </div>
+  
+  <!-- ======== Panel-4 ==========-->
+  <button class="accordion">4.- Escribiendo en la consola del navegador</button>
+  <div class="panel">
+    <h2>4.- Escribiendo en la consola del navegador</h2>
+    <p>Abrir la ventana de inspeccion con F11 o F12.</p>
+    <p>Luego seleccione "Consola".</p>
+    <p>Escriba el script y de enter</p>
+    <!-- Script -->
+    <script>
+      console.log(5 + 6);
+    </script>
+  </div>    
+  
+  <!-- ======== Panel-5 ==========-->
+  <button class="accordion">5.- En una impresión de página</button>
+  <div class="panel">
+    <h2>5.- En una impresión de página</h2>
+    <h4>Ejemplo</h4>
+    <p>Haga clic en el botón para imprimir la página actual.</p>
+    <button onclick=window.print()>Imprime esta página</button>
+  </div>    
+  
+    
+    <!-- Javascript -->
+    <script src="assets/js/accordion.js"></script>
+
+</body>
+</html>

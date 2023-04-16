@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consideraciones</title>
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  
+<h1>Consideraciones</h1>
+<hr>
+
+<h2>¿Qué es declarar?</h2>
+<p>La creación de una variable en JS se denomina <b>"declarar"</b> una variable.</p>
+
+<h3>¿Cómo se componen las declaraciones?</h3>
+<p>Las declaraciones se componen de palabras clave, operadores, valores, expresiones, comentarios etc.</p>
+
+<!-- ======== Panel-1 ==========-->
+<button class="accordion">
+  Consideraciones generales
+</button>
+<div class="panel">
+  <h2>Consideraciones generales</h2>
+  <ul>
+    <li>Las declaraciones de JS son ejecutadas por el navegador.</li>
+    <li>La mayoría de los programas contienen muchas declaraciones.</li>
+    <li>Las declaraciones se ejecutan una a una, en el mismo orden en que están escritas.</li>
+    <li>Los programas y declaraciones a menudo se denominan código JavaScript.</li>
+  </ul>
+</div>
+  
+<!-- ======== Panel-2 ==========-->
+<button class="accordion">
+¿Cómo declarar variables?
+</button>
+<div class="panel">
+
+  <h2>¿Cómo declarar variables?</h2>
+
+  <p>Una variable se declara con la palabra clave <code style="color:red;">var</code></p>
+
+  <p>Después de la declaración la variable no tiene valor (tiene el valor de <code style="color:red;">undefined</code>), posteriormente al declararla se le asigna un valor con el signo igual (=)</p>
+
+  <table cellpading="1" ; cellspacing="0" ; border="1" ;>
+    <tr>
+      <th>1.- Palabra clave</th>
+      <th>2.- Identificador</th>
+      <th>3.- Operador de asignación</th>
+      <th>4.- Valor</th>
+    </tr>
+    <tr>
+      <td>var</td>
+      <td>varName</td>
+      <td>=</td>
+      <td>Wuicho</td>
+    </tr>
+  </table>
+  <br>
+
+  <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+    <h4>Ejemplo en el script</h4>
+    <p id=demo-01></p>
+  </div><br> 
+
+  <p>Es una buena práctica de programación declarar todas las variables al comienzo de un script.</p>
+
+  <img src="assets/img/declaracion_variable.jpg">
+
+</div>
+
+<!-- ======== Panel-3 ==========-->
+<button class="accordion">Declaración en una o en varias líneas</button>
+<div class="panel">
+  
+  <h2>Declaración en una o en varias líneas</h2>
+  <p>Se puede declarar en una o en varias líneas.</p>
+
+  <table cellpading="1" ; cellspacing="0" ; border="1" ;>
+    <tr>
+      <td><b>Una sóla línea</b></td>
+      <td><b>Varias líneas</b></td>
+    </tr>
+    <tr>
+      <td> 
+        <p>En una declaración se pueden declarar muchas variables.</p>
+        <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+          <p id=demo-02></p>
+        </div>
+      </td>
+      <td>
+        <p>Una declaración puede abarcar varias líneas:</p>
+        <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+          <p id=demo-03></p>
+        </div>
+
+      </td>
+    </tr>
+  </table>
+  
+</div> 
+
+<!-- ======== Panel-4 ==========-->
+<button class="accordion">Volver a declarar variables</button>
+<div class="panel">
+  <h2>Volver a declarar variables</h2>
+<p>Si vuelve a declarar una variable no perderá su valor.</P>
+<div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+  <h4>Ejemplo en el script</h4>
+  <p id="demo-04"></p>
+</div>
+</div>
+
+<!-- Script -->
+<script src="assets/js/accordion.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

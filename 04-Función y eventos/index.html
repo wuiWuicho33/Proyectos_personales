@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Funciones y eventos</title>
+</head>
+<body>
+
+  <h1>Funciones y eventos de JavaScript</h1>
+  <p>Una <code style="color:red;">function</code> en Javascript es un bloque de código que se puede ejecutar cuando se "solicita", por ejemplo se puede llamar a una función cuando ocurre un <b>evento</b>, como cuando el usuario hace clic en un botón.
+  </p>   
+  
+  <table>
+    <tr>
+      <th>Código fuera de una función</th>
+      <th>Código dentro una función</th>
+    </tr>
+    <tr>
+      <td>
+        <p id=demo-01>Hola</p>
+        <button onclick="document.getElementById('demo-01').innerHTML = 'Adios'">Cambiar el contenido html</button>        
+      </td>
+      <td>
+        <p id=demo-02>Hola</p>
+        <button onclick="functionOne()">Cambiar el contenido html</button>        
+      </td>
+    </tr>    
+  </table>
+
+  <!-- Javascript -->
+  <script src="script.js"></script>
+</body>
+</html>
