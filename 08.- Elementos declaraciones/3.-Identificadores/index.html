@@ -8,111 +8,107 @@
   
 <body>
 
-<h1>Identificadores</h1>
+  <h1>Identificadores</h1>
 
-<hr>    
+  <hr>    
   <p>Los identificadores son nombres únicos con los que se identifican las variables, palabras clave, funciones y etiquetas.</p>
 
   <p>Pueden ser nombres cortos (x,y) o nombres más descriptivos (edad, suma, volumen total).</p>
 
-<!-- Accordion -->
-<!-- ======== Panel-2 ==========-->
-<button class="accordion">Reglas para nombrar identificadores</button>
-<div class="panel">
-  
-  <h2>Reglas para nombrar identificadores </h2>
-  
-  <table border="1" cellpading="1" cellspacing="1">
-    <tr>
-      <td>Pueden comenzar con una letra.</td>
-      <td width="50%">
-        <p>JS distingue entre mayúsculas y minúsculas,<br> y e Y son identificadores distintos.</p>
-      <p>JavaScript no interpreta <b>VAR</b> o <b>Var</b> como la palabra clave <b>var</b>.</p>
-      </td>
-    </tr>
-    <tr>
-      <td>Pueden comenzar con los signos de ($) y (_):</td>
-      <td>
-        <p>Ambos son validos en JS ya que los interpreta como letras.</p>
-        <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
-          <h4>Signo de dólar $</h4>
-          <p id=demo-01></p>
-          <h4>Guión bajo (_)</h4>
-          <p id=demo-02></p>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td>Los nombres pueden contener:</td>
-      <td>
-        <ul>
-          <li>Digitos: (1 o 10)</li>
-          <li>Guiones bajos: _</li>
-          <li>Signos de dolar: $</li>
-        </ul>
-      </td>
-    </tr>
-  
-    <tr>
-      <td>No se pueden usar las palabras reservadas</td>
-      <td>Palabras clave de Javascript</td>
-    </tr>
-    <tr>
-      <td>No se permiten números como primer carácter.</td>
-      <td>JS distingue los identificadores de los números.</td>
-    </tr>
-  </table><br>
-  
-  <img src="assets/img/identificadores.jpg">
-</div>
+  <!-- Accordion -->
+  <!-- ======== Panel-2 ==========-->
+  <button class="accordion">Reglas para nombrar identificadores</button>
+  <div class="panel">
+    <h2>Reglas para nombrar identificadores </h2>
+    <table border="1" cellpading="1" cellspacing="1">
+      <tr>
+        <td>Pueden comenzar con una letra.</td>
+        <td width="50%">
+          <p>JS distingue entre mayúsculas y minúsculas,<br> y e Y son identificadores distintos.</p>
+          <p>JavaScript no interpreta <b>VAR</b> o <b>Var</b> como la palabra clave <b>var</b>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>Pueden comenzar con los signos de ($) y (_):</td>
+        <td>
+          <p>Ambos son validos en JS ya que los interpreta como letras.</p>
+          <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+            <h4>Signo de dólar $</h4>
+            <p id=demo-01></p>
+            <h4>Guión bajo (_)</h4>
+            <p id=demo-02></p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Los nombres pueden contener:</td>
+        <td>
+          <ul>
+            <li>Digitos: (1 o 10)</li>
+            <li>Guiones bajos: _</li>
+            <li>Signos de dolar: $</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>No se pueden usar las palabras reservadas</td>
+        <td>Palabras clave de Javascript</td>
+      </tr>
+      <tr>
+        <td>No se permiten números como primer carácter.</td>
+        <td>JS distingue los identificadores de los números.</td>
+      </tr>
+    </table><br>
+    <img src="assets/img/identificadores.jpg">
+  </div>
 
-<!-- ======== Panel-2 ==========-->
-<button class="accordion">Mayúsculas y minúsculas</button>
-<div class="panel">
+  <!-- ======== Panel-2 ==========-->
+  <button class="accordion">Mayúsculas y minúsculas</button>
+  <div class="panel">
     <h2>Mayúsculas y minúsculas</h2>
     <p>Todos los identificadores distinguen entre mayúsculas y minúsculas.</p>
-  
     <p>Las variables <code style="color:red;">lastName</code> y <code style="color:red;">lastname</code> son dos variables diferentes.</p>
-  
+
     <!-- Ejemplo -->
     <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
       <h4>Ejemplo en el script</h4>
       <p>En este ejemplo cambie en el script lastName por lastname.</p>
       <p id="demo-03"></p>
     </div>
-</div>
+  </div>
 
-<!-- ======== Panel-2 ==========-->
-<button class="accordion">Escritura de camello</button>
-<div class="panel">
-  <h2>Escritura de camello</h2>
-  <p>Existen varias maneras de escribir un nombre de variable con varias palabras.</p>
+  <!-- ======== Panel-2 ==========-->
+  <button class="accordion">Escritura de camello</button>
+  <div class="panel">
+    <h2>Escritura de camello</h2>
+    <p>Existen varias maneras de escribir un nombre de variable con varias palabras.</p>
+
+    <table border="1" cellpadding="1" cellspacing="0">
+      <tr>
+        <th>Guión (-)</th>
+        <th>Guión bajo (_)</th>
+      </tr>
+      <tr>
+        <td>No están permitidos en JS ya que están reservados para restas. <br>
+          first-name, last-name, master-card, inter-city.
+        </td>
+        <td>first_name, last_name, master_card, inter_city.</td>
+      </tr>
+      <tr>
+        <th>Camello superior (AB)</th>
+        <th>Camello inferior (aB)</th>
+      </tr>
+      <tr>
+        <td>FirstName, LastName, MasterCard, InterCity.</td>
+        <td>Los programadores de JS recomiendan comenzar con una letra minúscula y seguir con mayúsculas. <br>
+        firstName, lastName, masterCard, interCity.</td>
+      </tr>    
+    </table>
+  </div>
+
+  <!-- Javascript -->
+  <script src="assets/js/accordion.js"></script>
+  <script src="assets/js/script.js"></script>
   
-  <table border="1" cellpadding="1" cellspacing="0">
-    <tr>
-      <th>Guión (-)</th>
-      <th>Guión bajo (_)</th>
-    </tr>
-    <tr>
-      <td>No están permitidos en JS ya que están reservados para restas. <br>
-      first-name, last-name, master-card, inter-city.
-      </td>
-      <td>first_name, last_name, master_card, inter_city.</td>
-    </tr>
-    <tr>
-      <th>Camello superior (AB)</th>
-      <th>Camello inferior (aB)</th>
-    </tr>
-    <tr>
-      <td>FirstName, LastName, MasterCard, InterCity.</td>
-      <td>Los programadores de JS recomiendan comenzar con una letra minúscula y seguir con mayúsculas. <br>
-      firstName, lastName, masterCard, interCity.</td>
-    </tr>    
-  </table>
-
-</div>
-
-<script src="assets/js/accordion.js"></script>
-<script src="assets/js/script.js"></script>
 </body>
 </html>

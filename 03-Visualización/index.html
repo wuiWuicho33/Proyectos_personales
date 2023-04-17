@@ -15,32 +15,26 @@
   <!-- ======== Panel-1 ==========-->
   <button class="accordion">1.- En un elemento HTML</button>
   <div class="panel">
-    
     <h2>1.- En un elemento HTML</h2>
     <p>La suma de 5 + 6 es = <span id=demo-01></span></p>
     <script>
       document.getElementById("demo-01").innerHTML = 5 + 6;
     </script>
-    
   </div>
     
   <!-- ======== Panel-2 ==========-->
   <button class="accordion">2.- Directamente en el HTML</button>
   <div class="panel">
-    
     <h2>2.- Directamente en el HTML</h2>
     <p>Para fines sólo de prueba, es conveniente utilizar el método:
     <b>document.write ("Content");</b></p>
-
     <p>La suma de 5 + 6 es = a:</p>
     <script>
     document.write(5 + 6);
     </script>
-
     <h3>Sobrescribiendo el documento</h3>
     <p>Mi primer párrafo</p>
     <button type=button onclick="document.write(5 + 6)">Sobreescribir documento html</button>
-    
   </div>
   
   <!-- ======== Panel-3 ==========-->
@@ -82,10 +76,9 @@
     <p>Haga clic en el botón para imprimir la página actual.</p>
     <button onclick=window.print()>Imprime esta página</button>
   </div>    
-  
     
-    <!-- Javascript -->
-    <script src="assets/js/accordion.js"></script>
+  <!-- Javascript -->
+  <script src="assets/js/accordion.js"></script>
 
 </body>
 </html>

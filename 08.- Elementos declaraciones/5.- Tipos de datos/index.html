@@ -10,130 +10,115 @@
 
 <body>
 
-<h1>Tipos de datos</h1>
-<hr>
+  <h1>Tipos de datos</h1>
+  <hr>
 
-<!-- ======== Pane-1 ==========-->
-<button class="accordion">1.- Valores</button>
-<div class="panel">
-  <h2>1.- Valores</h2>
-  <p>La sintaxis de JavaScript define dos tipos de valores:</p>
+  <!-- ======== Pane-1 ==========-->
+  <button class="accordion">1.- Valores</button>
+  <div class="panel">
+    <h2>1.- Valores</h2>
+    <p>La sintaxis de JavaScript define dos tipos de valores:</p>
+    <table cellpading="1" ; cellspacing="0" ; border="1" ;>
+      <tr>
+        <th>Valores fijos</th>
+        <th>Valores variables</th>
+      </tr>
+      <tr>
+        <td>Se denominan literales y existen dos tipos:<br>
+          <ul>
+            <li>Números</li>
+            <li>Cadenas</li>
+          </ul>
+        </td>
+        <td>Se denominan variables</td>
+      </tr>
+    </table>
+  </div>
 
-  <table cellpading="1" ; cellspacing="0" ; border="1" ;>
-    <tr>
-      <th>Valores fijos</th>
-      <th>Valores variables</th>
-    </tr>
-    <tr>
-      <td>Se denominan literales y existen dos tipos:<br>
-        <ul>
-          <li>Números</li>
-          <li>Cadenas</li>
-        </ul>
-      </td>
-      <td>Se denominan variables</td>
-    </tr>
-  </table>
+  <!-- ======== Pane-2 ==========-->
+  <button class="accordion">2.- Literales</button>
+  <div class="panel">
+    <h1>2.- Literales</h1>
+    <p>Las variables pueden contener muchos tipos de datos, pero el más común son los literales y existen de dos tipos, números y cadenas.</p>
+    <table cellpading="1" ; cellspacing="0" ; border="1" ;>
+      <tr>
+        <th>Números</th>
+      </tr>
+      <tr>
+        <td>
+          <p>Los números se pueden escribir con o sin decimales:</p>
+          <p>100 <br> 10.5 </p>
+          <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+            <h4>Ejemplo en el script</h4>
+            <p id="demo-01"></p>
+          </div>
+        </td>
+      </tr>
+    </table>
 
-</div>
+    <br><br>
 
-<!-- ======== Pane-2 ==========-->
-<button class="accordion">2.- Literales</button>
-
-<div class="panel">
-  
-  <h1>2.- Literales</h1>
-  
-  <p>Las variables pueden contener muchos tipos de datos, pero el más común son los literales y existen de dos tipos, números y cadenas.</p>
-  
-  <table cellpading="1" ; cellspacing="0" ; border="1" ;>
-    <tr>
-      <th>Números</th>
-    </tr>
-    <tr>
-      <td>
-        <p>Los números se pueden escribir con o sin decimales:</p>
-        <p>100 <br> 10.5 </p>
-        <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
-          <h4>Ejemplo en el script</h4>
-          <p id="demo-01"></p>
-        </div>
-      </td>
-    </tr>
-  </table>
-  
-  <br><br>
-  
-  <table cellpading="1" ; cellspacing="0" ; border="1" ;>
-    <tr>
-      <th>Cadenas</th>
-    </tr>
-    <tr>
-      <td>
-        <p>Las <b>cadenas</b> son texto, escrito entre comillas simples o dobles.</p>
-  
-        <p>Se escriben sin comillas, pero de colocarse con ellas se interpretarán como una cadena de texto.</p>
-  
-        <p>"Mario" <br> 'Mario' <br>
+    <table cellpading="1" ; cellspacing="0" ; border="1" ;>
+      <tr>
+        <th>Cadenas</th>
+      </tr>
+      <tr>
+        <td>
+          <p>Las <b>cadenas</b> son texto, escrito entre comillas simples o dobles.</p>
+          <p>Se escriben sin comillas, pero de colocarse con ellas se interpretarán como una cadena de texto.</p>
+          <p>"Mario" <br> 'Mario' <br>
           "20"</p>
-  
-        <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+          <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+            <!-- Ejemplo -->
+            <h4>Ejemplo en el script</h4>
+            <p id="demo-02"></p>
+            <p id="demo-03"></p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- ======== Panel-3 ==========-->
+  <button class="accordion">3.- Expresiones</button>
+  <div class="panel">
+    <h2>3.- Expresiones</h2>
+    <p>Una <b>expresión</b> es una combinación de valores, variables y operadores que se calcula en un valor.<br>
+      El cálculo se llama <b>evaluación</b>.</p>
+    <p>Las expresiones pueden contener valores literales y variables.</p>
+    <table cellpading="1" ; cellspacing="0" ; border="1" ;>
+      <tr>
+        <th>Valores Literales</th>
+        <th>Valores Variables</th>
+      </tr>
+      <tr>
+        <td>
           <!-- Ejemplo -->
-          <h4>Ejemplo en el script</h4>
-          <p id="demo-02"></p>
-          <p id="demo-03"></p>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<!-- ======== Panel-3 ==========-->
-<button class="accordion">3.- Expresiones</button>
-<div class="panel">
-
-  <h2>3.- Expresiones</h2>
-  <p>Una <b>expresión</b> es una combinación de valores, variables y operadores que se calcula en un valor.<br>
-    El cálculo se llama <b>evaluación</b>.</p>
-  <p>Las expresiones pueden contener valores literales y variables.</p>
-
-  <table cellpading="1" ; cellspacing="0" ; border="1" ;>
-    <tr>
-      <th>Valores Literales</th>
-      <th>Valores Variables</th>
-    </tr>
-    <tr>
-      <td>
-        <!-- Ejemplo -->
-        <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
-        <h4>Valor con números</h4>  
-        <p id="demo-04"></p>
-        </div>
-        
-        <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+          <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+            <h4>Valor con números</h4>  
+            <p id="demo-04"></p>
+          </div>
+          <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+            <!-- Ejemplo -->
+            <h4>Valor con cadenas</h4>
+            <p id="demo-06"></p>
+          </div>
+        </td>
+        <td> 
           <!-- Ejemplo -->
-          <h4>Valor con cadenas</h4>
-          <p id="demo-06"></p>
-        </div>
-        
-      </td>
-      <td> 
-        <!-- Ejemplo -->
-        
-        <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
-          <h4>Valor con variables</h4>
-          <!-- Ejemplo -->
-        <p id="demo-05"></p>
-        </div>
-      </td>
-    </tr>
-  </table>
+          <div style="display:inline-block; background-color:lightgrey; padding:10px 20px;">
+            <h4>Valor con variables</h4>
+            <!-- Ejemplo -->
+            <p id="demo-05"></p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
 
-</div>
+  <!-- Javascript -->
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/accordion.js"></script>
 
-<!-- Javascript -->
-<script src="assets/js/script.js"></script>
-<script src="assets/js/accordion.js"></script>
-
-</body>
-</html>
+  </body>
+  </html>
