@@ -1,0 +1,6 @@
+PENDIENTES
+1.- Crear un menú lateral
+2.- Homologar hoja css en landingpage
+3.- Quitar html inecesario de las páginas
+4.- Eliminar páginas innecesarias
+5.- Menu lateral templates (Avilon, Bizpage, Newbiz, Rapid, Reveal)
