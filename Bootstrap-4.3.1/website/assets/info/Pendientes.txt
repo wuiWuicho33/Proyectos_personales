@@ -4,3 +4,4 @@ PENDIENTES
 3.- Quitar html inecesario de las páginas
 4.- Eliminar páginas innecesarias
 5.- Menu lateral templates (Avilon, Bizpage, Newbiz, Rapid, Reveal)
+6.- Hacer un apartado de componentes para agregar tipos de carruseles y tabs
