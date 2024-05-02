@@ -5,44 +5,6 @@
 /* -----------------------------------------------
   # Button
 ----------------------------------------------- */
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  border-radius:6px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
-.btn-primary {
-  color: #fff;
-  background-color: #F05F40;
-  border-color: #F05F40;
-}
-.btn-primary:hover, 
-.btn-primary:focus, 
-.btn-primary:active {
-  color: #fff;
-  background-color: #ee4b28 !important;
-}
-.btn-primary:active, 
-.btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
-}
-.btn-light {
-  color: #337ab7;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-}
-.btn-light:hover, 
-.btn-light:focus, 
-.btn-light:active {
-  color: #337ab7;
-  background-color: lightgray !important;
-}
-.btn-light:active, 
-.btn-light:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
-}
-.btn-xl {padding: 1rem 2rem;}
 
 /* -----------------------------------------------
   # Faico
@@ -80,6 +42,36 @@
 .faicon-pinterest:hover{color:#C8232C;}
 .faicon-rss:hover{color:#EE802F;}
 .faicon-twitter:hover{color:#00ACEE;}
+
+/* -----------------------------------------------
+  # Quick-links
+----------------------------------------------- */
+.quick-links{
+  margin:0; 
+  padding:0; 
+  list-style:none;
+}
+.quick-links li{
+  display:inline-block; 
+  margin:8px 5px 0 0; 
+  padding:0; line-height:normal;
+}
+.quick-links li:last-child{margin-right:0;}
+.quick-links a{
+  display:inline-block; 
+  font-size:inherit; 
+  text-align:center; 
+  padding: 5px 8px; 
+  font-weight: bold;
+}
+.quick-links a{
+  color:#888888; 
+  background-color:#333333;
+}
+.quick-links a:hover{
+  color:#FFFFFF; 
+  background-color:#337ab7;
+}
 
 /* -----------------------------------------------
   # Container filter with background image
