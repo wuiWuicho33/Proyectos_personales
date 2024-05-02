@@ -5,6 +5,7 @@ Quitar los titles a las imágenes
 Agregar el js de fontawesome al template de bootstrap
 Acomodar las carpetas dentro de los assest (ver cuales se pueden eliminar)
 Se eliminaron paginas de la carpeta pages que ya no son útiles
+Eliminar los titles de las imágenes
 
 xxxxxxxxxxxxxx
 Segundo template
