@@ -3,6 +3,8 @@ Bootstrap 4.3
 xxxxxxxxxxxxxx
 Quitar los titles a las imágenes
 Agregar el js de fontawesome al template de bootstrap
+Acomodar las carpetas dentro de los assest (ver cuales se pueden eliminar)
+Se eliminaron paginas de la carpeta pages que ya no son útiles
 
 xxxxxxxxxxxxxx
 Segundo template
