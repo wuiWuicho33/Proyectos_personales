@@ -6,6 +6,8 @@ Agregar el js de fontawesome al template de bootstrap
 Acomodar las carpetas dentro de los assest (ver cuales se pueden eliminar)
 Se eliminaron paginas de la carpeta pages que ya no son útiles
 Eliminar los titles de las imágenes
+Pase el overlay en layout.css
+Estan mal acomodados las clases del sistema de columnas en el html
 
 xxxxxxxxxxxxxx
 Segundo template

@@ -99,7 +99,6 @@ strong {
 .btn {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
-    text-transform: uppercase;
 }
 
 .font-xs{font-size:.8rem;}
@@ -124,7 +123,6 @@ a:active, a:focus{color:#E47911;}
 .text-tertiary {color:#E47911;}
 .text-inverted {color: #ffffff;}
 
-/*
 .bg-white {background-color:#fff !important; color:#000;}
 .bg-white p{color:#000;}
 .bg-light {background-color:#e9ecef !important; color:#000;}
@@ -133,7 +131,6 @@ a:active, a:focus{color:#E47911;}
 .bg-dark p {color:#fff;}
 .bg-darker {background-color:#000000; color:#fff;}
 .bg-darker p{color:#fff;}
-*/
 
 /*
 .bg-degrades {
@@ -146,11 +143,6 @@ color:#fff;
 }
 .bg-degrades p{color:#fff;}
 */
-
-/* Image filter */
-.overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
-.overlay.light::after{background-color:rgba(255,255,255,.55);}
 
 /* -----------------------------------------------
   # Spacing, Marging and padding
