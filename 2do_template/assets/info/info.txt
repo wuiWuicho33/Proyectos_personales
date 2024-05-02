@@ -1,0 +1,17 @@
+xxxxxxxxxxxxxx
+Bootstrap 4.3
+xxxxxxxxxxxxxx
+Quitar los titles a las imágenes
+Agregar el js de fontawesome al template de bootstrap
+
+xxxxxxxxxxxxxx
+Segundo template
+(Cosas a considerar)
+xxxxxxxxxxxxxx
+
+Badges translucidos 
+Los enlaces de la barra de navegación deben de funcionar como onepage
+meter más programatica
+disminuir el espacio entre secciones
+Separaciones mas delgadas
+Separacion en el onboarding

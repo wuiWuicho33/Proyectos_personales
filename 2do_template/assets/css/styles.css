@@ -1,0 +1,243 @@
+/*::::::::::::::::::::::
+:::::::::STYLES:::::::::
+::::::::::::::::::::::*/
+/* Imported files and fonts */
+@import url('layout.css');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+/* -----------------------------------------------
+  # Reset
+----------------------------------------------- */
+html, body {height: 100%;}
+html {overflow-x: hidden;}
+html, body {overflow-x: hidden;}
+*, *::before, *::after {box-sizing: border-box;}
+a {
+    outline: none;
+    text-decoration: none;
+}
+a:hover, a:active {
+    outline: none;
+    text-decoration: none;
+}
+
+/* -----------------------------------------------
+  # Scrollbar
+----------------------------------------------- */
+body::-webkit-scrollbar{width: 15px;}
+body::-webkit-scrollbar-thumb{background: #E47911;}
+
+/* -----------------------------------------------
+  # HTML 5 Overrides
+----------------------------------------------- */
+address, article, aside, figcaption, figure, 
+footer, header, main, nav, section{
+    display:block;
+    margin:0;
+    padding:0;
+}
+
+/* -----------------------------------------------
+  # Transition
+----------------------------------------------- */
+*, *::before, *::after{transition:all .3s ease-in-out;}
+#mainav form *{transition:none !important;}
+/*a {transition: 0.1s;}*/
+
+/* -----------------------------------------------
+  # Fonts
+----------------------------------------------- */
+/*html {font-size: 1.6rem;}*/
+body, input, textarea, select{font-family: 'Montserrat', sans-serif;}
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6,
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+h1 .h1 {font-size: 3rem;}
+h2 .h2 {font-size: 2.5rem;}
+h3 .h3 {font-size: 1.75rem;}
+h4 .h4 {font-size: 1.25rem;}
+h5 .h5 {font-size: 1rem;}
+h6 .h6 {font-size: 0.8rem;}
+h2 .light., .h2 .light {font-weight:400;}
+h3 .light, .h3 .light {font-weight:400;}
+
+/*Estilos específicos para el interior de la nota*/
+.detalle_nota h1 {font-size: 2.3rem;}
+.detalle_nota h2, .detalle_nota h3 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+}
+
+h2.teaser {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+p,ul,ol {
+  font-family: 'Montserrat', sans-serif;  
+  font-weight: 400;  
+  font-size:14px;  
+  line-height: 1.55;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+strong {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.btn {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.font-xs{font-size:.8rem;}
+.font-x1{font-size:1.2rem;}
+.font-x2{font-size:1.8rem;}
+.font-x3{font-size:2.8rem;}
+
+/* -----------------------------------------------
+  # Colours
+----------------------------------------------- */
+body {
+  background: #fff;
+  color: #000;
+}
+p{color:#000;}
+
+a{color:#337ab7;}
+a:active, a:focus{color:#E47911;}
+
+.text-primary {color:#337ab7;}
+.text-secondary {color:#E47911;}
+.text-tertiary {color:#E47911;}
+.text-inverted {color: #ffffff;}
+
+/*
+.bg-white {background-color:#fff !important; color:#000;}
+.bg-white p{color:#000;}
+.bg-light {background-color:#e9ecef !important; color:#000;}
+.bg-light p{color:#000;}
+.bg-dark {background-color:#212529 !important; color:#fff;}
+.bg-dark p {color:#fff;}
+.bg-darker {background-color:#000000; color:#fff;}
+.bg-darker p{color:#fff;}
+*/
+
+/*
+.bg-degrades {
+background: #105099;
+background: -moz-linear-gradient(left,  #105099 0%, #2989d8 60%, #7db9e8 100%);
+background: -webkit-linear-gradient(left,  #105099 0%,#2989d8 60%,#7db9e8 100%);
+background: linear-gradient(to right,  #105099 0%,#2989d8 60%,#7db9e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#105099', endColorstr='#7db9e8',GradientType=1 );
+color:#fff;
+}
+.bg-degrades p{color:#fff;}
+*/
+
+/* Image filter */
+.overlay{color:#FFFFFF; background-color:inherit;}
+.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+.overlay.light::after{background-color:rgba(255,255,255,.55);}
+
+/* -----------------------------------------------
+  # Spacing, Marging and padding
+----------------------------------------------- */
+.nospace {
+  margin:0; 
+  padding:0; 
+  list-style:none;
+}
+
+section, footer{padding:2rem 0;}
+section.legals{padding:20px 0;}
+section.legals p{margin-bottom:0;}
+section.topbar{padding:0;}
+section.topbar p{margin-bottom:0;}
+
+
+.hidden{display:none;}
+.pushright li{margin-right:20px;}
+.pushright li:last-child{margin-right:0;}
+
+/*img{padding-bottom:2rem;}*/
+
+/* -----------------------------------------------
+  # Image styles
+----------------------------------------------- */
+img, object, embed, video {max-width: 100%;}
+img{
+    width:auto;
+    height:auto;
+    margin:0;
+    vertical-align:middle;
+}
+.ie6 img {width:100%;}
+.img-hover:hover {opacity: 0.8;}
+
+/* -----------------------------------------------
+  # Display properties
+----------------------------------------------- */
+.block{display:block;}
+.inline *{display:inline-block;}
+.inline *:last-child{margin-right:0;}
+.hidden{display:none;}
+
+/* -----------------------------------------------
+  # Background styles
+----------------------------------------------- */
+.bkgnd{
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.attach{background-attachment: fixed;}
+
+/* ==============================================
+# MEDIAQUERIES
+============================================== */
+/* -----------------------------------------------
+  # Desk / Tablets-H : Max width 1024px
+----------------------------------------------- */
+@media screen and (max-width:1024px){
+  /*html {font-size: 1.4rem;}*/
+  h1 .h1 {color:blue;}
+ }
+
+/* -----------------------------------------------
+  # Tablets-V / Mobile-H: Max width 768px
+----------------------------------------------- */
+@media screen and (max-width:768px){
+  /*html {font-size: 1.2rem;}*/
+  h1 .h1 {color:green;}
+  .inline li{
+    display:block; 
+    margin-bottom:10px;
+  }
+	.pushright li{margin-right:0;}
+  /*.fl_left, .fl_right{display:block; float:none;}*/
+	.imgl, .imgr{
+    display:inline-block; 
+    float:none; 
+    margin:0 0 10px 0;
+  }
+}
+/* -----------------------------------------------
+  # Mobile-V: Max width 480px
+----------------------------------------------- */
+@media (max-width: 480px) {
+  /*html {font-size: 1rem;}*/
+  h1 .h1 {color:orange;}
+}
