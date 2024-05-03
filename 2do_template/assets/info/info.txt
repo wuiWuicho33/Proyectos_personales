@@ -9,6 +9,8 @@ Eliminar los titles de las imágenes
 Pase el overlay en layout.css
 Estan mal acomodados las clases del sistema de columnas en el html
 Se cambia a responsive design los mediaqueries
+Checar la hoja de las fuentes
+
 
 xxxxxxxxxxxxxx
 Segundo template
