@@ -1,9 +1,11 @@
 /*::::::::::::::::::::::
 :::::::::STYLES:::::::::
 ::::::::::::::::::::::*/
+
 /* Imported files and fonts */
 @import url('layout.css');
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 /* -----------------------------------------------
   # Reset
@@ -52,13 +54,16 @@ footer, header, main, nav, section{
   # Fonts
 ----------------------------------------------- */
 /*html {font-size: 1.6rem;}*/
-body, input, textarea, select{font-family: 'Montserrat', sans-serif;}
+body, input, textarea, select{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
 
 h1,h2,h3,h4,h5,h6,
 .h1,.h2,.h3,.h4,.h5,.h6,
 .heading {
-  font-family: 'Montserrat', sans-serif;
-  font-weight:700;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
   margin: 0 0 30px 0;
   padding: 0;
 }
@@ -75,19 +80,19 @@ h3 .light, .h3 .light {font-weight:400;}
 /*Estilos específicos para el interior de la nota*/
 .detalle_nota h1 {font-size: 2.3rem;}
 .detalle_nota h2, .detalle_nota h3 {
-    font-size: 1.8rem;
-    margin-top: 40px;
+  font-size: 1.8rem;
+  margin-top: 40px;
 }
 
 h2.teaser {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 300;
-    margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-top: 0px;
 }
 
 p,ul,ol {
-  font-family: 'Montserrat', sans-serif;  
+  font-family: "Roboto", sans-serif;
   font-weight: 400;  
   font-size:14px;  
   line-height: 1.55;
@@ -96,13 +101,13 @@ p,ul,ol {
 }
 
 strong {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 .btn {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .font-xs{font-size:.8rem;}
@@ -229,7 +234,7 @@ img{
   h1 .h1 {color:orange;}
 }
 @media (min-width: 1200px) {
-  
+
 }
 
 
