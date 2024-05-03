@@ -8,9 +8,13 @@
 /* -----------------------------------------------
   # Reset
 ----------------------------------------------- */
-html, body {height: 100%;}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 html {overflow-x: hidden;}
-html, body {overflow-x: hidden;}
+/*html, body {overflow-x: hidden;}*/
 *, *::before, *::after {box-sizing: border-box;}
 a {
     outline: none;
