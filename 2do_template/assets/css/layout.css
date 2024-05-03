@@ -95,14 +95,29 @@
 # MEDIAQUERIES
 ============================================== */
 /* -----------------------------------------------
-  # Desk / Tablets-H : Max width 1024px
+  # Mobile
 ----------------------------------------------- */
-@media screen and (max-width:1024px){}
+/*A partir de 576px se aplicarán estos estilos*/
+@media (min-width: 576px) {
+  /*html {font-size: 1.4rem;}*/
+  h1 .h1 {color:blue;}
+}
 /* -----------------------------------------------
-  # Tablets-V / Mobile-H: Max width 768px
+  # Tablet
 ----------------------------------------------- */
-@media screen and (max-width:768px){}
+/*A partir de 768px se aplicarán estos estilos*/
+@media (min-width: 768px) {
+  /*html {font-size: 1.2rem;}*/
+  h1 .h1 {color:green;}
+}
 /* -----------------------------------------------
-  # Mobile-V: Max width 480px
+  # Desktop
 ----------------------------------------------- */
-@media screen and (max-width:480px){}
+/*A partir de 992px y 1200 se aplicarán estos estilos*/
+@media (min-width: 992px) {
+  /*html {font-size: 1rem;}*/
+  h1 .h1 {color:orange;}
+}
+@media (min-width: 1200px) {
+  
+}

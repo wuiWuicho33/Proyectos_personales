@@ -205,35 +205,31 @@ img{
 # MEDIAQUERIES
 ============================================== */
 /* -----------------------------------------------
-  # Desk / Tablets-H : Max width 1024px
+  # Mobile
 ----------------------------------------------- */
-@media screen and (max-width:1024px){
+/*A partir de 576px se aplicarán estos estilos*/
+@media (min-width: 576px) {
   /*html {font-size: 1.4rem;}*/
   h1 .h1 {color:blue;}
- }
-
-/* -----------------------------------------------
-  # Tablets-V / Mobile-H: Max width 768px
------------------------------------------------ */
-@media screen and (max-width:768px){
-  /*html {font-size: 1.2rem;}*/
-  h1 .h1 {color:green;}
-  .inline li{
-    display:block; 
-    margin-bottom:10px;
-  }
-	.pushright li{margin-right:0;}
-  /*.fl_left, .fl_right{display:block; float:none;}*/
-	.imgl, .imgr{
-    display:inline-block; 
-    float:none; 
-    margin:0 0 10px 0;
-  }
 }
 /* -----------------------------------------------
-  # Mobile-V: Max width 480px
+  # Tablet
 ----------------------------------------------- */
-@media (max-width: 480px) {
+/*A partir de 768px se aplicarán estos estilos*/
+@media (min-width: 768px) {
+  /*html {font-size: 1.2rem;}*/
+  h1 .h1 {color:green;}
+}
+/* -----------------------------------------------
+  # Desktop
+----------------------------------------------- */
+/*A partir de 992px y 1200 se aplicarán estos estilos*/
+@media (min-width: 992px) {
   /*html {font-size: 1rem;}*/
   h1 .h1 {color:orange;}
 }
+@media (min-width: 1200px) {
+  
+}
+
+
