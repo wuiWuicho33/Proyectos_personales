@@ -204,6 +204,10 @@ img{
 }
 .ie6 img {width:100%;}
 .img-hover:hover {opacity: 0.8;}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 
 /* -----------------------------------------------
   # Display properties
