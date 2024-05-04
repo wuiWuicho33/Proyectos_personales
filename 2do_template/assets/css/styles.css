@@ -115,6 +115,16 @@ strong {
 .font-x3{font-size:2.8rem;}
 
 /* -----------------------------------------------
+  # Text styles
+----------------------------------------------- */
+.text-left {text-align:left;}
+.text-right {text-align:right;}
+.text-center {text-align:center;}
+.text-lowercase {text-transform: lowercase;}
+.text-uppercase {text-transform: uppercase;}
+.text-capitalize {text-transform: capitalize;}
+
+/* -----------------------------------------------
   # Colours
 ----------------------------------------------- */
 body {
@@ -131,14 +141,27 @@ a:active, a:focus{color:#E47911;}
 .text-tertiary {color:#E47911;}
 .text-inverted {color: #ffffff;}
 
-.bg-white {background-color:#fff !important; color:#000;}
-.bg-white p{color:#000;}
-.bg-light {background-color:#e9ecef !important; color:#000;}
-.bg-light p{color:#000;}
-.bg-dark {background-color:#212529 !important; color:#fff;}
-.bg-dark p {color:#fff;}
-.bg-darker {background-color:#000000; color:#fff;}
-.bg-darker p{color:#fff;}
+.bg-white {
+  background-color:#fff; 
+  color:#000;
+}
+.bg-light {
+  background-color:#e9ecef; 
+  color:#000;
+}
+.bg-dark {
+  background-color:#212529; 
+  color:#fff;
+}
+.bg-darker {
+  background-color:#000000; 
+  color:#fff;
+}
+
+/*.bg-white p{color:#000;}*/
+/*.bg-light p{color:#000;}*/
+/*.bg-dark p {color:#fff;}*/
+/*.bg-darker p{color:#fff;}*/
 
 /* -----------------------------------------------
   # Spacing, Marging and padding
@@ -158,8 +181,6 @@ section.topbar p{margin-bottom:0;}
 .hidden{display:none;}
 .pushright li{margin-right:20px;}
 .pushright li:last-child{margin-right:0;}
-
-/*img{padding-bottom:2rem;}*/
 
 /* -----------------------------------------------
   # Image styles
@@ -183,25 +204,42 @@ img{
 .hidden{display:none;}
 
 /* -----------------------------------------------
-  # Text styles
------------------------------------------------ */
-.text-left {text-align:left;}
-.text-right {text-align:right;}
-.text-center {text-align:center;}
-.text-lowercase {text-transform: lowercase;}
-.text-uppercase {text-transform: uppercase;}
-.text-capitalize {text-transform: capitalize;}
-
-
-/* -----------------------------------------------
   # Background styles
 ----------------------------------------------- */
-.bkgnd{
+.bg-img{
+    background-image: url(../img/bg-01.jpg);
     background-position:top center;
     background-repeat:no-repeat;
     background-size:cover;
 }
-.attach{background-attachment: fixed;}
+.bg-attach{background-attachment: fixed;}
+
+/* -----------------------------------------------
+  # Container filter with background image
+----------------------------------------------- */
+.overlay{
+  position:relative; 
+  z-index:1;
+}
+.overlay::after{
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    content:"";
+    z-index:-1;
+}
+.overlay{
+  color:#FFFFFF; 
+  background-color:inherit;
+}
+.overlay::after{
+  color:inherit; 
+  background-color:rgba(0,0,0,.55);
+}
+.overlay.light::after{background-color:rgba(255,255,255,.55);}
 
 /* ==============================================
 # MEDIAQUERIES

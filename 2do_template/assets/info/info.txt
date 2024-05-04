@@ -10,6 +10,9 @@ Pase el overlay en layout.css
 Estan mal acomodados las clases del sistema de columnas en el html
 Se cambia a responsive design los mediaqueries
 Checar la hoja de las fuentes
+Agregué estilos de texto a la hoja de estilos .txt
+Agregue estilos para botones a la hoja de layout.css
+Se agrega estilos para el background atachment de fondos de imágenes
 
 
 xxxxxxxxxxxxxx
