@@ -94,31 +94,34 @@ h3.favicon::after {
   # Quick-links
 ----------------------------------------------- */
 .quick-links{
-  margin:0; 
+  margin:40px 0 0 0 ; 
   padding:0; 
   list-style:none;
+  text-align: center;
 }
 .quick-links li{
   display:inline-block; 
-  margin:8px 5px 0 0; 
-  padding:0; line-height:normal;
+  padding:0; 
+  line-height:normal;
+  margin-right:10px; 
 }
 .quick-links li:last-child{margin-right:0;}
 .quick-links a{
-  display:inline-block; 
-  font-size:inherit; 
+    font-size:inherit; 
   text-align:center; 
-  padding: 5px 8px; 
-  font-weight: bold;
+  color:#fff;
+  /*
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;  
+  display:inline-block;   
+  */
 }
-.quick-links a{
-  color:#888888; 
-  background-color:#333333;
-}
-.quick-links a:hover{
-  color:#FFFFFF; 
-  background-color:#337ab7;
-}
+.quick-links a:hover{color:#FF2B52;}
+
+/* -----------------------------------------------
+  # Sections
+----------------------------------------------- */
+footer img{width: 100px;}
 
 /* ==============================================
 # MEDIAQUERIES
@@ -128,7 +131,6 @@ h3.favicon::after {
 ----------------------------------------------- */
 /*A partir de 576px se aplicarán estos estilos*/
 @media (min-width: 576px) {
-  /*html {font-size: 1.4rem;}*/
   h1 .h1 {color:blue;}
 }
 /* -----------------------------------------------
@@ -136,17 +138,14 @@ h3.favicon::after {
 ----------------------------------------------- */
 /*A partir de 768px se aplicarán estos estilos*/
 @media (min-width: 768px) {
-  /*html {font-size: 1.2rem;}*/
   h1 .h1 {color:green;}
+  footer img{width: 200px;}
 }
 /* -----------------------------------------------
   # Desktop
 ----------------------------------------------- */
 /*A partir de 992px y 1200 se aplicarán estos estilos*/
 @media (min-width: 992px) {
-  /*html {font-size: 1rem;}*/
   h1 .h1 {color:orange;}
 }
-@media (min-width: 1200px) {
-  
-}
+@media (min-width: 1200px) {}

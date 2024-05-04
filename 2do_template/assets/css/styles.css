@@ -31,7 +31,7 @@ a:hover, a:active {
   # Scrollbar
 ----------------------------------------------- */
 body::-webkit-scrollbar{width: 15px;}
-body::-webkit-scrollbar-thumb{background: #E47911;}
+body::-webkit-scrollbar-thumb{background: #FF2B52;}
 
 /* -----------------------------------------------
   # HTML 5 Overrides
@@ -133,9 +133,9 @@ body {
   color: #000;
 }
 p{color:#000;}
-
-a{color:#337ab7;}
-a:active, a:focus{color:#E47911;}
+a{color:#fff;}
+a:hover, a:active, a:focus{color:#FF2B52;}
+i {color:#FF2B52;}
 
 .text-primary {color:#337ab7;}
 .text-secondary {color:#E47911;}
@@ -146,23 +146,22 @@ a:active, a:focus{color:#E47911;}
   background-color:#fff; 
   color:#000;
 }
+.bg-white p{color:#000;}
 .bg-light {
   background-color:#e9ecef; 
   color:#000;
 }
+.bg-light p{color:#000;}
 .bg-dark {
-  background-color:#212529; 
+  background-color:#181532; 
   color:#fff;
 }
+.bg-dark p {color:#fff;}
 .bg-darker {
   background-color:#000000; 
   color:#fff;
 }
-
-/*.bg-white p{color:#000;}*/
-/*.bg-light p{color:#000;}*/
-/*.bg-dark p {color:#fff;}*/
-/*.bg-darker p{color:#fff;}*/
+.bg-darker p{color:#fff;}
 
 /* -----------------------------------------------
   # Spacing, Marging and padding
@@ -180,9 +179,9 @@ a:active, a:focus{color:#E47911;}
 }
 
 section, footer{padding:2rem 0;}
-/*
 section.legals{padding:20px 0;}
 section.legals p{margin-bottom:0;}
+/*
 section.topbar{padding:0;}
 section.topbar p{margin-bottom:0;}
 */
@@ -294,10 +293,10 @@ img{
 @media (min-width: 768px) {
   html {font-size: 1.4rem;}
   h1 .h1 {color:green;}
-
-  .videoWrapper {
-    padding-bottom: 56.25%; /* 16:9 */
-  }  
+  .videoWrapper {padding-bottom: 56.25%; /* 16:9 */}  
+  .float-md-left {float: left !important;}
+  .float-md-right {float: right !important;}
+  .float-md-none {float: none !important;}    
 }
 /* -----------------------------------------------
   # Desktop
