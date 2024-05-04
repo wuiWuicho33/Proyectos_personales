@@ -140,18 +140,6 @@ a:active, a:focus{color:#E47911;}
 .bg-darker {background-color:#000000; color:#fff;}
 .bg-darker p{color:#fff;}
 
-/*
-.bg-degrades {
-background: #105099;
-background: -moz-linear-gradient(left,  #105099 0%, #2989d8 60%, #7db9e8 100%);
-background: -webkit-linear-gradient(left,  #105099 0%,#2989d8 60%,#7db9e8 100%);
-background: linear-gradient(to right,  #105099 0%,#2989d8 60%,#7db9e8 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#105099', endColorstr='#7db9e8',GradientType=1 );
-color:#fff;
-}
-.bg-degrades p{color:#fff;}
-*/
-
 /* -----------------------------------------------
   # Spacing, Marging and padding
 ----------------------------------------------- */
@@ -166,7 +154,6 @@ section.legals{padding:20px 0;}
 section.legals p{margin-bottom:0;}
 section.topbar{padding:0;}
 section.topbar p{margin-bottom:0;}
-
 
 .hidden{display:none;}
 .pushright li{margin-right:20px;}
@@ -194,6 +181,17 @@ img{
 .inline *{display:inline-block;}
 .inline *:last-child{margin-right:0;}
 .hidden{display:none;}
+
+/* -----------------------------------------------
+  # Text styles
+----------------------------------------------- */
+.text-left {text-align:left;}
+.text-right {text-align:right;}
+.text-center {text-align:center;}
+.text-lowercase {text-transform: lowercase;}
+.text-uppercase {text-transform: uppercase;}
+.text-capitalize {text-transform: capitalize;}
+
 
 /* -----------------------------------------------
   # Background styles
