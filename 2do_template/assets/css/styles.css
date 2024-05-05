@@ -19,8 +19,10 @@ html {overflow-x: hidden;}
 /*html, body {overflow-x: hidden;}*/
 *, *::before, *::after {box-sizing: border-box;}
 a {
-    outline: none;
-    text-decoration: none;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;    
 }
 a:hover, a:active {
     outline: none;
@@ -37,7 +39,7 @@ body::-webkit-scrollbar-thumb{background: #FF2B52;}
   # HTML 5 Overrides
 ----------------------------------------------- */
 address, article, aside, figcaption, figure, 
-footer, header, main, nav, section{
+header, main, nav, section{
     display:block;
     margin:0;
     padding:0;
@@ -54,9 +56,26 @@ footer, header, main, nav, section{
   # Fonts
 ----------------------------------------------- */
 html {font-size: 1rem;}
-body, input, textarea, select{
+
+body,form, input, textarea, select{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size:14px;  
+}
+
+p,ul,ol {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;  
+  font-size:14px;  
+  line-height: 1.55;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+p:last-child {margin-bottom: 0;}
+
+strong {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 h1,h2,h3,h4,h5,h6,
@@ -90,20 +109,6 @@ h2.teaser {
   margin-top: 0px;
 }
 
-p,ul,ol {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;  
-  font-size:14px;  
-  line-height: 1.55;
-  padding: 0;
-  margin: 0 0 30px 0;
-}
-
-strong {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-}
-
 .btn {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -135,7 +140,7 @@ body {
 p{color:#000;}
 a{color:#fff;}
 a:hover, a:active, a:focus{color:#FF2B52;}
-i {color:#FF2B52;}
+/*i {color:#FF2B52;}*/
 
 .text-primary {color:#337ab7;}
 .text-secondary {color:#E47911;}
@@ -178,7 +183,8 @@ i {color:#FF2B52;}
   list-style:none;
 }
 
-section, footer{padding:2rem 0;}
+section{padding:2rem 0;}
+/*footer{padding:2rem 0;}*/
 section.legals{padding:20px 0;}
 section.legals p{margin-bottom:0;}
 /*
@@ -284,7 +290,6 @@ img{
 /*A partir de 576px se aplicarán estos estilos*/
 @media (min-width: 576px) {
   html {font-size: 1.2rem;}
-  h1 .h1 {color:blue;}
 }
 /* -----------------------------------------------
   # Tablet
@@ -292,7 +297,6 @@ img{
 /*A partir de 768px se aplicarán estos estilos*/
 @media (min-width: 768px) {
   html {font-size: 1.4rem;}
-  h1 .h1 {color:green;}
   .videoWrapper {padding-bottom: 56.25%; /* 16:9 */}  
   .float-md-left {float: left !important;}
   .float-md-right {float: right !important;}
@@ -304,7 +308,6 @@ img{
 /*A partir de 992px y 1200 se aplicarán estos estilos*/
 @media (min-width: 992px) {
   html {font-size: 1.6rem;}
-  h1 .h1 {color:orange;}
 }
 @media (min-width: 1200px) {
 

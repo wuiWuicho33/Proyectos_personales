@@ -91,23 +91,23 @@ h3.favicon::after {
 .faicon-twitter:hover{color:#00ACEE;}
 
 /* -----------------------------------------------
-  # Quick-links
+  # footer-nav
 ----------------------------------------------- */
-.quick-links{
+.footer-nav{
   margin:40px 0 0 0 ; 
   padding:0; 
   list-style:none;
   text-align: center;
 }
-.quick-links li{
+.footer-nav li{
   display:inline-block; 
   padding:0; 
   line-height:normal;
   margin-right:10px; 
 }
-.quick-links li:last-child{margin-right:0;}
-.quick-links a{
-    font-size:inherit; 
+.footer-nav li:last-child{margin-right:0;}
+.footer-nav a{
+  font-size:inherit; 
   text-align:center; 
   color:#fff;
   /*
@@ -116,12 +116,126 @@ h3.favicon::after {
   display:inline-block;   
   */
 }
-.quick-links a:hover{color:#FF2B52;}
+.footer-nav a:hover{color:#FF2B52;}
+.footer-nav li i{color:#FF2B52;}
 
 /* -----------------------------------------------
   # Sections
 ----------------------------------------------- */
+footer {padding-top: 30px;}
 footer img{width: 100px;}
+
+/*================================================
+Social-footer-icons
+=================================================*/
+ul.social-footer-icons {
+  padding: 0;
+  margin:0;
+  list-style-type: none;
+}
+ul.social-footer-icons li {
+  display: inline-block;
+}
+ul.social-footer-icons li a {
+  display: block;
+  background-color: #000;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 5px;
+}
+ul.social-footer-icons li a:hover, 
+ul.social-footer-icons li a:focus {
+  background-color: #FF2B52;
+  color: #ffffff;
+}
+
+/*================================================
+Copyright-area
+=================================================*/
+.copyright-area {
+  background-color: #000000;
+  margin-top:30px;
+  padding: 20px 0;
+  text-align: center;  
+}
+.copyright-area p {
+  color: #ffffff;
+  margin: 0;
+  font-size:14px;  
+}
+.copyright-area p a {
+  display: inline-block;
+  color: #ffffff;
+}
+/*ul*/
+.copyright-nav {
+  text-align:center;
+  padding: 0;
+  list-style-type: none;
+  margin: 10px 0 0;
+}
+.copyright-nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.copyright-nav li:first-child {margin-left: 0;}
+.copyright-nav li a {
+  color: #fff;
+  font-size:14px;
+}
+.copyright-nav li a:hover, 
+.copyright-nav li a:focus {color: #FF2B52;}
+
+/* Newsletter
+--------------------------- */
+form.newsletter{
+  margin:0; 
+  padding:0; 
+  border:none;  
+  display:block; 
+  position:relative; 
+  margin:0 auto; 
+  overflow:hidden;
+  max-width:none; 
+  width:100%; 
+}
+
+form.newsletter input, 
+form.newsletter button{
+  display:block; 
+  resize:none; 
+  outline:none; 
+  color:inherit; 
+  font-size:inherit; 
+  font-family:inherit; 
+  vertical-align:middle;
+  height:44px; 
+  border:none; 
+  border-radius:22px;
+  background-color:#FFFFFF;  
+  color:#000000; 
+}
+
+form.newsletter input{
+  width:100%; 
+  padding:5px 40px 5px 15px;
+}
+
+form.newsletter button{
+  position:absolute; 
+  top:1px; right:1px; 
+  width:42px; 
+  height:42px; 
+  font-size:16px; 
+  cursor:pointer; 
+  border-radius:50%;
+  color:#FFFFFF; 
+  background-color:#FF2B52;
+}
 
 /* ==============================================
 # MEDIAQUERIES
@@ -139,7 +253,22 @@ footer img{width: 100px;}
 /*A partir de 768px se aplicarán estos estilos*/
 @media (min-width: 768px) {
   h1 .h1 {color:green;}
-  footer img{width: 200px;}
+  footer {padding-top: 60px;}
+  footer img{width: 200px;}  
+  /*copyright-area*/
+  .copyright-area {
+    margin-top: 60px;
+    text-align:left;
+    padding: 25px 0;
+  }
+  .copyright-nav {
+    text-align:right;
+    margin:0;
+  }
+  form.newsletter{
+    float:right;
+    max-width:80%;
+  }
 }
 /* -----------------------------------------------
   # Desktop
