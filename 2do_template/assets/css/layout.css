@@ -14,7 +14,9 @@ h3.favicon::after {
 }
 
 /* -----------------------------------------------
-  # Button
+  # Enlaces
+----------------------------------------------- */
+/* Button
 ----------------------------------------------- */
 .btn {
   display: inline-block;
@@ -30,7 +32,6 @@ h3.favicon::after {
     padding: 0.25rem 0.5rem;
     font-size: 0.875rem;
 }
-
 .btn-default {
   color: #fff;
   background-color: #007bff;
@@ -41,7 +42,6 @@ h3.favicon::after {
   background-color: #0069d9;
   border-color: #0062cc;
 }
-
 .btn-inverse {
   color: #fff;
   background-color: #6c757d;
@@ -53,81 +53,8 @@ h3.favicon::after {
   border-color: #545b62;
 }
 
-/* -----------------------------------------------
-  # Faico
+/* Social-footer-icons
 ----------------------------------------------- */
-.faico{
-  margin:0; 
-  padding:0; 
-  list-style:none;
-}
-.faico li{
-  display:inline-block; 
-  margin:0 2px 0 0; 
-  padding:0; 
-  line-height:normal;
-}
-.faico li:last-child{margin-right:0;}
-
-.faico a{
-  display:inline-block;
-  width:30px; 
-  height:30px; 
-  line-height:30px; 
-  font-size:14px; 
-  text-align:center;
-}
-.faico a{
-  color:inherit; 
-  background-color:transparent;
-}
-
-.faicon-dribble:hover{color:#EA4C89;}
-.faicon-facebook:hover{color:#3B5998;}
-.faicon-google-plus:hover{color:#DB4A39;}
-.faicon-linkedin:hover{color:#0E76A8;}
-.faicon-pinterest:hover{color:#C8232C;}
-.faicon-rss:hover{color:#EE802F;}
-.faicon-twitter:hover{color:#00ACEE;}
-
-/* -----------------------------------------------
-  # footer-nav
------------------------------------------------ */
-.footer-nav{
-  margin:40px 0 0 0 ; 
-  padding:0; 
-  list-style:none;
-  text-align: center;
-}
-.footer-nav li{
-  display:inline-block; 
-  padding:0; 
-  line-height:normal;
-  margin-right:10px; 
-}
-.footer-nav li:last-child{margin-right:0;}
-.footer-nav a{
-  font-size:inherit; 
-  text-align:center; 
-  color:#fff;
-  /*
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;  
-  display:inline-block;   
-  */
-}
-.footer-nav a:hover{color:#FF2B52;}
-.footer-nav li i{color:#FF2B52;}
-
-/* -----------------------------------------------
-  # Sections
------------------------------------------------ */
-footer {padding-top: 30px;}
-footer img{width: 100px;}
-
-/*================================================
-Social-footer-icons
-=================================================*/
 ul.social-footer-icons {
   padding: 0;
   margin:0;
@@ -153,9 +80,71 @@ ul.social-footer-icons li a:focus {
   color: #ffffff;
 }
 
-/*================================================
-Copyright-area
-=================================================*/
+/* # Faico
+----------------------------------------------- */
+.faico{
+  margin:0; 
+  padding:0; 
+  list-style:none;
+}
+.faico li{
+  display:inline-block; 
+  margin:0 2px 0 0; 
+  padding:0; 
+  line-height:normal;
+}
+.faico li:last-child{margin-right:0;}
+.faico a{
+  display:inline-block;
+  width:30px; 
+  height:30px; 
+  line-height:30px; 
+  font-size:14px; 
+  text-align:center;
+}
+.faico a{
+  color:inherit; 
+  background-color:transparent;
+}
+.faicon-dribble:hover{color:#EA4C89;}
+.faicon-facebook:hover{color:#3B5998;}
+.faicon-google-plus:hover{color:#DB4A39;}
+.faicon-linkedin:hover{color:#0E76A8;}
+.faicon-pinterest:hover{color:#C8232C;}
+.faicon-rss:hover{color:#EE802F;}
+.faicon-twitter:hover{color:#00ACEE;}
+
+/* -----------------------------------------------
+  # Secciones
+----------------------------------------------- */
+/* Footer
+----------------------------------------------- */
+footer {padding-top: 30px;}
+footer img{width: 100px;}
+
+/* Footer-nav */
+.footer-nav{
+  margin:40px 0 0 0 ; 
+  padding:0; 
+  list-style:none;
+  text-align: center;
+}
+.footer-nav li{
+  display:inline-block; 
+  padding:0; 
+  line-height:normal;
+  margin-right:10px; 
+}
+.footer-nav li:last-child{margin-right:0;}
+.footer-nav a{
+  font-size:inherit; 
+  text-align:center; 
+  color:#fff;
+}
+.footer-nav a:hover{color:#FF2B52;}
+.footer-nav li i{color:#FF2B52;}
+
+/* Copyright-area */
 .copyright-area {
   background-color: #000000;
   margin-top:30px;
@@ -171,6 +160,7 @@ Copyright-area
   display: inline-block;
   color: #ffffff;
 }
+
 /*ul*/
 .copyright-nav {
   text-align:center;
@@ -190,6 +180,9 @@ Copyright-area
 .copyright-nav li a:hover, 
 .copyright-nav li a:focus {color: #FF2B52;}
 
+/* -----------------------------------------------
+  # Componentes
+----------------------------------------------- */
 /* Newsletter
 --------------------------- */
 form.newsletter{
@@ -203,7 +196,6 @@ form.newsletter{
   max-width:none; 
   width:100%; 
 }
-
 form.newsletter input, 
 form.newsletter button{
   display:block; 
@@ -219,12 +211,10 @@ form.newsletter button{
   background-color:#FFFFFF;  
   color:#000000; 
 }
-
 form.newsletter input{
   width:100%; 
   padding:5px 40px 5px 15px;
 }
-
 form.newsletter button{
   position:absolute; 
   top:1px; right:1px; 
@@ -244,15 +234,12 @@ form.newsletter button{
   # Mobile
 ----------------------------------------------- */
 /*A partir de 576px se aplicarán estos estilos*/
-@media (min-width: 576px) {
-  h1 .h1 {color:blue;}
-}
+@media (min-width: 576px) {}
 /* -----------------------------------------------
   # Tablet
 ----------------------------------------------- */
 /*A partir de 768px se aplicarán estos estilos*/
 @media (min-width: 768px) {
-  h1 .h1 {color:green;}
   footer {padding-top: 60px;}
   footer img{width: 200px;}  
   /*copyright-area*/
@@ -274,7 +261,5 @@ form.newsletter button{
   # Desktop
 ----------------------------------------------- */
 /*A partir de 992px y 1200 se aplicarán estos estilos*/
-@media (min-width: 992px) {
-  h1 .h1 {color:orange;}
-}
+@media (min-width: 992px) {}
 @media (min-width: 1200px) {}
