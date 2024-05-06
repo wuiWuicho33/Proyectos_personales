@@ -13,7 +13,7 @@ Checar la hoja de las fuentes
 Agregué estilos de texto a la hoja de estilos .txt
 Agregue estilos para botones a la hoja de layout.css
 Se agrega estilos para el background atachment de fondos de imágenes
-
+Cambie la estructura del footer
 
 xxxxxxxxxxxxxx
 Segundo template
