@@ -211,7 +211,6 @@ img{
   # Background styles
 ----------------------------------------------- */
 .bg-img{
-    background-image: url(../img/bg-01.jpg);
     background-position:top center;
     background-repeat:no-repeat;
     background-size:cover;

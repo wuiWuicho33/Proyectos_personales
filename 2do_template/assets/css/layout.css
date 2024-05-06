@@ -18,7 +18,13 @@ h3.favicon::after {
 ----------------------------------------------- */
 /* Footer
 ----------------------------------------------- */
-footer {padding-top: 30px;}
+footer {
+  padding-top: 30px;
+  background-image: url(../img/footer_background.png);
+  background-position:top center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
 footer img{width: 100px;}
 /* Copyright-area */
 .copyright-area {
@@ -41,7 +47,6 @@ footer img{width: 100px;}
 ----------------------------------------------- */
 .hero-area{
   padding:0 0 40px;
-  /*background-color:#181532; */
   color:#fff;
   text-align:center;
   background-image: url(../img/bg-01.jpg);
@@ -85,6 +90,16 @@ ol.breadcrumbs li+li::before {
   margin-right: 10px;
   color: #FF2B52;
   content: "/";
+}
+
+/* Background image 01
+----------------------------------------------- */
+.bg-image-01{
+    background-image: url(../img/bg-01.jpg);
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 /* -----------------------------------------------
