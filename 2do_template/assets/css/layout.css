@@ -161,6 +161,59 @@ ol.breadcrumbs li+li::before {
 }
 .social-hero-links a:hover{color:#FF2B52;}
 
+
+/* About Us Section
+--------------------------------*/
+/*about-img*/
+#about .about-img {
+  position: relative;
+  margin:30px;
+}
+#about .about-img img {
+  width: 100%;
+  border: 8px solid #fff;
+  transition: .5s;
+}
+#about:hover .about-img img {
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+#about .about-img::before,
+#about .about-img::after {
+  position: absolute;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  transition: .5s;
+  /*
+  background: linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  background: -webkit-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  background: -moz-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  background: -o-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;  
+  */
+  background: rgb(246,0,6);
+  background: linear-gradient(90deg, rgba(246,0,6,1) 0%, rgba(248,0,101,1) 35%, rgba(255,0,239,1) 100%);  
+}
+#about .about-img::before {
+  left: -31px;
+  top: -30px;
+}
+#about .about-img::after {
+  right: -31px;
+  bottom: -30px;
+}
+
+/*about-content*/
+#about {padding: 80px 0;}
+#about .about-content {padding-top: 40px;}
+#about .about-content h3 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+
 /* Footer
 ----------------------------------------------- */
 footer {
