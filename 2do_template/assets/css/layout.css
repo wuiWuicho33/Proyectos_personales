@@ -14,6 +14,75 @@ h3.favicon::after {
 }
 
 /* -----------------------------------------------
+  # Secciones
+----------------------------------------------- */
+/* Footer
+----------------------------------------------- */
+footer {padding-top: 30px;}
+footer img{width: 100px;}
+/* Copyright-area */
+.copyright-area {
+  padding: 20px 0;
+  background-color: #000000;
+  margin-top:30px;
+  text-align: center;  
+}
+.copyright-area p {
+  color: #ffffff;
+  margin: 0;
+  font-size:14px;  
+}
+.copyright-area p a {
+  display: inline-block;
+  color: #ffffff;
+}
+
+/* Hero-area
+----------------------------------------------- */
+.hero-area{
+  padding:0 0 40px;
+  background-color:#181532; 
+  color:#fff;
+  text-align:center;
+}
+.hero-area h1{margin-bottom:1rem;}
+.hero-area p{color:#fff;}
+
+/* Hero-area-links */
+.hero-area-links{
+  padding:10px 0;
+  background-color:inherit;
+  margin-bottom:20px;
+}
+.hero-area-links .row{
+  display:flex;
+  align-items:center;
+}
+/* Breadcrumbs */
+ol.breadcrumbs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;  
+  text-align:center;
+}
+ol.breadcrumbs li {
+  display: inline-block;
+  margin-right: 10px;
+}
+ol.breadcrumbs li i{
+  color:#FF2B52;
+  margin-right:5px;
+}
+ol.breadcrumbs li:last-child {margin-right: 0px;}
+ol.breadcrumbs li+li::before {
+  display: inline-block;
+  margin-right: 10px;
+  color: #FF2B52;
+  content: "/";
+}
+
+/* -----------------------------------------------
   # Links & Navs
 ----------------------------------------------- */
 /* Button
@@ -74,7 +143,7 @@ h3.favicon::after {
 .hero-nav li:last-child{margin-right:0;}
 .hero-nav li a{
   font-size:inherit;
-  color:#000;
+  color:#fff;
 }
 .hero-nav li a:hover,
 .hero-nav li a:focus{color:#FF2B52;}
@@ -102,7 +171,7 @@ h3.favicon::after {
   line-height:32px; 
   font-size:14px; 
   text-align:center;
-  color:#000; 
+  color:#fff; 
   background-color:transparent;
 }
 .social-hero-links a:hover{color:#FF2B52;}
@@ -175,78 +244,6 @@ ul.social-footer-links li a:hover,
 ul.social-footer-links li a:focus {
   background-color: #FF2B52;
   color: #ffffff;
-}
-
-/* -----------------------------------------------
-  # Secciones
------------------------------------------------ */
-/* Footer
------------------------------------------------ */
-footer {padding-top: 30px;}
-footer img{width: 100px;}
-
-/* Copyright-area */
-.copyright-area {
-  padding: 20px 0;
-  background-color: #000000;
-  margin-top:30px;
-  text-align: center;  
-}
-.copyright-area p {
-  color: #ffffff;
-  margin: 0;
-  font-size:14px;  
-}
-.copyright-area p a {
-  display: inline-block;
-  color: #ffffff;
-}
-
-/* Hero-area
------------------------------------------------ */
-.hero-area{
-  padding:10px 0;
-  background-color:#e9ecef;
-}
-.hero-area .row{
-  display:flex;
-  align-items:center;
-}
-
-/* Breadcrumb
------------------------------------------------ */
-.breadcrumbs{
-  padding:40px 0;
-  background-color:#181532; 
-  color:#fff;
-  text-align:center;
-}
-.breadcrumbs p{color:#fff;}
-.breadcrumbs h1{margin-bottom:1rem;}
-
-.breadcrumbs ol {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align:left;
-  font-size: 14px;
-  display:flex;
-  align-items:center;
-}
-.breadcrumbs ol li {
-  display: inline-block;
-  margin-right: 10px;
-}
-.breadcrumbs ol li i{
-  color:#FF2B52;
-  margin-right:5px;
-}
-.breadcrumbs ol li:last-child {margin-right: 0px;}
-.breadcrumbs ol li+li::before {
-  display: inline-block;
-  margin-right: 10px;
-  color: #FF2B52;
-  content: "/";
 }
 
 /* -----------------------------------------------
@@ -327,6 +324,13 @@ form.newsletter button{
     float:right;
     max-width:80%;
   }
+  .hero-area-links{margin-bottom:40px;}
+   ol.breadcrumbs {
+    text-align:left;
+    display:flex;
+    align-items:center;
+  }
+
 }
 /* -----------------------------------------------
   # Desktop
