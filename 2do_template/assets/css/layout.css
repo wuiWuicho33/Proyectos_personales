@@ -16,6 +16,54 @@ h3.favicon::after {
 /* -----------------------------------------------
   # Secciones
 ----------------------------------------------- */
+/* Header
+----------------------------------------------- */
+header{
+  display:block;
+  width:100%;
+  background-color:#fff;
+}
+/* Head-table */
+.head-table{
+  display:block; 
+  width:100%; 
+  height:100%;
+  padding:20px 0;
+}
+.head-table .head-table-cell{
+  display:block; 
+  width:100%;
+  height:100%;
+  vertical-align:middle;
+  margin:0 0 20px 0; 
+  padding:0; 
+  list-style:none;
+  text-align:center;
+}
+.head-table .head-table-cell:last-child{margin-bottom:0;}
+.head-table .head-table-cell:nth-child(1){}
+.head-table .head-table-cell:nth-child(2) {text-align:center;}
+.head-table .head-table-cell:nth-child(2) i{margin-bottom:15px;}
+.head-table-cell .logo-hero{width:150px;}
+
+/* Enlaces li a */
+.head-list{
+  margin:0; 
+  padding:0; 
+  list-style:none;
+}
+.head-list li{
+  display:inline-block;  
+  margin:0 2px 0 0; 
+  padding:0; 
+  line-height:normal; 
+  font-size:14px; 
+  text-align:center;
+  color:#000; 
+}
+.head-list li:last-child{margin-right:0;}
+.head-list li i{color:#FF2B52;}
+
 /* Footer
 ----------------------------------------------- */
 footer {
@@ -25,7 +73,7 @@ footer {
   background-repeat:no-repeat;
   background-size:cover;
 }
-footer img{width: 100px;}
+footer img{width: 150px;}
 /* Copyright-area */
 .copyright-area {
   padding: 20px 0;
@@ -320,7 +368,21 @@ form.newsletter button{
   # Mobile
 ----------------------------------------------- */
 /*A partir de 576px se aplicarán estos estilos*/
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  .head-table{
+    display:table;
+    padding:30px 0;
+  }
+  .head-table .head-table-cell{
+    display:table-cell; 
+    width:33.33333333333333%;
+    margin:0; 
+    text-align:left;
+  }
+  .head-table .head-table-cell:last-child{margin-bottom:0;} 
+  .head-table .head-table-cell:nth-child(3) {text-align:right;}
+  .head-table-cell .logo-hero{width:200px;}
+}
 /* -----------------------------------------------
   # Tablet
 ----------------------------------------------- */
