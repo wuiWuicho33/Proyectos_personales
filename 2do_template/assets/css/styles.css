@@ -48,9 +48,8 @@ header, main, nav, section{
 /* -----------------------------------------------
   # Transition
 ----------------------------------------------- */
-*, *::before, *::after{transition:all .3s ease-in-out;}
-#mainav form *{transition:none !important;}
-/*a {transition: 0.1s;}*/
+/**, *::before, *::after{transition:all .2s ease-in-out;}*/
+/*#mainav form *{transition:none !important;}*/
 
 /* -----------------------------------------------
   # Fonts

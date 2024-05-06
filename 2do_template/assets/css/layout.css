@@ -14,7 +14,7 @@ h3.favicon::after {
 }
 
 /* -----------------------------------------------
-  # Enlaces
+  # Links & Navs
 ----------------------------------------------- */
 /* Button
 ----------------------------------------------- */
@@ -54,9 +54,101 @@ h3.favicon::after {
   border-color: #545b62;
 }
 .btn-tiny {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
 }
+
+/* Hero-nav
+----------------------------------------------- */
+.hero-nav {
+  margin:0; 
+  padding:0; 
+  list-style:none;
+  text-align:center;
+}
+.hero-nav li{
+  display:inline-block;
+  padding:0;
+  margin-right:10px;
+}
+.hero-nav li:last-child{margin-right:0;}
+.hero-nav li a{
+  font-size:inherit;
+  color:#000;
+}
+.hero-nav li a:hover,
+.hero-nav li a:focus{color:#FF2B52;}
+.hero-nav li i{color:#FF2B52;}
+
+/* # Social-hero-icons
+----------------------------------------------- */
+.social-hero-icons{
+  margin:0; 
+  padding:0; 
+  list-style:none;
+  text-align:center;
+}
+.social-hero-icons li{
+  display:inline-block;  
+  line-height:normal;
+  padding:0; 
+  margin:0 2px 0 0;
+}
+.social-hero-icons li:last-child{margin-right:0;}
+.social-hero-icons a{
+  display:block;
+  width:30px; 
+  height:30px; 
+  line-height:32px; 
+  font-size:14px; 
+  text-align:center;
+  color:#000; 
+  background-color:transparent;
+}
+.social-hero-icons a:hover{color:#FF2B52;}
+
+/* Footer-nav
+----------------------------------------------- */
+.footer-nav{
+  margin:40px 0 0 0 ; 
+  padding:0; 
+  list-style:none;
+  text-align: center;
+}
+.footer-nav li{
+  display:inline-block; 
+  padding:0; 
+  line-height:normal;
+  margin-right:10px; 
+}
+.footer-nav li:last-child{margin-right:0;}
+.footer-nav a{
+  font-size:inherit; 
+  text-align:center; 
+  color:#fff;
+}
+.footer-nav a:hover{color:#FF2B52;}
+.footer-nav li i{color:#FF2B52;}
+
+/* Copyright-nav
+----------------------------------------------- */
+.copyright-nav {
+  text-align:center;
+  padding: 0;
+  list-style-type: none;
+  margin: 10px 0 0;
+}
+.copyright-nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.copyright-nav li:first-child {margin-left: 0;}
+.copyright-nav li a {
+  color: #fff;
+  font-size:14px;
+}
+.copyright-nav li a:hover, 
+.copyright-nav li a:focus {color: #FF2B52;}
 
 /* Social-footer-icons
 ----------------------------------------------- */
@@ -85,40 +177,6 @@ ul.social-footer-icons li a:focus {
   color: #ffffff;
 }
 
-/* # Faico
------------------------------------------------ */
-.faico{
-  margin:0; 
-  padding:0; 
-  list-style:none;
-}
-.faico li{
-  display:inline-block; 
-  margin:0 2px 0 0; 
-  padding:0; 
-  line-height:normal;
-}
-.faico li:last-child{margin-right:0;}
-.faico a{
-  display:inline-block;
-  width:30px; 
-  height:30px; 
-  line-height:30px; 
-  font-size:14px; 
-  text-align:center;
-}
-.faico a{
-  color:inherit; 
-  background-color:transparent;
-}
-.faicon-dribble:hover{color:#EA4C89;}
-.faicon-facebook:hover{color:#3B5998;}
-.faicon-google-plus:hover{color:#DB4A39;}
-.faicon-linkedin:hover{color:#0E76A8;}
-.faicon-pinterest:hover{color:#C8232C;}
-.faicon-rss:hover{color:#EE802F;}
-.faicon-twitter:hover{color:#00ACEE;}
-
 /* -----------------------------------------------
   # Secciones
 ----------------------------------------------- */
@@ -127,33 +185,11 @@ ul.social-footer-icons li a:focus {
 footer {padding-top: 30px;}
 footer img{width: 100px;}
 
-/* Footer-nav */
-.footer-nav{
-  margin:40px 0 0 0 ; 
-  padding:0; 
-  list-style:none;
-  text-align: center;
-}
-.footer-nav li{
-  display:inline-block; 
-  padding:0; 
-  line-height:normal;
-  margin-right:10px; 
-}
-.footer-nav li:last-child{margin-right:0;}
-.footer-nav a{
-  font-size:inherit; 
-  text-align:center; 
-  color:#fff;
-}
-.footer-nav a:hover{color:#FF2B52;}
-.footer-nav li i{color:#FF2B52;}
-
 /* Copyright-area */
 .copyright-area {
+  padding: 20px 0;
   background-color: #000000;
   margin-top:30px;
-  padding: 20px 0;
   text-align: center;  
 }
 .copyright-area p {
@@ -166,24 +202,15 @@ footer img{width: 100px;}
   color: #ffffff;
 }
 
-/*ul*/
-.copyright-nav {
-  text-align:center;
-  padding: 0;
-  list-style-type: none;
-  margin: 10px 0 0;
+.hero-area{
+  padding:10px 0;
+  background-color:#e9ecef;
 }
-.copyright-nav li {
-  display: inline-block;
-  margin-left: 15px;
+
+.hero-area .row{
+  display:flex;
+  align-items:center;
 }
-.copyright-nav li:first-child {margin-left: 0;}
-.copyright-nav li a {
-  color: #fff;
-  font-size:14px;
-}
-.copyright-nav li a:hover, 
-.copyright-nav li a:focus {color: #FF2B52;}
 
 /* -----------------------------------------------
   # Componentes
@@ -245,6 +272,8 @@ form.newsletter button{
 ----------------------------------------------- */
 /*A partir de 768px se aplicarán estos estilos*/
 @media (min-width: 768px) {
+  .hero-nav {text-align:left;}
+  .social-hero-icons{text-align:right;}
   footer {padding-top: 60px;}
   footer img{width: 200px;}  
   /*copyright-area*/
