@@ -367,7 +367,12 @@ form.newsletter button{
   # Mobile
 ----------------------------------------------- */
 /*A partir de 576px se aplicarán estos estilos*/
-@media (min-width: 576px) {
+@media (min-width: 576px) {}
+/* -----------------------------------------------
+  # Tablet
+----------------------------------------------- */
+/*A partir de 768px se aplicarán estos estilos*/
+@media (min-width: 768px) {
   /*Head*/
   .head-table{
     display:table;
@@ -382,12 +387,7 @@ form.newsletter button{
   .head-table .head-table-cell:last-child{margin-bottom:0;} 
   .head-table .head-table-cell:nth-child(3) {text-align:right;}
   .head-table-cell .logo-hero{width:200px;}
-}
-/* -----------------------------------------------
-  # Tablet
------------------------------------------------ */
-/*A partir de 768px se aplicarán estos estilos*/
-@media (min-width: 768px) {
+
   /*Hero-area*/
   .hero-area-links{margin-bottom:40px;}
    ol.breadcrumbs {
@@ -397,6 +397,7 @@ form.newsletter button{
   }  
   .hero-nav {text-align:left;}
   .social-hero-links{text-align:right;}
+
   /*Footer*/
   footer {padding-top: 60px;}
   footer img{width: 200px;}  
