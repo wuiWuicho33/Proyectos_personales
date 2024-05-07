@@ -88,23 +88,26 @@ h3, .h3 {font-size: 1.50rem;}/*1.75rem*/
 h4, .h4 {font-size: 1.25rem;}/*1.25rem*/
 h5, .h5 {font-size: 1rem;}/*1rem*/
 h6, .h6 {font-size: 0.875rem;}/*0.875rem*/
+
 /*Estilos específicos para el interior de la nota*/
-.detalle_nota h1 {font-size: 2.3rem;}
-.detalle_nota h2, .detalle_nota h3 {
-  font-size: 1.8rem;
-  margin-top: 40px;
-}
+.detalle_nota h1 {font-size: 1.75rem;}
+.detalle_nota h2 {font-size: 1.50rem;}
+.detalle_nota h3 {font-size: 1.25rem;}
+.detalle_nota h4 {font-size: 1rem;}
+
 h2.teaser {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.3rem;
   margin-top: 0px;
 }
+
 .btn {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size:0.7rem;
 }
+
 .font-xs{font-size:.8rem;}
 .font-x1{font-size:1.2rem;}
 .font-x2{font-size:1.8rem;}
