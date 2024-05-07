@@ -76,12 +76,11 @@ header{
   background-attachment: fixed;
   text-align: center;
 }
-.hero-area .detalle_nota{
-  text-align:left;
-}
 .hero-area h1{margin-bottom:1rem;}
+.hero-area h2{color:#FF2B52;}
 .hero-area p{color:#fff;}
-h2.teaser {color:#FF2B52;}
+.hero-area .hero-detail-note {text-align:left;}
+.hero-area .hero-detail-note h1{font-size: 1.75rem;}
 
 /* Breadcrumbs */
 ol.breadcrumbs {
@@ -214,10 +213,8 @@ ol.breadcrumbs li+li::before {
 #about .about-content h3 {
   color: #696592;
   font-weight: 400;
-  font-size: 22px;
   font-style: italic;
 }
-
 
 /* Team Section
 --------------------------------*/
