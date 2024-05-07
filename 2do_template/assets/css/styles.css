@@ -94,12 +94,15 @@ h6, .h6 {font-size: 0.875rem;}/*0.875rem*/
 .detalle_nota h2 {font-size: 1.50rem;}
 .detalle_nota h3 {font-size: 1.25rem;}
 .detalle_nota h4 {font-size: 1rem;}
+.detalle_nota h5 {font-size: 0.875rem;;}
 
 h2.teaser {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-top: 0px;
+  text-transform: capitalize;
+  font-style: italic;
 }
 
 .btn {
@@ -137,6 +140,8 @@ a:hover, a:active, a:focus{color:#FF2B52;}
 .text-secondary {color:#E47911;}
 .text-tertiary {color:#E47911;}
 .text-inverted {color: #ffffff;}
+
+/*Background colors*/
 .bg-white {
   background-color:#fff; 
   color:#000;
@@ -157,6 +162,9 @@ a:hover, a:active, a:focus{color:#FF2B52;}
   color:#fff;
 }
 .bg-darker p{color:#fff;}
+
+/*Teaser*/
+h2.teaser {color:#FF2B52;}
 
 /* -----------------------------------------------
   # Spacing, Marging and padding
