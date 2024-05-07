@@ -214,6 +214,56 @@ ol.breadcrumbs li+li::before {
   font-style: italic;
 }
 
+
+/* Team Section
+--------------------------------*/
+.card-member {
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.card-member img{
+  max-width:100%;
+  height:auto;
+}
+.card-member-info {
+  padding: 15px 0;
+  background: rgba(24, 21, 50, 0.6);  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.card-member-content {
+  height: 40px;
+  transition: height 0.4s;
+  text-align: center;
+}
+.card-member-content h4 {
+  margin-bottom: 2px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.card-member-content span {
+  display: block;
+  font-style: italic;
+  font-size: 13px;
+  color: #fff;
+}
+.card-member-content .social {margin-top: 20px;}
+.card-member-content .social a {
+  transition: none;
+  color: #fff;
+}
+.card-member-content .social a:hover {color: #FF2B52;}
+.card-member-content .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+.card-member:hover .card-member-info {transition: 0.4s;}
+.card-member:hover .card-member-content {height: 80px;}
+
 /* Footer
 ----------------------------------------------- */
 footer {
