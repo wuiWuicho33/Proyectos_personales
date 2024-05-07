@@ -301,8 +301,9 @@ footer img{width: 150px;}
 /* Social-footer-links */
 ul.social-footer-links {
   padding: 0;
-  margin:0;
+  margin:0 0 20px 0;
   list-style-type: none;
+  text-align: center;
 }
 ul.social-footer-links li {
   display: inline-block;
@@ -500,11 +501,15 @@ form.newsletter button{
     align-items:center;
   }  
   .hero-nav {text-align:left;}
-  .social-hero-links{text-align:right;}
+  .social-hero-links{
+    margin:0;
+    text-align:right;
+  }
 
   /*Footer*/
   footer {padding-top: 60px;}
-  footer img{width: 200px;}  
+  footer img{width: 200px;}
+  ul.social-footer-links {text-align:left;}    
   .copyright-area {
     margin-top: 60px;
     text-align:left;
