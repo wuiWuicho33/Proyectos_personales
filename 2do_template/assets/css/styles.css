@@ -137,6 +137,8 @@ a:hover, a:active, a:focus{color:#FF2B52;}
 .text-tertiary {color:#E47911;}
 .text-inverted {color: #ffffff;}
 
+i{color:#f80065;}
+
 /*Background colors*/
 .bg-white {
   background-color:#fff; 

@@ -62,12 +62,12 @@ header{
   color:#000; 
 }
 .head-list li:last-child{margin-right:0;}
-.head-list li i{color:#FF2B52;}
+/*.head-list li i{color:#FF2B52;}*/
 
 /* Hero-area
 ----------------------------------------------- */
 .hero-area{
-  padding:0 0 40px;
+  padding:0;
   color:#fff;
   background-image: url(../img/bg-01.jpg);
   background-position:top center;
@@ -85,7 +85,7 @@ header{
 /* Breadcrumbs */
 ol.breadcrumbs {
   list-style: none;
-  padding: 0;
+  padding:0 0 1.5rem 0;
   margin: 0;
   font-size: 14px;  
   text-align:center;
@@ -136,7 +136,7 @@ ol.breadcrumbs li+li::before {
 }
 .hero-nav li a:hover,
 .hero-nav li a:focus{color:#FF2B52;}
-.hero-nav li i{color:#FF2B52;}
+/*.hero-nav li i{color:#FF2B52;}*/
 
 /* # social-hero-links */
 .social-hero-links{
@@ -164,6 +164,8 @@ ol.breadcrumbs li+li::before {
 }
 .social-hero-links a:hover{color:#FF2B52;}
 
+.social-hero-links i{color:#fff;}
+.social-hero-links i:hover{color:#f80065;}
 
 /* About Us Section
 --------------------------------*/
@@ -296,7 +298,7 @@ footer img{width: 150px;}
   color:#fff;
 }
 .footer-nav a:hover{color:#FF2B52;}
-.footer-nav li i{color:#FF2B52;}
+/*.footer-nav li i{color:#FF2B52;}*/
 
 /* Social-footer-links */
 ul.social-footer-links {
@@ -323,6 +325,9 @@ ul.social-footer-links li a:hover,
 ul.social-footer-links li a:focus {
   background-color: #FF2B52;
   color: #ffffff;
+}
+ul.social-footer-links li a i{
+  color:#fff;
 }
 
 /* Copyright-area
@@ -391,8 +396,12 @@ ul.social-footer-links li a:focus {
   margin-left: 5px;
   font-size: 16px;
   transition: 0.3s;
+  color:#fff;
 }
-.btn:hover i {transform: translateX(5px);}
+.btn:hover i {
+  transform: translateX(5px);
+  color:#f80065;
+}
 .btn-default {
   color: #fff;
   background: rgb(246,0,6);
@@ -465,6 +474,7 @@ form.newsletter button{
   background: rgb(246,0,6);
   background: linear-gradient(90deg, rgba(246,0,6,1) 0%, rgba(248,0,101,1) 35%, rgba(255,0,239,1) 100%);
 }
+form.newsletter button i{color:#fff;}
 
 /* ==============================================
 # MEDIAQUERIES
