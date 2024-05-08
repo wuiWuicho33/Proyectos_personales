@@ -213,6 +213,7 @@ img{
 .inline *{display:inline-block;}
 .inline *:last-child{margin-right:0;}
 .hidden{display:none;}
+.hidden-sm {display: none;}
 
 /* -----------------------------------------------
   # Background styles
@@ -288,9 +289,10 @@ img{
 @media (min-width: 768px) {
   html {font-size: 1rem;}
   .videoWrapper {padding-bottom: 56.25%; /* 16:9 */}  
-  .float-md-left {float: left !important;}
-  .float-md-right {float: right !important;}
-  .float-md-none {float: none !important;}    
+  .float-md-left {float: left;}
+  .float-md-right {float: right;}
+  .float-md-none {float: none;}
+  .hidden-sm {display:inline-block;}
 }
 /* -----------------------------------------------
   # Desktop
