@@ -397,10 +397,11 @@ ul.social-footer-links li a:focus {
   color: #fff;
   background: rgb(246,0,6);
   background: linear-gradient(90deg, rgba(246,0,6,1) 0%, rgba(248,0,101,1) 35%, rgba(255,0,239,1) 100%);
+  border:1px solid #f80065;
 }
 .btn-default:hover {
-  /*background-color: #0069d9; */
-  color: #fff;
+  background: #fff;
+  color: #f80065;
 }
 .btn-inverse {
   color: #fff;
