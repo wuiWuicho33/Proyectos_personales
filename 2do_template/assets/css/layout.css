@@ -385,7 +385,7 @@ ul.social-footer-links li a:focus {
   line-height: 1.5;
   cursor: pointer;
   border: 1px solid transparent;
-  border-radius: 0.25rem;  
+  border-radius: 1rem;  
 }
 .btn i {
   margin-left: 5px;
@@ -395,13 +395,12 @@ ul.social-footer-links li a:focus {
 .btn:hover i {transform: translateX(5px);}
 .btn-default {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background: rgb(246,0,6);
+  background: linear-gradient(90deg, rgba(246,0,6,1) 0%, rgba(248,0,101,1) 35%, rgba(255,0,239,1) 100%);
 }
 .btn-default:hover {
   color: #fff;
   background-color: #0069d9;
-  border-color: #0062cc;
 }
 .btn-inverse {
   color: #fff;

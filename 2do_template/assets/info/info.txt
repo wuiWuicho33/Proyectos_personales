@@ -14,6 +14,48 @@ Agregué estilos de texto a la hoja de estilos .txt
 Agregue estilos para botones a la hoja de layout.css
 Se agrega estilos para el background atachment de fondos de imágenes
 Cambie la estructura del footer
+-Agregar estos estilos de botones (no dependen de bootstrap)
+/* Button
+----------------------------------------------- */
+.btn {
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;  
+}
+.btn i {
+  margin-left: 5px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.btn:hover i {transform: translateX(5px);}
+.btn-default {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-default:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+.btn-inverse {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.btn-inverse:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+.btn-tiny {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
 
 xxxxxxxxxxxxxx
 Segundo template
