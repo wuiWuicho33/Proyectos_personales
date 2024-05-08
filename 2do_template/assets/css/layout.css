@@ -263,7 +263,9 @@ ol.breadcrumbs li+li::before {
 .card-member-content .social i {
   font-size: 18px;
   margin: 0 2px;
+  color:#fff;
 }
+.card-member-content .social i:hover {color:#f80065;}
 .card-member:hover .card-member-info {transition: 0.4s;}
 .card-member:hover .card-member-content {height: 80px;}
 
