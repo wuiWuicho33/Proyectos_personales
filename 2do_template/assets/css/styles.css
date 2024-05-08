@@ -161,6 +161,11 @@ a:hover, a:active, a:focus{color:#FF2B52;}
 
 /*Teaser*/
 h2.teaser {color:#FF2B52;}
+h1 span.degraded, h2 span.degraded {
+  background: linear-gradient(to right, #f60006, #f80065, #ff00ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /* -----------------------------------------------
   # Spacing, Marging and padding

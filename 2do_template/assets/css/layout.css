@@ -399,8 +399,8 @@ ul.social-footer-links li a:focus {
   background: linear-gradient(90deg, rgba(246,0,6,1) 0%, rgba(248,0,101,1) 35%, rgba(255,0,239,1) 100%);
 }
 .btn-default:hover {
+  /*background-color: #0069d9; */
   color: #fff;
-  background-color: #0069d9;
 }
 .btn-inverse {
   color: #fff;
