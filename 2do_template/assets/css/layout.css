@@ -462,7 +462,8 @@ form.newsletter button{
   cursor:pointer; 
   border-radius:50%;
   color:#FFFFFF; 
-  background-color:#FF2B52;
+  background: rgb(246,0,6);
+  background: linear-gradient(90deg, rgba(246,0,6,1) 0%, rgba(248,0,101,1) 35%, rgba(255,0,239,1) 100%);
 }
 
 /* ==============================================
