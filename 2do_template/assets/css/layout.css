@@ -478,6 +478,112 @@ form.newsletter button{
 }
 form.newsletter button i{color:#fff;}
 
+/* card-overlay-gradient
+--------------------------- */
+.card-overlay-gradient {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  max-width:800px;
+}
+
+.card-overlay-gradient.size-01{height:450px;}
+
+.card-overlay-gradient::before {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: .7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#111)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(#111));
+  background-image: linear-gradient(transparent, #111), linear-gradient(transparent, #111);
+  content: "";
+}
+
+.card-overlay-gradient img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition: all 1.5s ease-out;
+  -webkit-transition: all 1.5s ease-out;
+}
+.card-overlay-gradient:hover img, 
+.card-overlay-gradient:focus img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*Caption*/
+.card-overlay-gradient .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  z-index: 2;
+  /*border:1px solid blue;*/
+}
+
+/*Dates list*/
+.card-overlay-gradient .caption ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  /*border:1px solid pink;*/
+}
+.card-overlay-gradient .caption ul li {
+  display: inline-block;
+  margin-right: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+}
+.card-overlay-gradient .caption ul li a {
+  display: inline-block;
+  color: #ffffff;
+}
+.card-overlay-gradient .caption ul li a:hover, 
+.card-overlay-gradient .caption ul li a:focus {
+  color: #f80065;
+}
+.card-overlay-gradient .caption ul li i {margin-right: 3px;}
+.card-overlay-gradient .caption ul li:last-child {margin-right: 0;}
+
+.card-overlay-gradient .caption h3 {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.card-overlay-gradient .caption h3 a {color: #ffffff;}
+
+/*tags*/
+.card-overlay-gradient .tags {
+  top: 0;
+  left: 25px;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.card-overlay-gradient .tags a {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 5px 15px;
+  background-color: #d72924;
+}
+
+.card-overlay-gradient:hover .tags, 
+.card-overlay-gradient:focus .tags {
+  left: 15px;
+}
+
 /* ==============================================
 # MEDIAQUERIES
 ============================================== */
