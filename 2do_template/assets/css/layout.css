@@ -493,14 +493,14 @@ form.newsletter button i{color:#fff;}
 .card-overlay-gradient::before {
   position: absolute;
   width: 100%;
-  height: 70%;
+  height: 40%;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 1;
   opacity: .7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#111)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(#111));
-  background-image: linear-gradient(transparent, #111), linear-gradient(transparent, #111);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#006EC2)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(#006EC2));
+  background-image: linear-gradient(transparent, #006EC2), linear-gradient(transparent, #006EC2);
   content: "";
 }
 
