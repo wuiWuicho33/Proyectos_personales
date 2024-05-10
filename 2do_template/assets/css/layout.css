@@ -595,8 +595,15 @@ form.newsletter button i{color:#fff;}
 }
 
 /*Card-image*/
-.card-01 .card-image {overflow: hidden;}
+.card-01 .card-image {
+  overflow: hidden;
+  max-width:700px;
+  height:230px;
+}
 .card-01 .card-image img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
   -webkit-transition: all 1.5s ease-out;
   transition: all 1.5s ease-out;
 }
