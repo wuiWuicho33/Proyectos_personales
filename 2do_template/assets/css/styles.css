@@ -144,7 +144,7 @@ i{color:#f80065;}
   background-color:#fff; 
   color:#000;
 }
-.bg-white p{color:#000;}
+.bg-white p, {color:#000;}
 .bg-light {
   background-color:#e9ecef; 
   color:#000;
