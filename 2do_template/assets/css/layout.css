@@ -488,6 +488,7 @@ form.newsletter button i{color:#fff;}
 }
 
 .card-overlay-gradient.size-01{height:450px;}
+.card-overlay-gradient.size-02{height:500px;}
 
 .card-overlay-gradient::before {
   position: absolute;

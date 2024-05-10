@@ -221,6 +221,7 @@ img{
 .inline *:last-child{margin-right:0;}
 .hidden{display:none;}
 .hidden-sm {display: none;}
+.w-100{width:100%;}
 
 /* -----------------------------------------------
   # Background styles
