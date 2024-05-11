@@ -162,8 +162,10 @@ i{color:#f80065;}
 .bg-darker p{color:#fff;}
 
 /*Teaser*/
+h1, h2,h3,h4,h5,h6{color: #232323;}
 h2.teaser {color:#FF2B52;}
-h1 span.degraded, h2 span.degraded {
+h1 span.degraded, 
+h2 span.degraded {
   background: linear-gradient(to right, #f60006, #f80065, #ff00ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

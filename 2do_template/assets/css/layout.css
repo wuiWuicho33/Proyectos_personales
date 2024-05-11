@@ -556,7 +556,6 @@ form.newsletter button i{color:#fff;}
 
 .card-overlay-gradient .caption h3 {
   font-size: 0.875rem;
-  /*font-size: 16px;*/
   line-height: 1.4;
   font-weight:500;
   text-transform:none;
@@ -617,10 +616,12 @@ form.newsletter button i{color:#fff;}
 .card-01 .card-caption {
   background-color: #ffffff;
   padding: 28px 20px;
-  border:1px solid lightgray;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
+  /*border:1px solid lightgray;*/
 }
 .card-01 .card-caption h3 {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   line-height: 1.4;
   font-weight:500;
   text-transform:none;
@@ -698,6 +699,51 @@ form.newsletter button i{color:#fff;}
 .tag.category-02 a {background-color: #007dff;}
 .tag.category-03 a {background-color: #43a047;}
 .tag.category-04 a {background-color: #FF7D0E;}
+
+/* # Horizontal-card
+----------------------------------------------- */
+.horizontal-card {
+  background-color: #ffffff;
+  display: flex;
+  align-items:center;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
+}
+
+/*Image*/
+.horizontal-card img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  max-width: 102px;
+}
+.horizontal-card:hover img, 
+.horizontal-card:focus img {
+  opacity: .8;
+}
+
+/*Horizontal-card*/
+.horizontal-card .caption {padding: 10px 15px;}
+.horizontal-card .caption .date {
+  display: block;
+  font-size: 14px;
+  color: #8a8a8a;
+  margin-bottom: 8px;
+}
+.horizontal-card .caption .date i {
+  color: #d72924;
+  margin-right: 4px;
+}
+.horizontal-card .caption h3 {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  font-weight:500;
+  text-transform: none;
+  margin-bottom: 0;
+  /*color: #232323;*/
+}
+.horizontal-card:hover .caption h3 , 
+.horizontal-card:focus .caption h3 {color: #d72924;}
 
 /* # Wrapper-img
 ----------------------------------------------- */
