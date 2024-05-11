@@ -517,8 +517,8 @@ form.newsletter button i{color:#fff;}
           transform: scale(1.1);
 }
 
-/*Caption*/
-.card-overlay-gradient .caption {
+/*Card-caption*/
+.card-overlay-gradient .card-caption {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -526,42 +526,40 @@ form.newsletter button i{color:#fff;}
   height: auto;
   padding: 15px;
   z-index: 2;
-  /*border:1px solid blue;*/
 }
 
 /*Dates list*/
-.card-overlay-gradient .caption ul {
+.card-overlay-gradient .card-caption ul {
   padding: 0;
   list-style-type: none;
   margin: 0;
-  /*border:1px solid pink;*/
 }
-.card-overlay-gradient .caption ul li {
+.card-overlay-gradient .card-caption ul li {
   display: inline-block;
   margin-right: 15px;
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
 }
-.card-overlay-gradient .caption ul li a {
+.card-overlay-gradient .card-caption ul li a {
   display: inline-block;
   color: #ffffff;
 }
-.card-overlay-gradient .caption ul li a:hover, 
-.card-overlay-gradient .caption ul li a:focus {
+.card-overlay-gradient .card-caption ul li a:hover, 
+.card-overlay-gradient .card-caption ul li a:focus {
   color: #f80065;
 }
-.card-overlay-gradient .caption ul li i {margin-right: 3px;}
-.card-overlay-gradient .caption ul li:last-child {margin-right: 0;}
+.card-overlay-gradient .card-caption ul li i {margin-right: 3px;}
+.card-overlay-gradient .card-caption ul li:last-child {margin-right: 0;}
 
-.card-overlay-gradient .caption h3 {
+.card-overlay-gradient .card-caption h3 {
   font-size: 0.875rem;
   line-height: 1.4;
   font-weight:500;
   text-transform:none;
   margin: 0;
 }
-.card-overlay-gradient .caption h3 a {color: #ffffff;}
+.card-overlay-gradient .card-caption h3 a {color: #ffffff;}
 
 /* Card-01
 --------------------------- */
