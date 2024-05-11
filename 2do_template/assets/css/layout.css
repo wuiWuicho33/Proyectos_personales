@@ -611,42 +611,13 @@ form.newsletter button i{color:#fff;}
   color: #d72924;
 }
 
-/*List*/
-.card-01 .card-caption ul {
-  padding: 0;
-  margin-bottom: 10px;
-  list-style-type: none;
-}
-.card-01 .card-caption ul li {
-  display: inline-block;
-  margin-right: 10px;
-  color: #000;
-  font-size: 14px;
-  font-weight: 500;
-}
-.card-01 .card-caption ul li i {
-  color: FF2B52;
-  margin-right: 3px;
-}
-.card-01 .card-caption ul li a {
-  display: inline-block;
-  color: #000;
-}
-.card-01 .card-caption ul li a:hover, 
-.card-01 .card-caption ul li a:focus {
-  color: #d72924;
-}
-.card-01 .card-caption ul li:last-child {
-  margin-right: 0;
-}
-
 /* # Horizontal-card
 ----------------------------------------------- */
 .horizontal-card {
   background-color: #ffffff;
   display: flex;
   align-items:center;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
   -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
 }
@@ -663,7 +634,8 @@ form.newsletter button i{color:#fff;}
 }
 
 /*Horizontal-card*/
-.horizontal-card .caption {padding: 10px 15px;}
+.horizontal-card .card-caption {padding: 10px 15px;}
+/*
 .horizontal-card .caption .date {
   display: block;
   font-size: 14px;
@@ -674,7 +646,8 @@ form.newsletter button i{color:#fff;}
   color: #d72924;
   margin-right: 4px;
 }
-.horizontal-card .caption h3 {
+*/
+.horizontal-card .card-caption h3 {
   font-size: 0.75rem;
   line-height: 1.4;
   font-weight:500;
@@ -682,8 +655,40 @@ form.newsletter button i{color:#fff;}
   margin-bottom: 0;
   /*color: #232323;*/
 }
-.horizontal-card:hover .caption h3 , 
-.horizontal-card:focus .caption h3 {color: #d72924;}
+.horizontal-card:hover .card-caption h3 , 
+.horizontal-card:focus .card-caption h3 {color: #d72924;}
+
+/* List
+--------------------------- */
+.card-caption ul {
+  padding: 0;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.card-caption ul li {
+  display: inline-block;
+  margin-right: 10px;
+  color: #8a8a8a;
+  font-size: 14px;
+  font-weight: 400;
+}
+.card-caption ul li:last-child {
+  margin-right: 0;
+}
+.card-caption ul li i {
+  color: #FF2B52;
+  margin-right: 3px;
+}
+/*
+.card-caption ul li a {
+  display: inline-block;
+  color: #8a8a8a;
+}
+.card-caption ul li a:hover, 
+.card-caption ul li a:focus {
+  color: #d72924;
+}
+*/
 
 /* Tag
 --------------------------- */
