@@ -563,29 +563,6 @@ form.newsletter button i{color:#fff;}
 }
 .card-overlay-gradient .caption h3 a {color: #ffffff;}
 
-/*tags*/
-.card-overlay-gradient .tags {
-  top: 0;
-  left: 25px;
-  position: absolute;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-.card-overlay-gradient .tags a {
-  display: inline-block;
-  color: #ffffff;
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: capitalize;
-  padding: 5px 15px;
-  background-color: #d72924;
-}
-
-.card-overlay-gradient:hover .tags, 
-.card-overlay-gradient:focus .tags {
-  left: 15px;
-}
-
 /* Card-01
 --------------------------- */
 .card-01 {
@@ -663,43 +640,6 @@ form.newsletter button i{color:#fff;}
   margin-right: 0;
 }
 
-/*tag*/
-.card-01 .tag {
-  top: 0;
-  left: 25px;
-  position: absolute;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-.card-01 .tag a {
-  display: inline-block;
-  color: #ffffff;
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: capitalize;
-  padding: 5px 15px;
-  background-color: #d72924;
-}
-.card-01:hover .tag, 
-.card-01:focus .tag {
-  left: 15px;
-}
-
-.card-01 .link-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-
-/*tag*/
-.tag.category-01 a {background-color: #ff5575;}
-.tag.category-02 a {background-color: #007dff;}
-.tag.category-03 a {background-color: #43a047;}
-.tag.category-04 a {background-color: #FF7D0E;}
-
 /* # Horizontal-card
 ----------------------------------------------- */
 .horizontal-card {
@@ -744,6 +684,32 @@ form.newsletter button i{color:#fff;}
 }
 .horizontal-card:hover .caption h3 , 
 .horizontal-card:focus .caption h3 {color: #d72924;}
+
+/* Tag
+--------------------------- */
+.tag {
+  top: 0;
+  left: 25px;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 5px 15px;
+  background-color: #d72924;
+}
+.tag.category-01 {background-color: #ff5575;}
+.tag.category-02 {background-color: #007dff;}
+.tag.category-03 {background-color: #43a047;}
+.tag.category-04 {background-color: #FF7D0E;}
+
+.card-01:hover .tag, .card-01:focus .tag,
+.card-overlay-gradient:hover .tag, .card-overlay-gradient:focus .tag {
+  left: 15px;
+}
 
 /* # Wrapper-img
 ----------------------------------------------- */
