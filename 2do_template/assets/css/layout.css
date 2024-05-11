@@ -589,7 +589,7 @@ form.newsletter button i{color:#fff;}
           transform: scale(1.1);
 }
 
-/*Caption*/
+/*Card caption*/
 .card-01 .card-caption {
   background-color: #ffffff;
   padding: 28px 20px;
@@ -635,18 +635,6 @@ form.newsletter button i{color:#fff;}
 
 /*Horizontal-card*/
 .horizontal-card .card-caption {padding: 10px 15px;}
-/*
-.horizontal-card .caption .date {
-  display: block;
-  font-size: 14px;
-  color: #8a8a8a;
-  margin-bottom: 8px;
-}
-.horizontal-card .caption .date i {
-  color: #d72924;
-  margin-right: 4px;
-}
-*/
 .horizontal-card .card-caption h3 {
   font-size: 0.75rem;
   line-height: 1.4;
@@ -658,8 +646,8 @@ form.newsletter button i{color:#fff;}
 .horizontal-card:hover .card-caption h3 , 
 .horizontal-card:focus .card-caption h3 {color: #d72924;}
 
-/* List
---------------------------- */
+/* # Caption list
+----------------------------------------------- */
 .card-caption ul {
   padding: 0;
   margin-bottom: 10px;
@@ -679,16 +667,6 @@ form.newsletter button i{color:#fff;}
   color: #FF2B52;
   margin-right: 3px;
 }
-/*
-.card-caption ul li a {
-  display: inline-block;
-  color: #8a8a8a;
-}
-.card-caption ul li a:hover, 
-.card-caption ul li a:focus {
-  color: #d72924;
-}
-*/
 
 /* Tag
 --------------------------- */
