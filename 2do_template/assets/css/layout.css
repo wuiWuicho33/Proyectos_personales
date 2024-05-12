@@ -491,7 +491,7 @@ form.newsletter button i{color:#fff;}
 }
 
 .card-overlay-gradient.size-01{height:450px;}
-.card-overlay-gradient.size-02{height:400px;}
+.card-overlay-gradient.size-02{height:425px;}
 
 .card-overlay-gradient::before {
   position: absolute;
@@ -611,7 +611,7 @@ form.newsletter button i{color:#fff;}
 /*Image*/
 .horizontal-card .card-image {
   width:300px;
-  height:120px;
+  height:110px;
   overflow: hidden;
 }
 .horizontal-card .card-image img {
@@ -669,7 +669,7 @@ form.newsletter button i{color:#fff;}
 ----------------------------------------------- */
 .card-caption ul {
   padding: 0;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   list-style-type: none;
 }
 .card-caption ul li {

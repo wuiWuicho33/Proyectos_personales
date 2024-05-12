@@ -184,6 +184,9 @@ h2 span.degraded {
   padding:0; 
   list-style:none;
 }
+.nopadding{padding: 0px !important;}
+.py-5{padding:0 5px !important;}
+
 section{padding:2rem 0;}
 /*footer{padding:2rem 0;}*/
 section.legals{padding:20px 0;}
