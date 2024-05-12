@@ -555,9 +555,9 @@ form.newsletter button i{color:#fff;}
 
 /*Card-image*/
 .card-01 .card-image {
-  overflow: hidden;
   max-width:700px;
   height:230px;
+  overflow: hidden;
 }
 .card-01 .card-image img {
   width:100%;
@@ -606,10 +606,17 @@ form.newsletter button i{color:#fff;}
 }
 
 /*Image*/
-.horizontal-card img {
+.horizontal-card .card-image {
+  width:300px;
+  height:120px;
+  overflow: hidden;
+}
+.horizontal-card .card-image img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  max-width: 102px;
 }
 .horizontal-card:hover img, 
 .horizontal-card:focus img {
