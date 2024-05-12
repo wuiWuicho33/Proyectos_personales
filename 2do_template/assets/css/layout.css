@@ -76,7 +76,10 @@ header{
   background-attachment: fixed;
   text-align: center;
 }
-.hero-area h1{margin-bottom:1rem;}
+.hero-area h1{
+  margin-bottom:1rem;
+  color:#fff;
+}
 .hero-area h2{color:#FF2B52;}
 .hero-area p{color:#fff;}
 .hero-area .hero-detail-note {text-align:left;}
@@ -379,7 +382,7 @@ ul.social-footer-links li a i{
     background-size:cover;
     background-attachment: fixed;
 }
-
+.bg-image-01 h2{color:#fff;}
 /* -----------------------------------------------
   # Links & Buttons
 ----------------------------------------------- */
