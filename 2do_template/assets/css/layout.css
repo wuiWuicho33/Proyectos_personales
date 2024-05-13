@@ -308,7 +308,7 @@ footer img{width: 150px;}
 /* Social-footer-links */
 ul.social-footer-links {
   padding: 0;
-  margin:0 0 20px 0;
+  margin:0;
   list-style-type: none;
   text-align: center;
 }
@@ -372,6 +372,13 @@ ul.social-footer-links li a i{
 .copyright-nav li a:hover, 
 .copyright-nav li a:focus {color: #FF2B52;}
 
+/* Contact
+----------------------------------------------- */
+.contact{padding:1.5rem;}
+.contact p{
+  text-align:center;
+  margin: 0 0 10px 0;
+}
 
 /* Background image 01
 ----------------------------------------------- */
@@ -383,6 +390,7 @@ ul.social-footer-links li a i{
     background-attachment: fixed;
 }
 .bg-image-01 h2{color:#fff;}
+
 /* -----------------------------------------------
   # Links & Buttons
 ----------------------------------------------- */
@@ -764,8 +772,9 @@ form.newsletter button i{color:#fff;}
   }
   form.newsletter{
     float:right;
-    max-width:80%;
+    /*max-width:80%;*/
   }
+  .contact p{text-align:left;}
 }
 /* -----------------------------------------------
   # Desktop
