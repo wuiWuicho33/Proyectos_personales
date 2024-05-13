@@ -272,6 +272,14 @@ ol.breadcrumbs li+li::before {
 .card-member:hover .card-member-info {transition: 0.4s;}
 .card-member:hover .card-member-content {height: 80px;}
 
+/* Contact area
+----------------------------------------------- */
+.contact{padding:1.5rem;}
+.contact p{
+  text-align:center;
+  margin: 0 0 10px 0;
+}
+
 /* Footer
 ----------------------------------------------- */
 footer {
@@ -308,7 +316,7 @@ footer img{width: 150px;}
 /* Social-footer-links */
 ul.social-footer-links {
   padding: 0;
-  margin:0;
+  margin:0 0 20px 0;
   list-style-type: none;
   text-align: center;
 }
@@ -371,14 +379,6 @@ ul.social-footer-links li a i{
 }
 .copyright-nav li a:hover, 
 .copyright-nav li a:focus {color: #FF2B52;}
-
-/* Contact
------------------------------------------------ */
-.contact{padding:1.5rem;}
-.contact p{
-  text-align:center;
-  margin: 0 0 10px 0;
-}
 
 /* Background image 01
 ----------------------------------------------- */
@@ -757,10 +757,17 @@ form.newsletter button i{color:#fff;}
     text-align:right;
   }
 
+  /* Contacto */
+  .contact p{text-align:left;}
+
   /*Footer*/
   footer {padding-top: 60px;}
   footer img{width: 200px;}
-  ul.social-footer-links {text-align:left;}    
+  /* Social-footer-links */
+  ul.social-footer-links {
+    text-align:left;
+    margin:0;
+  }
   .copyright-area {
     margin-top: 60px;
     text-align:left;
@@ -770,11 +777,7 @@ form.newsletter button i{color:#fff;}
     text-align:right;
     margin:0;
   }
-  form.newsletter{
-    float:right;
-    /*max-width:80%;*/
-  }
-  .contact p{text-align:left;}
+  form.newsletter{float:right;}
 }
 /* -----------------------------------------------
   # Desktop
