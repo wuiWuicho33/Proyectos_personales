@@ -280,6 +280,47 @@ ol.breadcrumbs li+li::before {
   margin: 0 0 10px 0;
 }
 
+/* # Avatars links sidebar
+----------------------------------------------- */
+.social-sidebar{
+  display: flex;
+  align-items:start;
+  margin-bottom:10px;
+}
+.social-sidebar img {
+  max-width:80px;
+  margin-right:10px;
+}
+.social-sidebar-body {display:inline-block;}
+.social-sidebar-body h5{margin:0 0 10px 0;}
+
+/* Social-sidebar-links */
+.social-sidebar ul {
+  padding: 0;
+  margin:0 0 20px 0;
+  list-style-type: none;
+  text-align: center;
+}
+.social-sidebar ul li {
+  display: inline-block;
+}
+.social-sidebar ul li a {
+  display: block;
+  background-color: #000;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+  margin-right:1px;
+}
+.social-sidebar ul li a:hover, 
+.social-sidebar ul li a:focus {
+  background-color: #FF2B52;
+  color: #ffffff;
+}
+.social-sidebar ul li a i{color:#fff;}
+
 /* Footer
 ----------------------------------------------- */
 footer {
