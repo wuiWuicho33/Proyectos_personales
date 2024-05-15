@@ -658,6 +658,8 @@ form.newsletter button i{color:#fff;}
   -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
 }
 
+/*.horizontal-card:last-child {margin-bottom:0;}*/
+
 /*Image*/
 .horizontal-card .card-image {
   width:300px;
