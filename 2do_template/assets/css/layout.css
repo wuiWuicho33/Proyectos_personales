@@ -288,7 +288,7 @@ ol.breadcrumbs li+li::before {
   margin-bottom:10px;
 }
 .social-sidebar img {
-  max-width:80px;
+  max-width:61px;
   margin-right:10px;
 }
 .social-sidebar-body {display:inline-block;}
@@ -297,19 +297,17 @@ ol.breadcrumbs li+li::before {
 /* Social-sidebar-links */
 .social-sidebar ul {
   padding: 0;
-  margin:0 0 20px 0;
+  margin:0;
   list-style-type: none;
   text-align: center;
 }
-.social-sidebar ul li {
-  display: inline-block;
-}
+.social-sidebar ul li {display: inline-block;}
 .social-sidebar ul li a {
   display: block;
   background-color: #000;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
   color: #ffffff;
   margin-right:1px;
@@ -691,6 +689,15 @@ form.newsletter button i{color:#fff;}
 .horizontal-card:hover .card-caption h3 , 
 .horizontal-card:focus .card-caption h3 {color: #d72924;}
 
+/* Sidebar
+--------------------------- */
+.sidebar .horizontal-card .card-caption h3 {
+  font-size: 0.6rem;
+}
+.sidebar .card-caption ul li {
+    margin-right: 10px;
+    font-size: 0.6rem;
+}
 /* Tag
 --------------------------- */
 .tag {
