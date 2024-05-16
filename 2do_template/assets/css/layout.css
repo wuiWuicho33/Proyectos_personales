@@ -426,7 +426,7 @@ ul.social-footer-links li a i{
 /* Background image 01
 ----------------------------------------------- */
 .bg-image-01{
-    background-image: url(../img/bg-01.jpg);
+    background-image: url(../img/background/bg-01.jpg);
     background-position:top center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -686,6 +686,9 @@ tr{
   max-width:700px;
   height:230px;
   overflow: hidden;
+}
+.card-01.card-cartoon .card-image{
+  height:370px;
 }
 .card-01 .card-image img {
   width:100%;
