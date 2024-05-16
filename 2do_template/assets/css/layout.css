@@ -849,6 +849,11 @@ tr{
   object-fit:cover;
 }
 
+/* # Padding delgado
+----------------------------------------------- */
+.py-5{padding:0 5px !important;}
+.small-gutter > div{padding:0 5px;}
+
 /* ==============================================
 # MEDIAQUERIES
 ============================================== */
