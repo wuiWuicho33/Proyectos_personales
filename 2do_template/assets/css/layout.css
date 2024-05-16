@@ -723,6 +723,7 @@ tr{
 }
 
 /*Card cartoon*/
+.card-01.card-cartoon {margin-bottom:10px;}
 .card-01.card-cartoon .card-image{height:370px;}
 .card-01.card-cartoon .card-caption {
   height:100px;
