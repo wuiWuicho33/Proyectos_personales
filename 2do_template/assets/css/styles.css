@@ -130,7 +130,7 @@ body {
   color: #000;
 }
 p{color:#000;}
-a{color:#fff;}
+a{color:blue;}
 a:hover, a:active, a:focus{color:#FF2B52;}
 .text-primary {color:#337ab7;}
 .text-secondary {color:#E47911;}

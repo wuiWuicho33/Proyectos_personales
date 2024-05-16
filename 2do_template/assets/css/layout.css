@@ -529,6 +529,28 @@ form.newsletter button{
 }
 form.newsletter button i{color:#fff;}
 
+/* Table
+--------------------------- */
+table{
+  width:100%; 
+  margin-bottom:1rem;
+}
+thead {text-align:left;}
+table, th, td{
+  border:1px solid #D7D7D7; 
+  border-collapse:collapse; 
+  vertical-align:top;
+}
+th, td{padding:10px;}
+th{
+  color:#FFFFFF; 
+  background-color:#181532;
+}
+tr{
+  color:inherit; 
+  background-color:#FBFBFB;
+}
+
 /* Card-overlay-gradient
 ----------------------------------------------- */
 .card-overlay-gradient {
