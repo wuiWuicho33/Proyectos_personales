@@ -109,7 +109,7 @@ Head
       <div class="row">   
         <div class="col-12">
           <h1 class="favicon">Contacto</h1>
-          <p>Información, vanguardia y transformación.</p>
+          <p>Queremos saber tu opinión sobre los temas que te interesan. Envíanos tus comentarios, denuncias y sugerencias.</p>
           <ol class="breadcrumbs">
             <li><i class="fa-solid fa-house"></i> <a href="../index.html">Inicio</a></li>
             <li>Contacto</li>
@@ -121,45 +121,39 @@ Head
 
   <!-- # Section
   ============================-->
-  <section class=" bg-02">
+  <section class="bg-02">
     <div class="container">
-      <!-- Content Row -->
-      <div class="row d-flex justify-content-md-center">
-        <!-- Map Column -->
-        <div class="col-md-7">        
-          <form class="form-contact" method="post" id="contactFor">
-            <div class="row">
-                <div class="control-group form-group col-6">
-                    <div class="controls">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Escribe tu nombre">
-                    </div>
-                </div>
-                <div class="control-group form-group col-6">
-                    <div class="controls">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Escribe tu correo">
-                    </div>
-                </div>
-                <div class="control-group form-group col-12">
-                    <div class="controls">
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Escribe un asunto">
-                    </div>
-                </div>
-                <div class="control-group form-group col-12">
-                    <div class="controls">
-                        <textarea rows="8" cols="100" class="form-control" name="message" id="message" required maxlength="999" placeholder="Escribe un mensaje"></textarea>
-                    </div>
-                </div>
-                <div class="control-group form-group col-lg-12">
-                    <div class="controls">
-                        <input type="hidden" name="save" value="contact">
-                        <button type="submit" class="btn btn-default">Enviar</button>
-                    </div>
-                </div>
+        <!-- Form -->
+        <form action="#" method="post">
+          <div class="row justify-content-center mb-4">
+            <div class="col-md-4">
+              <label for="name">Nombre <span>*</span></label>
+              <input type="text" name="name" id="name" placeholder="Escribe tu nombre" value="" required>
             </div>
-          </form>
-
-        </div>
-      </div>
+            <div class="col-md-4">
+              <label for="email">Correo <span>*</span></label>
+              <input type="email" name="email" id="email" placeholder="Escribe tu correo" value="" required>
+            </div>           
+            <div class="col-md-8">
+              <label for="subject">Asunto</label>
+              <input type="subject" name="subject" id="subject" placeholder="Escribe un asunto" value="">
+            </div>             
+            <div class="col-md-8">
+              <label for="comment">Tu mensaje</label>
+              <textarea name="comment" id="comment" placeholder="Escribe tu mensaje" cols="25" rows="10"></textarea>
+            </div>
+          </div>
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-4">
+              <img src="../assets/img/no-soy.png">
+            </div>
+            <div class="col-md-4 text-right">
+              <button type="submit" name="submit" value="Submit Form" class="btn btn-default">
+                Enviar
+              </button>                
+            </div>                                         
+          </div>
+        </form>        
     </div>
   </section>
 

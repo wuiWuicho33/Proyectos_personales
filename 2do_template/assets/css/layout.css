@@ -483,6 +483,42 @@ ul.social-footer-links li a i{
 /* -----------------------------------------------
   # Componentes
 ----------------------------------------------- */
+/*Form*/
+form{
+  margin:0; 
+  padding:0; 
+  border:none;
+}
+label, input, textarea, select{
+  display:block; 
+  resize:none; 
+  outline:none; 
+  color:inherit; 
+  font-size:inherit; 
+  font-family:inherit; 
+  vertical-align:middle;
+}
+label{margin-bottom:10px;}
+label span {
+  color: #FF0000;
+  background-color: inherit;
+}
+
+form{
+  display:block; 
+  width:100%;
+}
+input, textarea{
+  width:100%; 
+  padding:10px; 
+  border:1px solid #D7D7D7;
+}
+input{margin-bottom:1rem;}
+textarea{overflow:auto;}
+textarea:focus, 
+input:focus,
+*:required:focus{border-color:#FF2B52;}
+
 /* Newsletter
 --------------------------- */
 form.newsletter{
