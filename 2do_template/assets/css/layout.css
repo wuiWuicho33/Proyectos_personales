@@ -687,9 +687,7 @@ tr{
   height:230px;
   overflow: hidden;
 }
-.card-01.card-cartoon .card-image{
-  height:370px;
-}
+
 .card-01 .card-image img {
   width:100%;
   height:100%;
@@ -709,7 +707,6 @@ tr{
   padding: 28px 20px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
   -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
-  /*border:1px solid lightgray;*/
 }
 .card-01 .card-caption h3 {
   font-size: 0.75rem;
@@ -723,6 +720,13 @@ tr{
 .card-01:hover .card-caption h3, 
 .card-01:focus .card-caption h3 {
   color: #d72924;
+}
+
+/*Card cartoon*/
+.card-01.card-cartoon .card-image{height:370px;}
+.card-01.card-cartoon .card-caption {
+  height:100px;
+  padding: 20px;
 }
 
 /* # Horizontal-card
