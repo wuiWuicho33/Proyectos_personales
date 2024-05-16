@@ -488,6 +488,8 @@ form{
   margin:0; 
   padding:0; 
   border:none;
+  display:block; 
+  width:100%;
 }
 label, input, textarea, select{
   display:block; 
@@ -503,21 +505,27 @@ label span {
   color: #FF0000;
   background-color: inherit;
 }
-
-form{
-  display:block; 
-  width:100%;
-}
 input, textarea{
   width:100%; 
-  padding:10px; 
-  border:1px solid #D7D7D7;
+  padding:0.75rem;
+  border:1px solid #E0E0E0;/*#D7D7D7*/
+  border-radius: 5px;
+  background:none repeat scroll 0 0 #F5F5F5;
 }
 input{margin-bottom:1rem;}
 textarea{overflow:auto;}
-textarea:focus, 
+input:hover,
+textarea:hover, 
+*:required:hover{
+  background-color: #fff;
+}
 input:focus,
-*:required:focus{border-color:#FF2B52;}
+textarea:focus, 
+*:required:focus{
+  border-color:#FF2B52;
+  background-color: #fff;
+}
+input::placeholder,textarea::placeholder {color:#8C8C8C;}
 
 /* Newsletter
 --------------------------- */
