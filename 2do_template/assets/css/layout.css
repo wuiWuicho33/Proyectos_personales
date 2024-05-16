@@ -69,7 +69,7 @@ header{
 .hero-area{
   padding:0;
   color:#fff;
-  background-image: url(../img/bg-01.jpg);
+  background-image: url(../img/background/bg-01.jpg);
   background-position:top center;
   background-repeat:no-repeat;
   background-size:cover;
@@ -327,7 +327,7 @@ ol.breadcrumbs li+li::before {
 ----------------------------------------------- */
 footer {
   padding-top: 30px;
-  background-image: url(../img/footer_background.png);
+  background-image: url(../img/background/footer_background.png);
   background-position:top center;
   background-repeat:no-repeat;
   background-size:cover;
