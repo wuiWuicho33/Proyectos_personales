@@ -81,10 +81,7 @@ header{
   color:#fff;
 }
 .hero-area h2{color:#FF2B52;}
-.hero-area p{
-  color:#fff;
-  margin-bottom:20px;
-}
+.hero-area p{color:#fff;}
 .hero-area .hero-detail-note {text-align:left;}
 .hero-area .hero-detail-note h1{font-size: 1.75rem;}
 
@@ -120,7 +117,7 @@ ol.breadcrumbs li+li::before {
 .hero-area-links{
   padding:10px 0;
   background-color:inherit;
-  margin-bottom:20px;
+  /*margin-bottom:20px;*/
 }
 .hero-area-links .row{
   display:flex;
@@ -873,7 +870,7 @@ tr{
   .head-table-cell .logo-hero{width:200px;}
 
   /*Hero-area*/
-  .hero-area-links{margin-bottom:30px;}
+  .hero-area-links{margin-bottom:10px;}
    ol.breadcrumbs {
     text-align:left;
     display:flex;
