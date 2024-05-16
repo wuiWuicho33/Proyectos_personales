@@ -97,6 +97,10 @@ ol.breadcrumbs li {
   display: inline-block;
   margin-right: 10px;
 }
+ol.breadcrumbs li a{color:#fff;}
+ol.breadcrumbs li a:hover{
+  color:#FF2B52;
+}
 ol.breadcrumbs li i{
   color:#FF2B52;
   margin-right:5px;
@@ -109,8 +113,7 @@ ol.breadcrumbs li+li::before {
   content: "/";
 }
 
-/* Hero-area-links
------------------------------------------------ */
+/* Hero-area-links */
 .hero-area-links{
   padding:10px 0;
   background-color:inherit;
@@ -171,7 +174,7 @@ ol.breadcrumbs li+li::before {
 .social-hero-links i:hover{color:#f80065;}
 
 /* About Us Section
---------------------------------*/
+----------------------------------------------- */
 /*about-img*/
 #about .about-img {
   position: relative;
@@ -222,7 +225,7 @@ ol.breadcrumbs li+li::before {
 }
 
 /* Team Section
---------------------------------*/
+----------------------------------------------- */
 .card-member {
   margin-bottom: 20px;
   position: relative;
@@ -533,7 +536,7 @@ form.customform input::placeholder,
 form.customform textarea::placeholder {color:#8C8C8C;}
 
 /* Newsletter
---------------------------- */
+----------------------------------------------- */
 form.newsletter{
   margin:0; 
   padding:0; 
@@ -579,7 +582,7 @@ form.newsletter button{
 form.newsletter button i{color:#fff;}
 
 /* Table
---------------------------- */
+----------------------------------------------- */
 table{
   width:100%; 
   margin-bottom:1rem;
@@ -672,7 +675,7 @@ tr{
 }
 
 /* Card-01
---------------------------- */
+----------------------------------------------- */
 .card-01 {
   position: relative;
   margin-bottom:30px;
@@ -764,7 +767,7 @@ tr{
 .horizontal-card:focus .card-caption h3 {color: #d72924;}
 
 /* Sidebar
---------------------------- */
+----------------------------------------------- */
 .sidebar .horizontal-card .card-caption h3 {
   font-size: 0.6rem;
 }
@@ -773,7 +776,7 @@ tr{
     font-size: 0.6rem;
 }
 /* Tag
---------------------------- */
+----------------------------------------------- */
 .tag {
   top: 0;
   left: 25px;

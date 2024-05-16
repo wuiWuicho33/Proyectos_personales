@@ -26,7 +26,7 @@ a {
 }
 a:hover, a:active {
   outline: none;
-  text-decoration: none;
+  font-weight:500;
 }
 
 /* -----------------------------------------------
@@ -55,10 +55,10 @@ header, main, nav, section{
   # Fonts
 ----------------------------------------------- */
 html {font-size: 0.8rem;}
-body,form, label, input, textarea, select{
+body,form, label, input, textarea, select, a{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size:14px;  
+  font-size:16px;  
 }
 p,ul,ol {
   font-family: "Roboto", sans-serif;
@@ -130,7 +130,7 @@ body {
   color: #000;
 }
 p{color:#000;}
-a{color:blue;}
+a{color:#FF2B52;}
 a:hover, a:active, a:focus{color:#FF2B52;}
 .text-primary {color:#337ab7;}
 .text-secondary {color:#E47911;}
