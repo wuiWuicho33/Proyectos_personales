@@ -383,6 +383,17 @@ ul.social-footer-links li a i{
 }
 .bg-image-01 h2{color:#fff;}
 
+/* Sidebar
+----------------------------------------------- */
+.sidebar .horizontal-card .card-body h3 {
+  font-size: 0.6rem;
+}
+.sidebar .card-body ul li {
+    margin-right: 10px;
+    font-size: 0.6rem;
+}
+
+
 /* -----------------------------------------------
   # LINKS & BUTTONS
 ----------------------------------------------- */
@@ -615,9 +626,8 @@ tr{
 /* -----------------------------------------------
   # CARDS
 ----------------------------------------------- */
-/* # Divisas card
+/* # Card
 ----------------------------------------------- */
-/*Card*/
 .card {
   background-color: #fff;
   padding: 1.25rem;
@@ -632,7 +642,8 @@ tr{
   list-style:none;
 }
 
-/*Vertical-card*/
+/* # Vertical-card
+----------------------------------------------- */
 .vertical-card {
   position: relative;
   margin-bottom:30px;
@@ -654,14 +665,14 @@ tr{
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-.vertical-card .card-caption {
+.vertical-card .card-body {
   background-color: #ffffff;
   padding:20px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
   -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
   height:125px;
 }
-.vertical-card .card-caption h3 {
+.vertical-card .card-body h3 {
   font-size: 0.75rem;
   line-height: 1.4;
   font-weight:500;
@@ -670,8 +681,8 @@ tr{
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.vertical-card:hover .card-caption h3, 
-.vertical-card:focus .card-caption h3 {
+.vertical-card:hover .card-body h3, 
+.vertical-card:focus .card-body h3 {
   color: #d72924;
 }
 
@@ -699,14 +710,14 @@ tr{
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-.card-cartoon .card-caption {
+.card-cartoon .card-body {
   background-color: #ffffff;
   padding: 20px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
   -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
   height:100px;
 }
-.card-cartoon .card-caption h3 {
+.card-cartoon .card-body h3 {
   font-size: 0.75rem;
   line-height: 1.4;
   font-weight:500;
@@ -715,8 +726,8 @@ tr{
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.card-cartoon:hover .card-caption h3, 
-.card-cartoon:focus .card-caption h3 {
+.card-cartoon:hover .card-body h3, 
+.card-cartoon:focus .card-body h3 {
   color: #d72924;
 }
 
@@ -730,8 +741,6 @@ tr{
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
   -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
 }
-
-/*Image*/
 .horizontal-card .card-image {
   width:300px;
   height:110px;
@@ -748,10 +757,8 @@ tr{
 .horizontal-card:focus img {
   opacity: .8;
 }
-
-/*Horizontal-card*/
-.horizontal-card .card-caption {padding: 10px 15px;}
-.horizontal-card .card-caption h3 {
+.horizontal-card .card-body {padding: 10px 15px;}
+.horizontal-card .card-body h3 {
   font-size: 0.75rem;
   line-height: 1.4;
   font-weight:500;
@@ -759,34 +766,8 @@ tr{
   margin-bottom: 0;
   /*color: #232323;*/
 }
-.horizontal-card:hover .card-caption h3 , 
-.horizontal-card:focus .card-caption h3 {color: #d72924;}
-
-/* # Dates-list
------------------------------------------------ */
-.card-caption ul {
-  padding: 0;
-  margin-bottom: 5px;
-  list-style-type: none;
-}
-.card-caption ul li {
-  display: inline-block;
-  margin-right: 10px;
-  color: #8a8a8a;
-  font-size: 14px;
-  font-weight: 400;
-}
-.card-caption ul li:last-child {
-  margin-right: 0;
-}
-.card-caption ul li i {
-  color: #FF2B52;
-  margin-right: 3px;
-}
-/*Card-overlay-gradient caption*/
-.card-overlay-gradient .card-caption ul li {
-  color: #ffffff;
-}
+.horizontal-card:hover .card-body h3 , 
+.horizontal-card:focus .card-body h3 {color: #d72924;}
 
 /* Card-overlay-gradient
 ----------------------------------------------- */
@@ -826,8 +807,8 @@ tr{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-/*Card-caption*/
-.card-overlay-gradient .card-caption {
+/*card-body*/
+.card-overlay-gradient .card-body {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -836,7 +817,7 @@ tr{
   padding: 15px;
   z-index: 2;
 }
-.card-overlay-gradient .card-caption h3 {
+.card-overlay-gradient .card-body h3 {
   font-size: 0.875rem;
   line-height: 1.4;
   font-weight:500;
@@ -851,6 +832,32 @@ tr{
   width: 100%;
   height: 100%;
   z-index: 2;
+}
+
+/* # Dates list
+----------------------------------------------- */
+.card-body ul {
+  padding: 0;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+.card-body ul li {
+  display: inline-block;
+  margin-right: 10px;
+  color: #8a8a8a;
+  font-size: 14px;
+  font-weight: 400;
+}
+.card-body ul li:last-child {
+  margin-right: 0;
+}
+.card-body ul li i {
+  color: #FF2B52;
+  margin-right: 3px;
+}
+/*Card-overlay-gradient caption*/
+.card-overlay-gradient .card-body ul li {
+  color: #ffffff;
 }
 
 /* Card-member
@@ -903,17 +910,6 @@ tr{
 .card-member-content .social i:hover {color:#f80065;}
 .card-member:hover .card-member-info {transition: 0.4s;}
 .card-member:hover .card-member-content {height: 80px;}
-
-/* Sidebar
------------------------------------------------ */
-.sidebar .horizontal-card .card-caption h3 {
-  font-size: 0.6rem;
-}
-.sidebar .card-caption ul li {
-    margin-right: 10px;
-    font-size: 0.6rem;
-}
-
 
 /* # Wrapper-img
 ----------------------------------------------- */
