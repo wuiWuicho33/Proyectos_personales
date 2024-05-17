@@ -896,7 +896,56 @@ tr{
 ----------------------------------------------- */
 .small-gutter > div{padding:0 5px;}
 .gy-5{padding:0 5px !important;}
-/*.py-5{padding:0 5px !important;}*/
+
+/* # Divisas card
+----------------------------------------------- */
+.card {
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+  border:1px solid #343a40;
+}
+.card p.small{font-size: 80%;}
+.card p.small img{width:20px;}
+.card h3 {margin-bottom: 0.75rem;}
+.card ul {
+  padding:0; 
+  list-style:none;
+}
+/*Table*/
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.table{margin-bottom:0;}
+.table td,
+.table th {
+  background-color: #fff;
+  border: 1px solid #dee2e6;  
+  padding: .75rem;
+  vertical-align: top;
+}
+.table th {color: #000;}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+.bg-success {background-color: #28a745;}
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
 
 /* ==============================================
 # MEDIAQUERIES
