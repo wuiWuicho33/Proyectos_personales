@@ -583,49 +583,40 @@ form.newsletter button i{color:#fff;}
 /* -----------------------------------------------
   # TABLE
 ----------------------------------------------- */
-table{
-  width:100%; 
-  margin-bottom:1rem;
+table {
+  width: 100%; 
+  margin-bottom: 1rem;
   border-collapse: collapse;
 }
-thead {text-align:left;}
-/**/
-table, th, td{
-  border:1px solid #D7D7D7; 
-  border-collapse:collapse; 
-  vertical-align:top;
+thead {text-align: left;}
+table,th,td {
+  /*border:1px solid #D7D7D7;*/
+  border-bottom: 1px solid #D7D7D7;
+  border-top: 1px solid #D7D7D7;
+  border-collapse: collapse;
+  vertical-align: top;
 }
-th, td{padding:10px;}
-/**/
-th{
-  color:#FFFFFF; 
-  background-color:#181532;
+th,td {padding: 10px;}
+th {
+  color: #FFFFFF; 
+  background-color: #181532;
 }
-tr{
-  color:inherit; 
-  background-color:#FBFBFB;
+td {
+  color: inherit; 
+  background-color: #FBFBFB;
 }
 
-/* # Table
------------------------------------------------ */
-.table-responsive {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
+/* Custom-table */
 .custom-table th,
 .custom-table td {
-  background-color: #fff;  
-  padding: .75rem;
-  vertical-align: top;
-  /*border: 1px solid #dee2e6;*/
+  background-color: #fff;
+  color: #000; 
 }
-.custom-table th {color:#000;}
+.custom-table th {color: #000;}
 .custom-table-sm th,
 .custom-table-sm td {
   padding: 0.3rem;
-  font-size:0.7rem;
+  font-size: 0.7rem;
 }
 
 /* -----------------------------------------------
