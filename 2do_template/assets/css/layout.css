@@ -393,7 +393,6 @@ ul.social-footer-links li a i{
     font-size: 0.6rem;
 }
 
-
 /* -----------------------------------------------
   # LINKS & BUTTONS
 ----------------------------------------------- */
@@ -567,20 +566,37 @@ form.newsletter button i{color:#fff;}
   left: 15px;
 }
 
+/* Badge
+----------------------------------------------- */
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    border-radius: .25rem;
+}
+.bg-success i{color:#fff;}
+.bg-danger i{color:#fff;}
+
 /* -----------------------------------------------
   # TABLE
 ----------------------------------------------- */
 table{
   width:100%; 
   margin-bottom:1rem;
+  border-collapse: collapse;
 }
 thead {text-align:left;}
+/**/
 table, th, td{
   border:1px solid #D7D7D7; 
   border-collapse:collapse; 
   vertical-align:top;
 }
 th, td{padding:10px;}
+/**/
 th{
   color:#FFFFFF; 
   background-color:#181532;
@@ -598,29 +614,18 @@ tr{
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
-.table{margin-bottom:0;}
-.table td,
-.table th {
-  background-color: #fff;
-  border: 1px solid #dee2e6;  
+.custom-table th,
+.custom-table td {
+  background-color: #fff;  
   padding: .75rem;
   vertical-align: top;
+  /*border: 1px solid #dee2e6;*/
 }
-.table th {color: #000;}
-.table-sm th,
-.table-sm td {padding: 0.3rem;}
-.bg-success {background-color: #28a745;}
-.badge {
-    display: inline-block;
-    padding: .25em .4em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+.custom-table th {color:#000;}
+.custom-table-sm th,
+.custom-table-sm td {
+  padding: 0.3rem;
+  font-size:0.7rem;
 }
 
 /* -----------------------------------------------
@@ -641,6 +646,7 @@ tr{
   padding:0; 
   list-style:none;
 }
+.card .badge {margin-bottom:1rem;}
 
 /* # Vertical-card
 ----------------------------------------------- */

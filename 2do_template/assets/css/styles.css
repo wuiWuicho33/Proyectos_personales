@@ -163,6 +163,15 @@ i{color:#f80065;}
 }
 .bg-darker p{color:#fff;}
 
+.bg-success {
+  background-color: #28a745;
+  color:#fff;
+}
+.bg-danger {
+  background-color: #dc3545;
+  color:#fff;
+}
+
 /*Teaser*/
 h1, h2,h3,h4,h5,h6{color: #232323;}
 h2.teaser {color:#FF2B52;}
