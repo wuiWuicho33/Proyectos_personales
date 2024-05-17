@@ -185,7 +185,8 @@ h2 span.degraded {
 .p-4 {padding: 1.5rem;}
 .p-5 {padding: 3rem;}
 .py-1{padding:1rem 0;}
-.py-5{padding:1rem 0;}
+.py-4{padding:4rem 0;}
+.py-5{padding:5rem 0;}
 .nospace {
   margin:0; 
   padding:0; 
