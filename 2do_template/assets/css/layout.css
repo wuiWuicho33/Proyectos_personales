@@ -674,41 +674,38 @@ tr{
   z-index: 2;
 }
 
-/* Card-01
+/* Cards
 ----------------------------------------------- */
-.card-01 {
+/*Card-default*/
+.card-default {
   position: relative;
   margin-bottom:30px;
 }
-
-/*Card-image*/
-.card-01 .card-image {
+.card-default .card-image {
   max-width:700px;
   height:230px;
   overflow: hidden;
 }
-
-.card-01 .card-image img {
+.card-default .card-image img {
   width:100%;
   height:100%;
   object-fit:cover;
   -webkit-transition: all 1.5s ease-out;
   transition: all 1.5s ease-out;
 }
-.card-01:hover img, 
-.card-01:focus img {
+.card-default:hover img, 
+.card-default:focus img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-
-/*Card caption*/
-.card-01 .card-caption {
+.card-default .card-caption {
   background-color: #ffffff;
-  padding: 28px 20px;
+  padding:20px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
   -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
+  height:125px;
 }
-.card-01 .card-caption h3 {
+.card-default .card-caption h3 {
   font-size: 0.75rem;
   line-height: 1.4;
   font-weight:500;
@@ -717,18 +714,64 @@ tr{
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.card-01:hover .card-caption h3, 
-.card-01:focus .card-caption h3 {
+.card-default:hover .card-caption h3, 
+.card-default:focus .card-caption h3 {
   color: #d72924;
 }
 
 /*Card cartoon*/
-.card-01.card-cartoon {margin-bottom:10px;}
-.card-01.card-cartoon .card-image{height:370px;}
-.card-01.card-cartoon .card-caption {
+.card-cartoon {
+  display:block;
+  margin-bottom:10px;
+  border-radius:;
+}
+.card-cartoon .card-image {
+  max-width:700px;
+  height:250px;
+  overflow: hidden;
+}
+.card-cartoon .card-image img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+}
+.card-cartoon:hover img, 
+.card-cartoon:focus img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.card-cartoon .card-caption {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
+  height:100px;
+}
+.card-cartoon .card-caption h3 {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  font-weight:500;
+  text-transform:none;
+  margin-bottom: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.card-cartoon:hover .card-caption h3, 
+.card-cartoon:focus .card-caption h3 {
+  color: #d72924;
+}
+
+/*
+.card-default.card-cartoon {margin-bottom:10px;}
+.card-default.card-cartoon .card-image{height:370px;}
+.card-default.card-cartoon .card-caption {
   height:100px;
   padding: 20px;
 }
+*/
+
 
 /* # Horizontal-card
 ----------------------------------------------- */
@@ -804,7 +847,7 @@ tr{
 .tag.category-03 {background-color: #43a047;}
 .tag.category-04 {background-color: #FF7D0E;}
 
-.card-01:hover .tag, .card-01:focus .tag,
+.card-default:hover .tag, .card-default:focus .tag,
 .card-overlay-gradient:hover .tag, .card-overlay-gradient:focus .tag {
   left: 15px;
 }
@@ -899,6 +942,8 @@ tr{
   /* Contacto */
   .contact p{text-align:left;}
 
+  .card-cartoon .card-image {height:320px;}
+
   /*Footer*/
   footer {padding-top: 60px;}
   footer img{width: 200px;}
@@ -922,5 +967,7 @@ tr{
   # Desktop
 ----------------------------------------------- */
 /*A partir de 992px y 1200 se aplicarán estos estilos*/
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .card-cartoon .card-image {height:370px;}
+}
 @media (min-width: 1200px) {}
