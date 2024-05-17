@@ -3,7 +3,7 @@
 ::::::::::::::::::::::*/
 
 /* -----------------------------------------------
-  # Títulos
+  # TÏTULOS
 ----------------------------------------------- */
 /*Imagen que va después de los títulos*/
 h1.favicon::after, 
@@ -14,7 +14,7 @@ h3.favicon::after {
 }
 
 /* -----------------------------------------------
-  # Secciones
+  # SECCIONES
 ----------------------------------------------- */
 /* Header
 ----------------------------------------------- */
@@ -224,57 +224,6 @@ ol.breadcrumbs li+li::before {
   font-style: italic;
 }
 
-/* Team Section
------------------------------------------------ */
-.card-member {
-  margin-bottom: 20px;
-  position: relative;
-  overflow: hidden;
-}
-.card-member img{
-  max-width:100%;
-  height:auto;
-}
-.card-member-info {
-  padding: 15px 0;
-  background: rgba(24, 21, 50, 0.6);  
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-.card-member-content {
-  height: 40px;
-  transition: height 0.4s;
-  text-align: center;
-}
-.card-member-content h4 {
-  margin-bottom: 2px;
-  font-size: 18px;
-  font-weight: 700;
-  color: #fff;
-}
-.card-member-content span {
-  display: block;
-  font-style: italic;
-  font-size: 13px;
-  color: #fff;
-}
-.card-member-content .social {margin-top: 20px;}
-.card-member-content .social a {
-  transition: none;
-  color: #fff;
-}
-.card-member-content .social a:hover {color: #FF2B52;}
-.card-member-content .social i {
-  font-size: 18px;
-  margin: 0 2px;
-  color:#fff;
-}
-.card-member-content .social i:hover {color:#f80065;}
-.card-member:hover .card-member-info {transition: 0.4s;}
-.card-member:hover .card-member-content {height: 80px;}
-
 /* Contact area
 ----------------------------------------------- */
 .contact{padding:1.5rem;}
@@ -435,7 +384,7 @@ ul.social-footer-links li a i{
 .bg-image-01 h2{color:#fff;}
 
 /* -----------------------------------------------
-  # Links & Buttons
+  # LINKS & BUTTONS
 ----------------------------------------------- */
 /* Button
 ----------------------------------------------- */
@@ -484,7 +433,7 @@ ul.social-footer-links li a i{
 }
 
 /* -----------------------------------------------
-  # Componentes
+  # COMPONENTES
 ----------------------------------------------- */
 /*Form*/
 form.customform{
@@ -581,7 +530,34 @@ form.newsletter button{
 }
 form.newsletter button i{color:#fff;}
 
-/* Table
+/* Tag
+----------------------------------------------- */
+.tag {
+  top: 0;
+  left: 25px;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 5px 15px;
+  background-color: #d72924;
+}
+.tag.category-01 {background-color: #ff5575;}
+.tag.category-02 {background-color: #007dff;}
+.tag.category-03 {background-color: #43a047;}
+.tag.category-04 {background-color: #FF7D0E;}
+
+.card-default:hover .tag, .card-default:focus .tag,
+.card-overlay-gradient:hover .tag, .card-overlay-gradient:focus .tag {
+  left: 15px;
+}
+
+/* -----------------------------------------------
+  # TABLE
 ----------------------------------------------- */
 table{
   width:100%; 
@@ -603,75 +579,57 @@ tr{
   background-color:#FBFBFB;
 }
 
-/* Card-overlay-gradient
+/* # Table
 ----------------------------------------------- */
-.card-overlay-gradient {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 10px;
-  max-width:800px;
-}
-
-.card-overlay-gradient.size-01{height:450px;}
-.card-overlay-gradient.size-02{height:425px;}
-.card-overlay-gradient.size-03{
-  height:208px;
-}
-
-.card-overlay-gradient::before {
-  position: absolute;
+.table-responsive {
+  display: block;
   width: 100%;
-  height: 40%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  opacity: .7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#006EC2)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(#006EC2));
-  background-image: linear-gradient(transparent, #006EC2), linear-gradient(transparent, #006EC2);
-  content: "";
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.table{margin-bottom:0;}
+.table td,
+.table th {
+  background-color: #fff;
+  border: 1px solid #dee2e6;  
+  padding: .75rem;
+  vertical-align: top;
+}
+.table th {color: #000;}
+.table-sm th,
+.table-sm td {padding: 0.3rem;}
+.bg-success {background-color: #28a745;}
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.card-overlay-gradient img {
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  transition: all 1.5s ease-out;
-  -webkit-transition: all 1.5s ease-out;
-}
-.card-overlay-gradient:hover img, 
-.card-overlay-gradient:focus img {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
+/* -----------------------------------------------
+  # CARDS
+----------------------------------------------- */
 
-/*Card-caption*/
-.card-overlay-gradient .card-caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  padding: 15px;
-  z-index: 2;
+/* # Divisas card
+----------------------------------------------- */
+.card {
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+  border:1px solid #343a40;
 }
-
-.card-overlay-gradient .card-caption h3 {
-  font-size: 0.875rem;
-  line-height: 1.4;
-  font-weight:500;
-  text-transform:none;
-  margin: 0;
-  color: #ffffff;
-}
-
-.card-overlay-gradient .link-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
+.card p.small{font-size: 80%;}
+.card p.small img{width:20px;}
+.card h3 {margin-bottom: 0.75rem;}
+.card ul {
+  padding:0; 
+  list-style:none;
 }
 
 /* Cards
@@ -719,7 +677,8 @@ tr{
   color: #d72924;
 }
 
-/*Card cartoon*/
+/* Card cartoon
+----------------------------------------------- */
 .card-cartoon {
   display:block;
   margin-bottom:10px;
@@ -763,16 +722,6 @@ tr{
   color: #d72924;
 }
 
-/*
-.card-default.card-cartoon {margin-bottom:10px;}
-.card-default.card-cartoon .card-image{height:370px;}
-.card-default.card-cartoon .card-caption {
-  height:100px;
-  padding: 20px;
-}
-*/
-
-
 /* # Horizontal-card
 ----------------------------------------------- */
 .horizontal-card {
@@ -783,8 +732,6 @@ tr{
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
   -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
 }
-
-/*.horizontal-card:last-child {margin-bottom:0;}*/
 
 /*Image*/
 .horizontal-card .card-image {
@@ -817,41 +764,6 @@ tr{
 .horizontal-card:hover .card-caption h3 , 
 .horizontal-card:focus .card-caption h3 {color: #d72924;}
 
-/* Sidebar
------------------------------------------------ */
-.sidebar .horizontal-card .card-caption h3 {
-  font-size: 0.6rem;
-}
-.sidebar .card-caption ul li {
-    margin-right: 10px;
-    font-size: 0.6rem;
-}
-/* Tag
------------------------------------------------ */
-.tag {
-  top: 0;
-  left: 25px;
-  position: absolute;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  display: inline-block;
-  color: #ffffff;
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: capitalize;
-  padding: 5px 15px;
-  background-color: #d72924;
-}
-.tag.category-01 {background-color: #ff5575;}
-.tag.category-02 {background-color: #007dff;}
-.tag.category-03 {background-color: #43a047;}
-.tag.category-04 {background-color: #FF7D0E;}
-
-.card-default:hover .tag, .card-default:focus .tag,
-.card-overlay-gradient:hover .tag, .card-overlay-gradient:focus .tag {
-  left: 15px;
-}
-
 /* # Dates-list
 ----------------------------------------------- */
 .card-caption ul {
@@ -878,6 +790,133 @@ tr{
   color: #ffffff;
 }
 
+/* Card-overlay-gradient
+----------------------------------------------- */
+.card-overlay-gradient {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+  max-width:800px;
+}
+.card-overlay-gradient.size-01{height:450px;}
+.card-overlay-gradient.size-02{height:425px;}
+.card-overlay-gradient.size-03{
+  height:208px;
+}
+.card-overlay-gradient::before {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: .7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#006EC2)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(#006EC2));
+  background-image: linear-gradient(transparent, #006EC2), linear-gradient(transparent, #006EC2);
+  content: "";
+}
+.card-overlay-gradient img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition: all 1.5s ease-out;
+  -webkit-transition: all 1.5s ease-out;
+}
+.card-overlay-gradient:hover img, 
+.card-overlay-gradient:focus img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/*Card-caption*/
+.card-overlay-gradient .card-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  z-index: 2;
+}
+.card-overlay-gradient .card-caption h3 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-weight:500;
+  text-transform:none;
+  margin: 0;
+  color: #ffffff;
+}
+.card-overlay-gradient .link-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+/* Card-member
+----------------------------------------------- */
+.card-member {
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.card-member img{
+  max-width:100%;
+  height:auto;
+}
+.card-member-info {
+  padding: 15px 0;
+  background: rgba(24, 21, 50, 0.6);  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.card-member-content {
+  height: 40px;
+  transition: height 0.4s;
+  text-align: center;
+}
+.card-member-content h4 {
+  margin-bottom: 2px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.card-member-content span {
+  display: block;
+  font-style: italic;
+  font-size: 13px;
+  color: #fff;
+}
+.card-member-content .social {margin-top: 20px;}
+.card-member-content .social a {
+  transition: none;
+  color: #fff;
+}
+.card-member-content .social a:hover {color: #FF2B52;}
+.card-member-content .social i {
+  font-size: 18px;
+  margin: 0 2px;
+  color:#fff;
+}
+.card-member-content .social i:hover {color:#f80065;}
+.card-member:hover .card-member-info {transition: 0.4s;}
+.card-member:hover .card-member-content {height: 80px;}
+
+/* Sidebar
+----------------------------------------------- */
+.sidebar .horizontal-card .card-caption h3 {
+  font-size: 0.6rem;
+}
+.sidebar .card-caption ul li {
+    margin-right: 10px;
+    font-size: 0.6rem;
+}
+
+
 /* # Wrapper-img
 ----------------------------------------------- */
 .wrapper-img {
@@ -896,56 +935,6 @@ tr{
 ----------------------------------------------- */
 .small-gutter > div{padding:0 5px;}
 .gy-5{padding:0 5px !important;}
-
-/* # Divisas card
------------------------------------------------ */
-.card {
-  background-color: #fff;
-  padding: 1.25rem;
-  border-radius: 0.25rem;
-  border:1px solid #343a40;
-}
-.card p.small{font-size: 80%;}
-.card p.small img{width:20px;}
-.card h3 {margin-bottom: 0.75rem;}
-.card ul {
-  padding:0; 
-  list-style:none;
-}
-/*Table*/
-.table-responsive {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-.table{margin-bottom:0;}
-.table td,
-.table th {
-  background-color: #fff;
-  border: 1px solid #dee2e6;  
-  padding: .75rem;
-  vertical-align: top;
-}
-.table th {color: #000;}
-
-.table-sm th,
-.table-sm td {
-  padding: 0.3rem;
-}
-.bg-success {background-color: #28a745;}
-.badge {
-    display: inline-block;
-    padding: .25em .4em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
 
 /* ==============================================
 # MEDIAQUERIES
