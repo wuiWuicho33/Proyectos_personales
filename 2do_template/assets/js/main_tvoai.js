@@ -43,17 +43,4 @@ window.onload = function() {
 /*====================
 Swiper carousel
 ====================*/ 
-// Initialize Swiper 
-var swiper = new Swiper(".Swiper-01", {
-  spaceBetween: 30,
-  centeredSlides: true,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  }
-});
+// Initialize Swiper
