@@ -618,8 +618,6 @@ form.newsletter button i{color:#fff;}
 .bg-success i{color:#fff;}
 .bg-danger i{color:#fff;}
 
-
-
 /* Pestañas
 ----------------------------------------------- */
 .tab {
@@ -643,6 +641,27 @@ form.newsletter button i{color:#fff;}
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+
+/* Swiper
+----------------------------------------------- */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* -----------------------------------------------

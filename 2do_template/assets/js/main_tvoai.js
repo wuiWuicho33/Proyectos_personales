@@ -39,3 +39,21 @@ window.onload = function() {
     // Simula un clic en el botón de la primera pestaña
     defaultTabButton.click();
 }
+
+/*====================
+Swiper carousel
+====================*/ 
+// Initialize Swiper 
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  }
+});
