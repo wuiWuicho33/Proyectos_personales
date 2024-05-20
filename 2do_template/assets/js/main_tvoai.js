@@ -44,7 +44,31 @@ window.onload = function() {
 Swiper carousel
 ====================*/ 
 // Initialize Swiper
-var swiper = new Swiper(".Swiper01", {
+var swiper = new Swiper(".Swiper-01", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 1,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+  },
+});
+
+// Initialize Swiper
+var swiper = new Swiper(".Swiper-02", {
   slidesPerView: 1,
   spaceBetween: 10,
   pagination: {
@@ -62,7 +86,7 @@ var swiper = new Swiper(".Swiper01", {
     },
     1024: {
       slidesPerView: 3,
-      spaceBetween: 50,
+      spaceBetween: 20,
     },
   },
 });
