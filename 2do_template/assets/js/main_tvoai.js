@@ -44,7 +44,7 @@ window.onload = function() {
 Swiper carousel
 ====================*/ 
 // Initialize Swiper 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".Swiper-01", {
   spaceBetween: 30,
   centeredSlides: true,
   loop: true,

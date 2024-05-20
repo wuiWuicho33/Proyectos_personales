@@ -650,12 +650,14 @@ form.newsletter button i{color:#fff;}
   height: 100%;
 }
 .swiper-slide {
-  text-align: center;
   font-size: 18px;
   background: #fff;
+  /*
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  */
 }
 .swiper-slide img {
   display: block;
@@ -1010,6 +1012,77 @@ td {
 ----------------------------------------------- */
 .small-gutter > div{padding:0 5px;}
 .gy-5{padding:0 5px !important;}
+
+/*
+*/
+.columnas {
+  display: flex;
+  flex-direction: row;
+}
+.columna {
+  flex: 1;
+  margin: 0 10px;
+  /* Estilos adicionales según tu diseño */
+}
+
+/* -----------------------------------------------
+  # GRID
+----------------------------------------------- */
+/* Clear and Group */
+.clear,
+.group{display:block;}
+
+.clear::before,
+.clear::after,
+.group::before,
+.group::after{display:table; content:"";}
+
+.clear,.clear::after,
+.group,.group::after{clear:both;}
+
+/* Grid */
+.one_half,
+.one_third,
+.two_third,
+.one_quarter,
+.two_quarter,
+.three_quarter{
+    display:inline-block;
+    float:left;
+    margin:0 0 0 3.06748466257669%;
+    list-style:none;
+    }
+
+.one_half, .two_quarter{width:48.46625766871166%;}
+.one_quarter{width:22.69938650306748%;}
+.three_quarter{width:74.23312883435584%;}
+.one_third{width:31.28834355828221%;}
+.two_third{width:65.6441717791411%;}
+
+/* Clase .first */
+.first{margin-left:0; clear:left;}
+
+/*
+@media screen and (max-width:900px){
+  .hoc{max-width:90%;}
+  .container .demo div{margin-bottom:0;}
+}
+*/
+
+@media screen and (max-width:750px){
+.one_half,
+  .one_third,
+  .two_third,
+  .one_quarter,
+  .two_quarter,
+  .three_quarter{
+      display:block;
+      float:none;
+      width:auto;
+      margin:0 0 30px 0; padding:0;}
+  
+  /*.container, #footer{padding-bottom:50px;}*/
+}
 
 /* ==============================================
 # MEDIAQUERIES
