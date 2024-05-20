@@ -44,7 +44,7 @@ window.onload = function() {
 Swiper carousel
 ====================*/ 
 // Initialize Swiper
-var swiper = new Swiper(".Swiper-01", {
+var swiper = new Swiper(".per-view-02", {
   slidesPerView: 1,
   spaceBetween: 10,
   pagination: {
@@ -68,7 +68,7 @@ var swiper = new Swiper(".Swiper-01", {
 });
 
 // Initialize Swiper
-var swiper = new Swiper(".Swiper-02", {
+var swiper = new Swiper(".per-view-03", {
   slidesPerView: 1,
   spaceBetween: 10,
   pagination: {
