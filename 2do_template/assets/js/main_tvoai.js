@@ -103,7 +103,7 @@ var swiper = new Swiper(".per-view-04", {
   }
 });
 
-// Swiper-cartoon
+// Swiper-results
 var swiper = new Swiper(".swiper-results", {
   slidesPerView: 1,
   spaceBetween: 10,
