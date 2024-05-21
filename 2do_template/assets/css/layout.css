@@ -478,14 +478,11 @@ ul.social-footer-links li a i{
   font-size: 24px;
   z-index: 1000;
   transition: background-color 0.3s ease;
-  opacity:.2;
-  color:#292B2C; 
-  background-color:#DDC915;
+  opacity:.5;
+  background-color:#FF2B52;
 }
-
-#back-to-top:hover {
-  opacity:1;
-}
+#back-to-top i{color:#fff;}
+#back-to-top:hover {opacity:1;}
 
 /* -----------------------------------------------
   # COMPONENTES
