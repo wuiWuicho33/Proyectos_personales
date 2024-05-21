@@ -54,7 +54,7 @@ header, main, nav, section{
 /* -----------------------------------------------
   # Fonts
 ----------------------------------------------- */
-html {font-size: 0.8rem;}
+html {font-size: 0.6rem;}
 body,form, label, input, textarea, select, a{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -102,16 +102,12 @@ h2.teaser {
   text-transform: capitalize;
 }
 
-.btn {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 700;
-  font-size:0.7rem;
-}
-
 .font-xs{font-size:.8rem;}
 .font-x1{font-size:1.2rem;}
 .font-x2{font-size:1.8rem;}
 .font-x3{font-size:2.8rem;}
+
+.btn {  font-family: "Bai Jamjuree", sans-serif;}
 
 /* -----------------------------------------------
   # Text styles
