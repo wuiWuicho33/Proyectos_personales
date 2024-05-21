@@ -18,39 +18,23 @@ h3.favicon::after {
 ----------------------------------------------- */
 /* Header
 ----------------------------------------------- */
-header{
-  display:block;
-  width:100%;
-  background-color:#fff;
-}
-/* Head-table */
-.head-table{
-  display:block; 
-  width:100%; 
-  height:100%;
+.header-top{
   padding:20px 0;
+  background-color: #fff;
 }
-.head-table .head-table-cell{
-  display:block; 
-  width:100%;
-  height:100%;
-  vertical-align:middle;
-  margin:0 0 20px 0; 
-  padding:0; 
-  list-style:none;
-  text-align:center;
+.header-top .row{
+  display: flex;
+  align-items: center;
 }
-.head-table .head-table-cell:last-child{margin-bottom:0;}
-.head-table .head-table-cell:nth-child(1){}
-.head-table .head-table-cell:nth-child(2) {text-align:center;}
-.head-table .head-table-cell:nth-child(2) i{margin-bottom:15px;}
-.head-table-cell .logo-hero{width:150px;}
+.header-top img{width:120px;}
 
 /* Head-list */
 .head-list{
   margin:0; 
   padding:0; 
   list-style:none;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .head-list li{
   display:inline-block;  
@@ -62,7 +46,6 @@ header{
   color:#000; 
 }
 .head-list li:last-child{margin-right:0;}
-/*.head-list li i{color:#FF2B52;}*/
 
 /* Hero-area
 ----------------------------------------------- */
@@ -169,7 +152,6 @@ ol.breadcrumbs li+li::before {
   background-color:transparent;
 }
 .social-hero-links a:hover{color:#FF2B52;}
-
 .social-hero-links i{color:#fff;}
 .social-hero-links i:hover{color:#f80065;}
 
@@ -214,7 +196,6 @@ ol.breadcrumbs li+li::before {
   right: -31px;
   bottom: -30px;
 }
-
 /*about-content*/
 #about {padding: 80px 0;}
 #about .about-content {padding-top: 40px;}
@@ -1319,21 +1300,12 @@ table.table-sport img{
 ----------------------------------------------- */
 /*A partir de 768px se aplicarán estos estilos*/
 @media (min-width: 768px) {
-  /*Head*/
-  .head-table{
-    display:table;
-    padding:30px 0;
-  }
-  .head-table .head-table-cell{
-    display:table-cell; 
-    width:33.33333333333333%;
-    margin:0; 
+  /* Header */
+  .header-top img{width:180px;}
+  .head-list{
     text-align:left;
+    margin-bottom:0;
   }
-  .head-table .head-table-cell:last-child{margin-bottom:0;} 
-  .head-table .head-table-cell:nth-child(3) {text-align:right;}
-  .head-table-cell .logo-hero{width:200px;}
-
   /*Hero-area*/
   .hero-area-links{margin-bottom:10px;}
    ol.breadcrumbs {
@@ -1346,12 +1318,9 @@ table.table-sport img{
     margin:0;
     text-align:right;
   }
-
   /* Contacto */
   .contact p{text-align:left;}
-
   .card-cartoon .card-image {height:320px;}
-
   /*Footer*/
   footer {padding-top: 60px;}
   footer img{width: 200px;}
