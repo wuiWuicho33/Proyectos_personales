@@ -43,7 +43,7 @@ window.onload = function() {
 /*====================
 Swiper carousel
 ====================*/ 
-// Initialize Swiper
+// Per-view-02
 var swiper = new Swiper(".per-view-02", {
   slidesPerView: 1,
   spaceBetween: 10,
@@ -63,7 +63,7 @@ var swiper = new Swiper(".per-view-02", {
   }
 });
 
-// Initialize Swiper
+// Per-view-03
 var swiper = new Swiper(".per-view-03", {
   slidesPerView: 1,
   spaceBetween: 10,
@@ -83,7 +83,7 @@ var swiper = new Swiper(".per-view-03", {
   }
 });
 
-// Initialize Swiper
+// Per-view-04
 var swiper = new Swiper(".per-view-04", {
   slidesPerView: 1,
   spaceBetween: 10,
@@ -100,5 +100,25 @@ var swiper = new Swiper(".per-view-04", {
     640: {slidesPerView: 2,},
     768: {slidesPerView: 3,},
     1024: {slidesPerView: 4,},
+  }
+});
+
+// Swiper-cartoon
+var swiper = new Swiper(".swiper-results", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    640: {slidesPerView: 2,},
+    768: {slidesPerView: 3,},
+    1024: {slidesPerView: 3,},
   }
 });
