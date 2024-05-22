@@ -63,12 +63,19 @@ body,form, label, input, textarea, select, a{
 p,ul,ol {
   font-family: "Roboto", sans-serif;
   font-weight: 400;  
-  font-size:16px;  
+  font-size:1.25rem;  
   line-height: 1.55;
   padding: 0;
   margin: 0 0 30px 0;
 }
 p:last-child {margin-bottom: 0;}
+th,td {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;  
+  font-size:1.25rem;  
+}
+
+a{font-size:1.25rem;}
 small {font-size: 80%;}
 strong {
   font-family: "Roboto", sans-serif;
@@ -315,6 +322,9 @@ img{
 ----------------------------------------------- */
 /*A partir de 768px se aplicarán estos estilos*/
 @media (min-width: 768px) {
+  p,ul,ol {font-size:0.875rem;}
+  th,td {font-size:0.875rem;}
+  a{font-size:0.875rem;}
   html {font-size: 1rem;}
   .videoWrapper {padding-bottom: 56.25%; /* 16:9 */}  
   .float-md-left {float: left;}

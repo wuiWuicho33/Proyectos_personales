@@ -73,7 +73,7 @@ ol.breadcrumbs {
   list-style: none;
   padding:0 0 0.5rem 0;
   margin: 0;
-  font-size: 14px;  
+  font-size:1.25rem;  
   text-align:center;
 }
 ol.breadcrumbs li {
@@ -146,7 +146,7 @@ ol.breadcrumbs li+li::before {
   width:30px; 
   height:30px; 
   line-height:32px; 
-  font-size:14px; 
+  font-size:1.25rem; 
   text-align:center;
   color:#fff; 
   background-color:transparent;
@@ -276,12 +276,12 @@ footer img{width: 150px;}
 .footer-nav li{
   display:inline-block; 
   padding:0; 
-  line-height:normal;
   margin-right:10px; 
 }
 .footer-nav li:last-child{margin-right:0;}
 .footer-nav a{
-  font-size:inherit; 
+  font-size:1.25rem; 
+  line-height:2.5rem;
   text-align:center; 
   color:#fff;
 }
@@ -329,11 +329,11 @@ ul.social-footer-links li a i{
 .copyright-area p {
   color: #ffffff;
   margin: 0;
-  font-size:14px;  
+  font-size:1rem;  
 }
 .copyright-area p a {
   display: inline-block;
-  color: #ffffff;
+  color: #ffffff;  
 }
 
 /* Copyright-nav */
@@ -350,7 +350,7 @@ ul.social-footer-links li a i{
 .copyright-nav li:first-child {margin-left: 0;}
 .copyright-nav li a {
   color: #fff;
-  font-size:14px;
+  font-size:1rem;  
 }
 .copyright-nav li a:hover, 
 .copyright-nav li a:focus {color: #FF2B52;}
@@ -369,7 +369,7 @@ ul.social-footer-links li a i{
 /* Sidebar
 ----------------------------------------------- */
 .sidebar .horizontal-card .card-body h3 {
-  font-size: 0.6rem;
+  font-size: 1.5rem;
 }
 .sidebar .card-body ul li {
     margin-right: 10px;
@@ -568,6 +568,7 @@ form.newsletter button{
 form.newsletter input{
   width:100%; 
   padding:5px 40px 5px 15px;
+  font-size:1.25rem;
 }
 form.newsletter button{
   position:absolute; 
@@ -952,8 +953,11 @@ td {
   -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
   height:125px;
 }
+.vertical-card .card-body ul li {
+  font-size: 1.5rem;
+}
 .vertical-card .card-body h3 {
-  font-size: 0.75rem;
+  font-size: 1.5rem;
   line-height: 1.4;
   font-weight:500;
   text-transform:none;
@@ -998,7 +1002,7 @@ td {
   height:100px;
 }
 .card-cartoon .card-body h3 {
-  font-size: 0.75rem;
+  font-size: 1.25rem;
   line-height: 1.4;
   font-weight:500;
   text-transform:none;
@@ -1038,8 +1042,9 @@ td {
   opacity: .8;
 }
 .horizontal-card .card-body {padding: 10px 15px;}
+.horizontal-card .card-body ul li {font-size: 1.25rem;}
 .horizontal-card .card-body h3 {
-  font-size: 0.75rem;
+  font-size: 1.25rem;
   line-height: 1.4;
   font-weight:500;
   text-transform: none;
@@ -1097,8 +1102,9 @@ td {
   padding: 15px;
   z-index: 2;
 }
+.card-overlay-gradient .card-body ul li {font-size: 1.25rem;}
 .card-overlay-gradient .card-body h3 {
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   line-height: 1.4;
   font-weight:500;
   text-transform:none;
@@ -1125,7 +1131,7 @@ td {
   display: inline-block;
   margin-right: 10px;
   color: #8a8a8a;
-  font-size: 14px;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 .card-body ul li:last-child {
@@ -1323,9 +1329,24 @@ table.table-sport img{
     margin:0;
     text-align:right;
   }
+  .social-hero-links a{font-size:0.875rem;}
   /* Contacto */
   .contact p{text-align:left;}
   .card-cartoon .card-image {height:320px;}
+
+  /*Cards*/
+  .vertical-card .card-body ul li {font-size: 0.75rem;}
+  .vertical-card .card-body h3 {font-size: 0.75rem;}
+  .horizontal-card .card-body ul li {font-size: 0.75rem;}
+  .horizontal-card .card-body h3 {font-size: 0.75rem;}
+  .sidebar .horizontal-card .card-body h3 {font-size: 0.75rem;}
+  .card-overlay-gradient .card-body ul li {font-size: 0.75rem;}
+  .card-overlay-gradient .card-body h3 {font-size: 0.75rem;}
+  .card-cartoon .card-body h3 {font-size: 0.75rem;}
+  .card-overlay-gradient.size-01 h3 {font-size:0.875rem;}
+  .card-body ul li {font-size: 0.75rem;}
+  ol.breadcrumbs {font-size:0.875rem;}
+
   /*Footer*/
   footer {padding-top: 60px;}
   footer img{width: 200px;}
@@ -1334,6 +1355,7 @@ table.table-sport img{
     text-align:left;
     margin:0;
   }
+  .footer-nav a{font-size:0.875rem;}
   .copyright-area {
     margin-top: 60px;
     text-align:left;
@@ -1343,7 +1365,10 @@ table.table-sport img{
     text-align:right;
     margin:0;
   }
+  form.newsletter input{font-size:0.875rem;}
   form.newsletter{float:right;}
+  .copyright-area p {font-size:0.75rem;}
+  .copyright-nav li a {font-size:0.75rem;}
 }
 /* -----------------------------------------------
   # Desktop
