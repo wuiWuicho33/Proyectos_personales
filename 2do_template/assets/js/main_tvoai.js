@@ -150,7 +150,7 @@ var swiper = new Swiper(".swiper-results", {
   },
   breakpoints: {
     640: {slidesPerView: 2,},
-    768: {slidesPerView: 3,},
+    768: {slidesPerView: 2,},
     1024: {slidesPerView: 3,},
   }
 });
