@@ -627,7 +627,8 @@ ul.social-footer-links li a i{
   transition: transform .25s ease;
 }
 .first_links li:focus > a:after,
-.first_links li:hover > a:after {
+.first_links li:hover > a:after,
+.first_links li.active > a:after {
   transform: scale(1,1);
 }
 .first_links li > a > i {margin-right: 6px;}
