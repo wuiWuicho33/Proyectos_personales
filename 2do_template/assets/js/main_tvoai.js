@@ -154,3 +154,41 @@ var swiper = new Swiper(".swiper-results", {
     1024: {slidesPerView: 3,},
   }
 });
+
+/*====================
+Main Nav
+====================*/
+(function( window, document, $, undefined ) {
+  "use strict";
+
+  // Menu Toggle
+  (function() {
+    $(function() {
+
+      var $toggle = $(".js-smm-toggle");
+      var $container = $(".js-smm-container");
+
+      if( ! $toggle.length || ! $container.length ) return;
+
+      $toggle.click(function() {
+        $toggle.toggleClass("toggle_open");
+        $container.toggleClass("menu_wrapper_open");
+      });
+    });
+  })();
+
+})( window, document, jQuery );
+
+
+/*Sticky Menu*/
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("menuSticky");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
