@@ -207,7 +207,10 @@ ol.breadcrumbs li+li::before {
 
 /* Contact area
 ----------------------------------------------- */
-.contact{padding:1.5rem;}
+.contact{
+  padding:1.5rem;
+  border-radius:0.5rem;
+}
 .contact p{
   text-align:center;
   margin: 0 0 10px 0;
@@ -370,16 +373,6 @@ ul.social-footer-links li a i{
 .bg-image-01 .tab button:hover {color:#FF2B52;}
 .bg-image-01 .tab button.active {color:#FF2B52;}
 .bg-image-01 .tabcontent p{color:#fff;}
-
-/* Sidebar
------------------------------------------------ */
-.sidebar .horizontal-card .card-body h3 {
-  font-size: 1.5rem;
-}
-.sidebar .card-body ul li {
-    margin-right: 10px;
-    font-size: 0.6rem;
-}
 
 /* -----------------------------------------------
   # LINKS, BUTTONS & NAVIGATIONS
@@ -1295,6 +1288,19 @@ td {
 .horizontal-card:hover .card-body h3 , 
 .horizontal-card:focus .card-body h3 {color: #d72924;}
 
+/* Sidebar cards
+----------------------------------------------- */
+.sidebar .horizontal-card .card-image {
+  width:250px;
+  min-height:110px;
+}
+.sidebar .horizontal-card .card-body ul li {font-size: 1.25rem;}
+.sidebar .horizontal-card .card-body h3 {font-size:1.25rem !important;}
+.sidebar .card-body ul li {
+    margin-right: 10px;
+    font-size: 0.6rem;
+}
+
 /* Card-overlay-gradient
 ----------------------------------------------- */
 .card-overlay-gradient {
@@ -1302,6 +1308,7 @@ td {
   overflow: hidden;
   margin-bottom: 10px;
   max-width:800px;
+  border-radius:0.5rem;
 }
 .card-overlay-gradient.size-01{height:450px;}
 .card-overlay-gradient.size-02{height:425px;}
@@ -1444,11 +1451,11 @@ td {
 .card_sport_header {
     padding: 0px 10px;
     border: 2px solid #3B2594;
-    -o-border-radius: 15px 15px 0 0;
-    -ms-border-radius: 15px 15px 0 0;
-    -moz-border-radius: 15px 15px 0 0;
-    -webkit-border-radius: 15px 15px 0 0;
-    border-radius: 15px 15px 0 0;
+    -o-border-radius: 0.5rem 0.5rem 0 0;
+    -ms-border-radius: 0.5rem 0.5rem 0 0;
+    -moz-border-radius: 0.5rem 0.5rem 0 0;
+    -webkit-border-radius: 0.5rem 0.5rem 0 0;
+    border-radius: 0.5rem 0.5rem 0 0;
     background: rgb(55,103,196);
     background: linear-gradient(180deg, rgba(55,103,196,1) 0%, rgba(88,55,211,1) 49%, rgba(39,22,115,1) 100%);
     height:40px;
@@ -1473,11 +1480,11 @@ td {
 .card_sport_body {
     padding: 10px;
     border: 2px solid #3B2594;
-    -o-border-radius: 0 0 15px 15px;
-    -ms-border-radius: 0 0 15px 15px;
-    -moz-border-radius: 0 0 15px 15px;
-    -webkit-border-radius: 0 0 15px 15px;
-    border-radius: 0 0 15px 15px;
+    -o-border-radius: 0 0 0.5rem 0.5rem;
+    -ms-border-radius: 0 0 0.5rem 0.5rem;
+    -moz-border-radius: 0 0 0.5rem 0.5rem;
+    -webkit-border-radius: 0 0 0.5rem 0.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
     background: rgb(55,103,196);
     background: linear-gradient(180deg, rgba(55,103,196,1) 0%, rgba(88,55,211,1) 49%, rgba(39,22,115,1) 100%);
 }
@@ -1584,6 +1591,9 @@ table.table-sport img{
   .card-cartoon .card-body h3 {font-size: 0.75rem;}
   .card-overlay-gradient.size-01 h3 {font-size:0.875rem;}
   .card-body ul li {font-size: 0.75rem;}
+  .sidebar .horizontal-card .card-body ul li {font-size: 0.6rem;}
+  .sidebar .horizontal-card .card-body h3 {font-size:0.6rem !important;}
+
   ol.breadcrumbs {font-size:0.875rem;}
   .card_sport_header .groups{
     font-size:0.875rem;
