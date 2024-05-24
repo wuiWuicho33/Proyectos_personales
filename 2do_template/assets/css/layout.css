@@ -539,15 +539,6 @@ ul.social-footer-links li a i{
   background-position: 100% center;
 }
 
-/*Header*/
-/*
-.header {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-}
-*/
-
 /*Menu*/
 .mainMenu {
   /*position: fixed;*/
@@ -555,7 +546,12 @@ ul.social-footer-links li a i{
   top: 0;
   left: 0;
   background-color: #fff;
-  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  /*
+  -webkit-box-shadow: 5px 10px 10px 0 rgba(0,0,0,.5);
+  box-shadow: 5px 10px 10px 0 rgba(0,0,0,.5);  
+  */
+  -webkit-box-shadow: 5px 6px 10px 0 rgba(0,0,0,.5);
+  box-shadow: 5px 6px 10px 0 rgba(0,0,0,.5);
   z-index:2;
 }
 .mainMenu ul {
@@ -1553,7 +1549,7 @@ table.table-sport img{
   }  
   .btn, .btn i {font-size:0.875rem;}
   /* Header */
-  .header-top img{width:180px;}
+  .header-top img{width:150px;}
   .head-list{
     text-align:left;
     margin-bottom:0;
