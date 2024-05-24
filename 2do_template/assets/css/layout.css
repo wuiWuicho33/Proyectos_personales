@@ -834,8 +834,10 @@ form.newsletter button i{color:#fff;}
 .tag.category-03 {background-color: #43a047;}
 .tag.category-04 {background-color: #FF7D0E;}
 
-.vertical-card:hover .tag, .vertical-card:focus .tag,
-.card-overlay-gradient:hover .tag, .card-overlay-gradient:focus .tag {
+.vertical-card:hover .tag, 
+.vertical-card:focus .tag,
+.card-overlay-gradient:hover .tag, 
+.card-overlay-gradient:focus .tag {
   left: 15px;
 }
 
@@ -1260,7 +1262,7 @@ td {
   background-color: #ffffff;
   display: flex;
   align-items:center;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
   -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
 }
