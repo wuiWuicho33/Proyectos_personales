@@ -912,9 +912,10 @@ form.newsletter button i{color:#fff;}
   object-fit: cover;
 }
 */
-.swiper-pagination{
-  
-}
+.swiper-pagination{}
+
+/*Cuando la tarjeta se encuentra dentro del swiper*/
+.swiper-slide .card-overlay-gradient .card-body {width: 95%;}
 
 /* Lightbox
 ----------------------------------------------- */
