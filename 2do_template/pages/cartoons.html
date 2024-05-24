@@ -49,29 +49,67 @@ Head
 
 <body>
 
-  <!-- Header top -->
-  <header class="header-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-4 col-lg-4">
-          <ul class="head-list">
-            <li><i class="fa-solid fa-cloud"></i>  17 c CDMX +</li>
-            <li><i class="fa-regular fa-clock"></i> 06-05-2024 - 13:25</li>
-          </ul>
+  <!-- Main menu
+  ============================-->
+  <header>
+    <!-- Header top -->
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-4">
+            <ul class="head-list">
+              <li><i class="fa-solid fa-cloud"></i>  17 c CDMX +</li>
+              <li><i class="fa-regular fa-clock"></i> 06-05-2024 - 13:25</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-4 text-center">
+            <a href="../index.html">
+              <img class="logo-hero" src="../assets/img/tvoai_logo.svg">
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-4 text-right">
+            <button type="button" class="btn btn-default">
+              Suscríbete <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>        
         </div>
-        <div class="col-6 col-md-4 col-lg-4 text-center">
-          <a href="../index.html">
-            <img class="logo-hero" src="../assets/img/tvoai_logo.svg">
-          </a>
-        </div>
-        <div class="col-6 col-md-4 col-lg-4 text-right">
-          <button type="button" class="btn btn-default">
-            Suscríbete <i class="fa-solid fa-arrow-right"></i>
-          </button>
-        </div>        
       </div>
     </div>
-  </header>
+    <!-- Main menú -->  
+    <nav class="mainMenu" id="menuSticky">
+      <div class="container">
+        <div class="menu_wrapper js-smm-container">            
+          <!-- Responsive button -->
+          <button class="hamburguer_btn menu_toggle js-smm-toggle visible-xs-block visible-sm-block">
+            <i class="fa fa-bars"></i>
+          </button>
+          <!-- Collapse -->
+          <nav class="collapse">
+            <ul class="first_links">
+              <li><a href="note_category.html">Nacional</a></li>
+              <li><a href="note_category.html">Política</a></li>
+              <li><a href="note_category.html">Economía</a></li>
+              <li><a href="note_category.html">Deportes</a></li>
+              <li><a href="note_category.html">Espectáculos</a></li>
+              <li><a href="note_category.html">Estilo de vida</a></li>
+              <li><a href="note_category.html">Ciencia</a></li>
+              <li><a href="note_category.html">Internacional</a></li>                
+            </ul>
+            <ul class="second_links">
+              <li>
+                <input class="search__input" type="text" placeholder="Buscar">
+              </li>
+              <li>
+                <a href="#" target="_blank" class="change-theme">
+                  <i class="fa-solid fa-moon"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </nav>
+  </header>  
 
   <!-- Hero área
   ============================-->
