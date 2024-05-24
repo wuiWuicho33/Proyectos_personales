@@ -1339,7 +1339,7 @@ td {
   width: 100%;
   height: auto;
   padding: 15px;
-  z-index: 2;
+  z-index: 1;
 }
 .card-overlay-gradient .card-body ul li {font-size: 1.25rem;}
 .card-overlay-gradient .card-body h3 {
