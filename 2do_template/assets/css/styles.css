@@ -340,9 +340,9 @@ img{
 /*A partir de 768px se aplicarán estos estilos*/
 @media (min-width: 768px) {
   html {font-size: 1rem;}
+  body,form, label, input, textarea, select, a{font-size:0.875rem;}
   p,ul,ol {font-size:0.875rem;}
   th,td {font-size:0.875rem;}
-  a{font-size:0.875rem;}
   .videoWrapper {padding-bottom: 56.25%; /* 16:9 */}  
   .float-md-left {float: left;}
   .float-md-right {float: right;}
@@ -355,8 +355,6 @@ img{
   h4, .h4 {font-size: 1rem;}
   h5, .h5 {font-size: 0.875rem;}
   h6, .h6 {font-size: 0.7rem;}
-
-
 }
 /* -----------------------------------------------
   # Desktop
