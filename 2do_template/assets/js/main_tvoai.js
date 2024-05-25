@@ -45,7 +45,6 @@ Swiper carousel
 ====================*/ 
 // Per-view-02
 var swiper = new Swiper(".per-view-02", {
-  slidesPerView: 1,
   spaceBetween: 10,
   loop: true,
   pagination: {
@@ -65,7 +64,6 @@ var swiper = new Swiper(".per-view-02", {
 
 // Per-view-03
 var swiper = new Swiper(".per-view-03", {
-  slidesPerView: 1,
   spaceBetween: 10,
   loop: true,
   pagination: {
@@ -85,7 +83,6 @@ var swiper = new Swiper(".per-view-03", {
 
 // Per-view-04
 var swiper = new Swiper(".per-view-04", {
-  slidesPerView: 1,
   spaceBetween: 10,
   loop: true,
   pagination: {
@@ -105,7 +102,6 @@ var swiper = new Swiper(".per-view-04", {
 
 // Swiper-results
 var swiper = new Swiper(".swiper-results", {
-  slidesPerView: 1,
   spaceBetween: 10,
   loop: true,
   pagination: {
