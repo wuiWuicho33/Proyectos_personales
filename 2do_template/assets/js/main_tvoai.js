@@ -41,97 +41,9 @@ window.onload = function() {
 }
 
 /*====================
-Swiper carousel
-====================*/ 
-// Per-view-02
-/*
-var swiper = new Swiper(".per-view-02", {
-  spaceBetween: 10,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  breakpoints: {
-    640: {slidesPerView: 1,},
-    768: {slidesPerView: 1,},
-    1024: {slidesPerView: 2,},
-  }
-});
-*/
-
-// Per-view-03
-/*
-var swiper = new Swiper(".per-view-03", {
-  spaceBetween: 10,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  breakpoints: {
-    640: {slidesPerView: 2,},
-    768: {slidesPerView: 2,},
-    1024: {slidesPerView: 3,},
-  }
-});
-*/
-
-// Per-view-04
-/*
-var swiper = new Swiper(".per-view-04", {
-  spaceBetween: 10,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  breakpoints: {
-    640: {slidesPerView: 2,},
-    768: {slidesPerView: 3,},
-    1024: {slidesPerView: 4,},
-  }
-});
-*/
-
-
-// Swiper-results
-/*
-var swiper = new Swiper(".swiper-results", {
-  spaceBetween: 10,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  breakpoints: {
-    640: {slidesPerView: 2,},
-    768: {slidesPerView: 2,},
-    1024: {slidesPerView: 3,},
-  }
-});
-*/
-
-/*====================
 New Swiper carousel
 ====================*/
-// Initialize Swiper 
+// firstSection
 var swiper = new Swiper(".firstSection", {
   loop: true,
   autoplay: {delay: 2000,},    
@@ -141,7 +53,7 @@ var swiper = new Swiper(".firstSection", {
   },
 });
 
-// Initialize Swiper 
+// secondSection
 var swiper = new Swiper(".secondSection", {
   loop: true,
   autoplay: {delay: 2000,},    
@@ -151,7 +63,7 @@ var swiper = new Swiper(".secondSection", {
   },
 });
 
-// Initialize Swiper 
+// thirdSection
 var swiper = new Swiper(".thirdSection", {
   loop: true,
   autoplay: {delay: 2000,},    
@@ -161,7 +73,7 @@ var swiper = new Swiper(".thirdSection", {
   },
 });
 
-// Initialize Swiper 
+// quarterSection
 var swiper = new Swiper(".quarterSection", {
   loop: true,
   autoplay: {delay: 2000,},    
@@ -171,22 +83,42 @@ var swiper = new Swiper(".quarterSection", {
   },
 });
 
-// Initialize Swiper 
+// fifthSection
 var swiper = new Swiper(".fifthSection", {
   loop: true,
   autoplay: {delay: 2000,},    
   pagination: {
-    el: ".fSection",
+    el: ".fifSection",
     clickable: true,
   },
 });
 
-// Initialize Swiper 
+// sixthSection
 var swiper = new Swiper(".sixthSection", {
   loop: true,
   autoplay: {delay: 2000,},    
   pagination: {
     el: ".sixSection",
+    clickable: true,
+  },
+});
+
+// seventhSection
+var swiper = new Swiper(".seventhSection", {
+  loop: true,
+  autoplay: {delay: 2000,},    
+  pagination: {
+    el: ".sevSection",
+    clickable: true,
+  },
+});
+
+// seventhSection
+var swiper = new Swiper(".eighthSection", {
+  loop: true,
+  autoplay: {delay: 2000,},    
+  pagination: {
+    el: ".eSection",
     clickable: true,
   },
 });
