@@ -909,6 +909,15 @@ form.newsletter button i{color:#fff;}
 /*Cuando la tarjeta se encuentra dentro del swiper*/
 .swiper-slide .card-overlay-gradient .card-body {width: 95%;}
 
+.swiper-pagination-bullet-active {background-color: #FF2B52;}
+
+.swiper-pagination {
+    position: absolute;
+    bottom: -25px; 
+}
+
+
+
 /* Lightbox
 ----------------------------------------------- */
 body:after {
