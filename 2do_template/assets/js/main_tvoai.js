@@ -1,15 +1,12 @@
 /*====================
 Obtiene al año actual
 ====================*/ 
-/*
 function getYear() {
     var currentDate = new Date();
     var currentYear = currentDate.getFullYear();
     document.querySelector("#displayYear").innerHTML = currentYear;
 }
 getYear();
-*/
-
 
 /*====================
 Componente de pestañas
@@ -133,7 +130,68 @@ var swiper = new Swiper(".swiper-results", {
 
 /*====================
 New Swiper carousel
-====================*/ 
+====================*/
+// Initialize Swiper 
+var swiper = new Swiper(".firstSection", {
+  loop: true,
+  autoplay: {delay: 2000,},    
+  pagination: {
+    el: ".fSection",
+    clickable: true,
+  },
+});
+
+// Initialize Swiper 
+var swiper = new Swiper(".secondSection", {
+  loop: true,
+  autoplay: {delay: 2000,},    
+  pagination: {
+    el: ".sSection",
+    clickable: true,
+  },
+});
+
+// Initialize Swiper 
+var swiper = new Swiper(".thirdSection", {
+  loop: true,
+  autoplay: {delay: 2000,},    
+  pagination: {
+    el: ".tSection",
+    clickable: true,
+  },
+});
+
+// Initialize Swiper 
+var swiper = new Swiper(".quarterSection", {
+  loop: true,
+  autoplay: {delay: 2000,},    
+  pagination: {
+    el: ".qSection",
+    clickable: true,
+  },
+});
+
+// Initialize Swiper 
+var swiper = new Swiper(".fifthSection", {
+  loop: true,
+  autoplay: {delay: 2000,},    
+  pagination: {
+    el: ".fSection",
+    clickable: true,
+  },
+});
+
+// Initialize Swiper 
+var swiper = new Swiper(".sixthSection", {
+  loop: true,
+  autoplay: {delay: 2000,},    
+  pagination: {
+    el: ".sixSection",
+    clickable: true,
+  },
+});
+
+/*swiper-View-02*/
 var swiper = new Swiper(".swiper-View-02", {
   spaceBetween: 10,
   loop: true,  
@@ -152,7 +210,7 @@ var swiper = new Swiper(".swiper-View-02", {
   },
 });
 
-
+/*swiper-View-03*/
 var swiper = new Swiper(".swiper-View-03", {
   spaceBetween: 10,
   loop: true,  
@@ -171,6 +229,7 @@ var swiper = new Swiper(".swiper-View-03", {
   },
 });
 
+/*swiper-View-04*/
 var swiper = new Swiper(".swiper-View-04", {
   spaceBetween: 10,
   loop: true,  
@@ -189,6 +248,7 @@ var swiper = new Swiper(".swiper-View-04", {
   },
 });
 
+/*swiper-Card-Sports*/
 var swiper = new Swiper(".swiper-Card-Sports", {
   spaceBetween: 10,
   loop: true,  
