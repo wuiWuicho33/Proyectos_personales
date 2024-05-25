@@ -886,37 +886,11 @@ form.newsletter button i{color:#fff;}
   width: 100%;
   height: 100%;
 }
-/*
-.swiper-slide {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
-  font-size: 18px;
-}
-*/  
-/*
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-*/
-.swiper-pagination{}
-
-/*Cuando la tarjeta se encuentra dentro del swiper*/
-.swiper-slide .card-overlay-gradient .card-body {width: 95%;}
 
 .swiper-pagination-bullet-active {background-color: #FF2B52;}
 
-/*
-.swiper-pagination {
-    position: absolute;
-    bottom: -25px; 
-}
-*/
+/*Cuando la tarjeta se encuentra dentro del swiper*/
+.swiper-slide .card-overlay-gradient .card-body {width: 95%;}
 
 /* Lightbox
 ----------------------------------------------- */
