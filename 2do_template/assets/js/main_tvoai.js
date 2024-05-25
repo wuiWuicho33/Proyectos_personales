@@ -1,12 +1,15 @@
 /*====================
 Obtiene al año actual
 ====================*/ 
+/*
 function getYear() {
     var currentDate = new Date();
     var currentYear = currentDate.getFullYear();
     document.querySelector("#displayYear").innerHTML = currentYear;
 }
 getYear();
+*/
+
 
 /*====================
 Componente de pestañas
@@ -44,6 +47,7 @@ window.onload = function() {
 Swiper carousel
 ====================*/ 
 // Per-view-02
+/*
 var swiper = new Swiper(".per-view-02", {
   spaceBetween: 10,
   loop: true,
@@ -61,8 +65,10 @@ var swiper = new Swiper(".per-view-02", {
     1024: {slidesPerView: 2,},
   }
 });
+*/
 
 // Per-view-03
+/*
 var swiper = new Swiper(".per-view-03", {
   spaceBetween: 10,
   loop: true,
@@ -80,8 +86,10 @@ var swiper = new Swiper(".per-view-03", {
     1024: {slidesPerView: 3,},
   }
 });
+*/
 
 // Per-view-04
+/*
 var swiper = new Swiper(".per-view-04", {
   spaceBetween: 10,
   loop: true,
@@ -99,8 +107,11 @@ var swiper = new Swiper(".per-view-04", {
     1024: {slidesPerView: 4,},
   }
 });
+*/
+
 
 // Swiper-results
+/*
 var swiper = new Swiper(".swiper-results", {
   spaceBetween: 10,
   loop: true,
@@ -117,6 +128,83 @@ var swiper = new Swiper(".swiper-results", {
     768: {slidesPerView: 2,},
     1024: {slidesPerView: 3,},
   }
+});
+*/
+
+/*====================
+New Swiper carousel
+====================*/ 
+var swiper = new Swiper(".swiper-View-02", {
+  spaceBetween: 10,
+  loop: true,  
+  pagination: {
+    el: ".sp-View-02",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },  
+  breakpoints: {
+    640: {slidesPerView: 1,},
+    768: {slidesPerView: 1,},
+    1024: {slidesPerView: 2,},
+  },
+});
+
+
+var swiper = new Swiper(".swiper-View-03", {
+  spaceBetween: 10,
+  loop: true,  
+  pagination: {
+    el: ".sp-View-03",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },  
+  breakpoints: {
+    640: {slidesPerView: 2,},
+    768: {slidesPerView: 2,},
+    1024: {slidesPerView: 3,},
+  },
+});
+
+var swiper = new Swiper(".swiper-View-04", {
+  spaceBetween: 10,
+  loop: true,  
+  pagination: {
+    el: ".sp-View-04",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },  
+  breakpoints: {
+    640: {slidesPerView: 2,},
+    768: {slidesPerView: 3,},
+    1024: {slidesPerView: 4,},
+  },
+});
+
+var swiper = new Swiper(".swiper-Card-Sports", {
+  spaceBetween: 10,
+  loop: true,  
+  pagination: {
+    el: ".sp-Card-Sports",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },  
+  breakpoints: {
+    640: {slidesPerView: 2,},
+    768: {slidesPerView: 3,},
+    1024: {slidesPerView: 4,},
+  },
 });
 
 /*====================
