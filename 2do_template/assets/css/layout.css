@@ -1498,6 +1498,7 @@ table.table-sport tr td.live{
 }
 table.table-sport img{
   height: 25px;
+  width: 25px;
   border-radius:50%;
   -o- border-radius:50%;
   -ms- border-radius:50%;
@@ -1583,7 +1584,7 @@ table.table-sport img{
 
   ol.breadcrumbs {font-size:0.875rem;}
   .card_sport_header .groups{
-    font-size:0.875rem;
+    font-size:0.750rem;
     line-height:10px;
   }
   table.table-sport td {font-size: 0.75rem;}
